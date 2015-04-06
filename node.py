@@ -18,3 +18,55 @@ class Node:
 
 node = Node(10)
 print node.get_data()
+
+class LinkedList:
+
+	def __init__(self):
+		self.head = None
+
+	def is_empty(self):
+		return self.head == None
+
+	def add(self, data):
+		node = Node(data)
+		node.set_next(self.head)
+		self.head = node
+
+	def size(self):
+		count = 0
+		current = self.head
+
+		while current != None:
+			count += 1
+			current = current.get_next
+
+		return count
+
+	def search(self, data):
+		current = self.head
+		found = False
+
+		while current != None and not found:
+			if current.get_data() == data:
+				found = True
+			else:
+				current = current.get_next()
+
+		return found
+
+	def remove(self, data):
+		current = self.head
+		previous = None
+		found = False
+
+		while not found:
+			if current.get_data() == item:
+				found = True
+      else:
+				previous = current
+				current = current.get_next()
+
+    if previous == None:
+			self.head = current.get_next()
+    else:
+			previous.set_next(current.get_next())
