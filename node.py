@@ -15,3 +15,6 @@ class Node:
 
 	def set_next(self, new_next):
 		self.next = new_next
+
+node = Node(10)
+print node.get_data()
