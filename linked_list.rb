@@ -1,3 +1,5 @@
+load "./node.rb"
+
 class LinkedList
 
   attr_accessor :head, :tail
@@ -6,5 +8,16 @@ class LinkedList
     @head = nil
     @tail = nil
   end
+
+  def purge
+  	@head = nil
+  	@tail = nil
+  end
+
+  def empty?
+  	@head.nil?
+  end
+
+  
 
 end
