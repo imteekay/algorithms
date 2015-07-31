@@ -2,22 +2,24 @@ load "./node.rb"
 
 class LinkedList
 
-  attr_accessor :head, :tail
+  attr_accessor :head
 
   def initialize
-    @head = nil
-    @tail = nil
+    @head = nil  
   end
 
   def purge
   	@head = nil
-  	@tail = nil
   end
 
   def empty?
   	@head.nil?
   end
 
-  
+  def add data
+  	node = Node.new(data)
+  	node.next = @head
+  	@head = node
+  end
 
 end
