@@ -16,7 +16,7 @@ class LinkedList
   	@head.nil?
   end
 
-  def add data
+  def preppend data
   	node = Node.new(data)
   	node.next = @head
   	@head = node
