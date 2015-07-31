@@ -22,4 +22,19 @@ class LinkedList
   	@head = node
   end
 
+  def append data
+  	node = Node.new(data)
+  	current_node = @head
+
+  	if empty?
+  		@head = node
+  	else
+  		while current_node.next != nil
+  			current_node = current_node.next
+  		end
+
+  		current_node.next = node
+  	end
+  end
+
 end
