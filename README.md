@@ -1,6 +1,6 @@
 Algorithms and Data Structures exercises.
 
---> Using IRB:
+--> Using Ruby IRB:
 
 call load() method like that:
 
