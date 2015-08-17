@@ -19,5 +19,13 @@ int main() {
 		cin >> string2;
 		cout << string2 << endl;
 
+		// size
+		cout << string1.size() << endl;
+		cout << string2.size() << endl;
+
+		// substrings
+		cout << string1.substr(0, 5) << endl;
+		cout << string1.substr(6, string1.size() - 1) << endl;
+
 		return 0;
 }
