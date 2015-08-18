@@ -30,5 +30,10 @@ int main() {
 
   cout << total << endl;
 
+  if (m.find("one") != m.end()) {
+    cout << m.find("one")->first << endl;
+    cout << m.find("one")->second << endl;
+  }
+
   return 0;
 }
