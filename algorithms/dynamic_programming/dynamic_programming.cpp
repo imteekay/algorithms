@@ -11,7 +11,8 @@ int fibonacci(int n) {
 }
 
 int fibonacci_dp(int n) {
-    if (n <= 1) return 1;
+    if (n == 0) return 0;
+    else if (n == 1) return 1;
 
     std::vector<int> memo(n + 1);
     memo[0] = 0;
@@ -31,7 +32,8 @@ int main() {
   cout << fibonacci(n) << endl;
 
   // memoized DP algorithm: add in the map. If we have the element in the map, return the result
-  cout << fibonacci_dp(m) << endl;
+  for(int i = 0; i < 10; i++)
+    cout << fibonacci_dp(i) << endl;
 
   return 0;
 }
