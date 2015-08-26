@@ -61,26 +61,53 @@ string transformNumberToReal(string reais) {
 	if (reais.size() == 1) {
 		result += sec_values[stoi(reais)-1];
 	}	else if (reais.size() == 2) {
+		stringstream ss; string n1, n2;
+		ss << reais[0]; ss >> n1;
+		ss << reais[1]; ss >> n2;
 		if (reais[0] == '1') {
-			result += values[stoi(reais[1])];
+			result += values[stoi(n2)];
 		}	else {
-			result += dicker[stoi(reais[0])-1] + " E " + sec_values[stoi(reais[1])-1];
+			result += dicker[stoi(n1)-1] + " E " + sec_values[stoi(n2)-1];
 		}
 	} else if (reais.size() == 3) {
-		result += hundred[stoi(reais[0])-1] + " E " + dicker[stoi(reais[1])-1] + " E " + sec_values[stoi(reais[2])-1];
+		stringstream ss; string n1, n2, n3;
+		ss << reais[0]; ss >> n1;
+		ss << reais[1]; ss >> n2;
+		ss << reais[2]; ss >> n3;
+		result += hundred[stoi(n1)-1] + " E " + dicker[stoi(n2)-1] + " E " + sec_values[stoi(n3)-1];
 	}	else if (reais.size() == 4){
-		result += sec_values[stoi(reais[0])-1] + " MIL E " + hundred[stoi(reais[1])-1] + " E " + dicker[stoi(reais[2])-1] + " E " + sec_values[stoi(reais[3])-1];
+		stringstream ss; string n1, n2, n3, n4;
+		ss << reais[0]; ss >> n1;
+		ss << reais[1]; ss >> n2;
+		ss << reais[2]; ss >> n3;
+		ss << reais[3]; ss >> n4;
+		result += sec_values[stoi(n1)-1] + " MIL E " + hundred[stoi(n2)-1] + " E " + dicker[stoi(n3)-1] + " E " + sec_values[stoi(n4)-1];
 	}	else if (reais.size() == 5) {
+		stringstream ss; string n1, n2, n3, n4, n5;
+		ss << reais[0]; ss >> n1;
+		ss << reais[1]; ss >> n2;
+		ss << reais[2]; ss >> n3;
+		ss << reais[3]; ss >> n4;
+		ss << reais[4]; ss >> n5;
 		if (reais[0] == '1') {
-			result += values[stoi(reais[1])] + " MIL E " + hundred[stoi(reais[2])-1] + " E " + dicker[stoi(reais[3])-1] + " E " + sec_values[stoi(reais[4])-1];
+			result += values[stoi(n2)] + " MIL E " + hundred[stoi(n3)-1] + " E " + dicker[stoi(n4)-1] + " E " + sec_values[stoi(n5)-1];
 		}	else {
-			result += dicker[stoi(reais[0])-1] + " E " + sec_values[stoi(reais[1])-1]; + " MIL E " + hundred[stoi(reais[2])-1] + " E " + dicker[stoi(reais[3])-1] + " E " + sec_values[stoi(reais[4])-1];
+			result += dicker[stoi(n1)-1] + " E " + sec_values[stoi(n2)-1]; + " MIL E " + hundred[stoi(n3)-1] + " E " + dicker[stoi(n4)-1] + " E " + sec_values[stoi(n5)-1];
 		}
 	}	else if (reais.size() == 6) {
-		result += hundred[stoi(reais[0])-1] + " E " + dicker[stoi(reais[1])-1] + " E " + sec_values[stoi(reais[2])-1] + " MIL E" + hundred[stoi(reais[3])-1] + " E " + dicker[stoi(reais[4])-1] + " E " + sec_values[stoi(reais[5])-1];
+		stringstream ss; string n1, n2, n3, n4, n5, n6;
+		ss << reais[0]; ss >> n1;
+		ss << reais[1]; ss >> n2;
+		ss << reais[2]; ss >> n3;
+		ss << reais[3]; ss >> n4;
+		ss << reais[4]; ss >> n5;
+		ss << reais[5]; ss >> n6;
+		result += hundred[stoi(n1)-1] + " E " + dicker[stoi(n2)-1] + " E " + sec_values[stoi(n3)-1] + " MIL E" + hundred[stoi(n4)-1] + " E " + dicker[stoi(n5)-1] + " E " + sec_values[stoi(n6)-1];
 	}	else {
 		result += "UM MILHAO";
 	}
+
+	return result;
 }
 
 int main() {
@@ -96,12 +123,12 @@ int main() {
 		n1 = transformNumberToReal(n1);
 		n2 = transformNumberToCents(n2);
 
-		if (n1 == '0') {
+		if (n1 == "0") {
 			if (n2 == "01")
 				result += n2 + " CENTAVO";
 			else
 				result += n2 + " CENTAVOS";
-		} else if (n1 == '1') {
+		} else if (n1 == "1") {
 			if (n2 == "00")
 				result += n1 + " REAL";
 			else if (n2 == "01")
