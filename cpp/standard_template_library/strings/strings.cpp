@@ -27,5 +27,12 @@ int main() {
 		cout << string1.substr(0, 5) << endl;
 		cout << string1.substr(6, string1.size() - 1) << endl;
 
+		// string to integer
+		string um = "1";
+  	cout << stoi(um) << " - deu certo!" << endl;
+
+  	string vinte = "20";
+		cout << stoi(vinte) << " - deu certo.. de novo!" << endl;
+
 		return 0;
 }
