@@ -27,12 +27,21 @@ int main() {
 		cout << string1.substr(0, 5) << endl;
 		cout << string1.substr(6, string1.size() - 1) << endl;
 
+		string palavra = "lalala.lololo";
+		cout << palavra.substr(6, 1) << endl;
+		cout << palavra.substr(0, 6 - 0) << endl;
+		cout << palavra.substr(6+1, palavra.size()-6) << endl;
+
 		// string to integer
 		string um = "1";
   	cout << stoi(um) << " - deu certo!" << endl;
 
   	string vinte = "20";
 		cout << stoi(vinte) << " - deu certo.. de novo!" << endl;
+
+		// last element of string
+		string word = "Leandro";
+		cout << palavra.back() << endl;
 
 		return 0;
 }
