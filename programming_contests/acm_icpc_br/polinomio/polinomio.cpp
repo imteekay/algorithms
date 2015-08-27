@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include <math.h>
+#include <sstream>
 
 using namespace std;
 
@@ -9,8 +10,8 @@ int solvePartEquation(string part_equation, int value) {
   int result, inicio=0, constante, expo;
 
   int x = part_equation.find("x");
-  constante = stoi(part_equation.substr(0, x));
-  expo = stoi(part_equation.substr(x+1, part_equation.size()-x));
+  stringstream ss1; ss1 << part_equation.substr(0, x); ss1 >> constante;
+  stringstream ss2; ss2 << part_equation.substr(x+1, part_equation.size()-x); ss2 >> expo;  
 
   result = constante * (pow(value, expo));
 
@@ -47,7 +48,8 @@ int main() {
     }
 
     for (int i = 0; i < vetor_de_valores.size(); i++) {
-      int valor = stoi(vetor_de_valores[i]);
+      int valor;
+      stringstream ss; ss << vetor_de_valores[i]; ss >> valor;      
       total = solvePartEquation(vetor_de_variaveis[0], valor);
       for (int j = 1; j < vetor_de_variaveis.size(); j++){
         if (vetor_de_sinais[j-1] == "+")
