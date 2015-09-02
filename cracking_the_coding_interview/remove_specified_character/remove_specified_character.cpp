@@ -8,7 +8,7 @@ int main() {
 	string word, characteres, result="";
 
 	getline(cin, word);
-	cin >> characteres;	
+	cin >> characteres;
 
 	for (int i = 0; i < word.size(); i++) {
 		int belongs_to = 0;
