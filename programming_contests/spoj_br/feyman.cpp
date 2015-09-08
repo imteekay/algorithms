@@ -4,7 +4,7 @@
 using namespace std;
 
 int quad(int n) {
-  
+
   if (n == 1)
     return 1;
 
@@ -12,14 +12,14 @@ int quad(int n) {
 }
 
 int main() {
-	
+
 	int n;
 	cin >> n;
-	
+
 	while(n != 0) {
 		cout << quad(n) << endl;
 		cin >> n;
 	}
-	
+
 	return 0;
 }

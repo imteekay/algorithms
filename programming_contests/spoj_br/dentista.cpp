@@ -15,11 +15,11 @@ int main() {
   while (n--) {
 
     cin >> x;
-    cin >> y;    
+    cin >> y;
 
     if (!memo.empty()) {
       for (int i = 0; i < memo.size(); i++) {
-        if ((x < memo[i][0] && y <= memo[i][0]) || (x >= memo[i][1] && y > memo[i][1])) {          
+        if ((x < memo[i][0] && y <= memo[i][0]) || (x >= memo[i][1] && y > memo[i][1])) {
         } else {
           status = 0;
         }

@@ -37,14 +37,14 @@ int main() {
 	string result="SIM";
 	vector<int> vetor;
 	vector< vector<int> > matrix;
-	
+
 	cin >> n;
-	
+
 	while(n--) {
-	
+
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
-				cin >> temp;				
+				cin >> temp;
 				vetor.push_back(temp);
 			}
 			matrix.push_back(vetor);
@@ -52,7 +52,7 @@ int main() {
 		}
 
 		result = correct_sudoku(matrix);
-		
+
 		cout << "Instancia " << counter << endl;
 		cout << result << endl;
 		result="SIM";

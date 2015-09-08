@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	
+
 	int t, n, k, time, total_students_arrived_before_class=0;
 
 	cin >> t;
@@ -12,7 +12,7 @@ int main() {
 		cin >> n >> k;
 
 		for (int i = 0; i < n; i++) {
-			cin >> time;			
+			cin >> time;
 			if (time <= 0) total_students_arrived_before_class++;
 		}
 
