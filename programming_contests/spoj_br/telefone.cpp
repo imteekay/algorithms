@@ -5,11 +5,11 @@
 using namespace std;
 
 int main() {
-	
+
 	string number, result="";
-	
+
 	cin >> number;
-	
+
 	for(int i = 0; i < number.length(); i++)
 		if (number[i] == 'A' || number[i] == 'B' || number[i] == 'C')
 			result += "2";
@@ -29,8 +29,8 @@ int main() {
 			result += "9";
 		else
 			result += number[i];
-		
+
 		cout << result;
-	
+
 	return 0;
 }

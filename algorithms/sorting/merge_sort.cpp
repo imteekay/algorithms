@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<int> merge_sort(vector<int>& vec) {
-  
+
   if(vec.size() == 1)
     return vec;
 
@@ -12,7 +12,7 @@ vector<int> merge_sort(vector<int>& vec) {
 
   vector<int> left(vec.begin(), middle);
   vector<int> right(middle, vec.end());
-  
+
   left = merge_sort(left);
   right = merge_sort(right);
 
@@ -20,7 +20,7 @@ vector<int> merge_sort(vector<int>& vec) {
 }
 
 vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& right) {
-  
+
   vector<int> result;
   unsigned left_it = 0, right_it = 0;
 
@@ -33,7 +33,7 @@ vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& 
         right_it++;
     }
   }
-  
+
   while(left_it < left.size()) {
       result.push_back(left[left_it]);
       left_it++;
@@ -43,8 +43,8 @@ vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& 
       result.push_back(right[right_it]);
       right_it++;
   }
-  
-  vec = result;       
+
+  vec = result;
   return vec;
 }
 
@@ -62,6 +62,9 @@ int main() {
    v.push_back(1);
 
    merge_sort(v);
+
+   for (int i = 0; i < v.size(); i++)
+      cout << v[i] << " ";
 
    return 0;
 }

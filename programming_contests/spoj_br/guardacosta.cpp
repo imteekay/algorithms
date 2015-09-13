@@ -1,4 +1,4 @@
-//GUARDCOS
+// GUARDCOS
 
 #include <iostream>
 #include <cmath>

@@ -19,7 +19,7 @@ int main() {
     for (int i = 0; i < n; i++) {
       cin >> x >> y;
       t_aldo += x;
-      t_beto += y;      
+      t_beto += y;
     }
 
     if (t_aldo > t_beto)
