@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> merge_sort(vector<int>& vec) {
 
-  if(vec.size() == 1)
+  if (vec.size() == 1)
     return vec;
 
   vector<int>::iterator middle = vec.begin() + (vec.size() / 2);
@@ -24,24 +24,24 @@ vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& 
   vector<int> result;
   unsigned left_it = 0, right_it = 0;
 
-  while(left_it < left.size() && right_it < right.size()) {
-    if(left[left_it] < right[right_it]) {
-        result.push_back(left[left_it]);
-        left_it++;
+  while (left_it < left.size() && right_it < right.size()) {
+    if (left[left_it] < right[right_it]) {
+      result.push_back(left[left_it]);
+      left_it++;
     } else {
-        result.push_back(right[right_it]);
-        right_it++;
+      result.push_back(right[right_it]);
+      right_it++;
     }
   }
 
-  while(left_it < left.size()) {
-      result.push_back(left[left_it]);
-      left_it++;
+  while (left_it < left.size()) {
+    result.push_back(left[left_it]);
+    left_it++;
   }
 
-  while(right_it < right.size()) {
-      result.push_back(right[right_it]);
-      right_it++;
+  while (right_it < right.size()) {
+    result.push_back(right[right_it]);
+    right_it++;
   }
 
   vec = result;
