@@ -4,40 +4,43 @@
 
 using namespace std;
 
-int factorial(int n) {
+int custom_factorial(int n) {
 
-	int result = 1;
+	int temp, result, flag;
+			
+	vector<int> v(1000000);
+	v[0] = 1;
 
-	for (int i = 2; i <= n; i++)
-		result *= i;
+	for (int i = 1; i <= n; i++) {
+		if (n < 4) v[i] = v[i - 1] * i;
+		else {
+			result = v[i - 1] * i;
+			flag = 1;
+			while (flag) {
+				temp = result % 10;
+				if (temp != 0) {
+					v[i] = temp;
+					flag = 0;
+				} else {
+					result /= 10;
+				}				
+			}
+		}
+	}
 
-	return result;
+	return v[n];
 }
 
 int main() {
 
-	int n, temp, instance=1;
-	vector<int> v;	
+	int n, instance=1;
 	
 	while (scanf("%i", &n) != 0) {
 
+		int result = custom_factorial(n);		
+
 		cout << "Instancia " << instance << endl;
-		int result = factorial(n);
-
-		while (result != 0) {
-			temp = result % 10;
-			v.push_back(temp);
-			result /= 10;
-		}
-
-		for (int i = 0; i < v.size(); i++) {
-			if (v[i] != 0) {
-				cout << v[i] << endl;
-				break;
-			}				
-		}
-
-		v.clear();
+		cout << result << endl;
 		instance++;
 
 	}
