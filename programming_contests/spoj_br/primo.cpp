@@ -12,8 +12,9 @@ int is_prime(int num) {
 
   if (number == 0 || number == 1) return 0;
   else if (number == 2 || number == 3) return 1;
+  else if (number % 2 == 0) return 0;
 
-  for (int i = 4; i < Math.sqrt(number); i++) {
+  for (int i = 3; i <= Math.sqrt(number); i++) {
 
   }
 
