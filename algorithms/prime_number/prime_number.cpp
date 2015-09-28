@@ -4,12 +4,10 @@
 using namespace std;
 
 int verifica_primo(int n) {
-	
-  int total_divisivel = 0;
 
 	if (n == 2)
 		return 1;
-	
+
 	if ((n % 2) == 0)
 		return 0;
 
@@ -24,7 +22,7 @@ int verifica_primo(int n) {
 }
 
 int main() {
-    
+
 
   int n;
   cin >> n;
