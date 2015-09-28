@@ -1,26 +1,25 @@
-// SALDO13
-
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 int main() {
 
-	int n, s, menor_saldo, total, temp;
+  int n, test=1;
+  cin >> n;
 
-	cin >> n;
-	cin >> s;
-	menor_saldo = s;
-	total = s;
+  while (n != 0) {
 
-	while(n--) {
-		cin >> temp;
-		total += temp;
-		if (total < menor_saldo)
-			menor_saldo = total;
-	}
+    for (int i = 0; i < n; i++) {
 
-	cout << menor_saldo;
+    }
 
 
-	return 0;
+    cout << "Teste " + test << endl;
+
+    cin >> n;
+    test++;
+  }
+
+  return 0;
 }
