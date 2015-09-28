@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int is_prime(int num) {
+long long int is_prime(int num) {
   int number = num;
   int total_divisivel = 0;
 
@@ -25,12 +25,12 @@ int is_prime(int num) {
 
 int main() {
 
-  int n;
+  long long int n;
 
   cin >> n;
 
   if (is_prime(n)) cout << "sim" << endl;
-  else cout << "no" << endl;
+  else cout << "nao" << endl;
 
   return 0;
 }
