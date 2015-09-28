@@ -1,4 +1,4 @@
-// http://br.spoj.com/problems/PRIMO/
+// br.spoj.com/problems/PRIMO/
 
 #include <iostream>
 #include <math.h>
@@ -17,14 +17,10 @@ int is_prime(int num) {
 
   int s = sqrt(number);
 
-  for (int i = 3; i <= s; i += 2) {
-    if (n % i == 0)
-      return 0;
-  }
+  for (int i = 3; i <= s; i += 2)
+    if (number % i == 0) return 0;
 
   return 1;
-
-
 }
 
 int main() {
