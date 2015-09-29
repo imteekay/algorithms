@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -43,14 +44,21 @@ int main() {
 
   // making a pair of integers in the vector
   vector< pair<int, int> > pairs;
-  pairs.push_back(make_pair(1, 1));
-  pairs.push_back(make_pair(2, 2));
+  pairs.push_back(make_pair(4, 1));
+  pairs.push_back(make_pair(3, 1));
+  pairs.push_back(make_pair(2, 1));
+  pairs.push_back(make_pair(5, 1));
+  pairs.push_back(make_pair(7, 1));
+  pairs.push_back(make_pair(2, 1));
 
   pairs[0].first = 0;
+  pairs.back().second++;
+
+  // sort vector of pairs based on the first element
+  sort(pairs.begin(), pairs.end());
 
   for (int i = 0; i < pairs.size(); i++)
-  	cout << pairs[i].first << " " << pairs[i].second << endl;
-  
+  	cout << pairs[i].first << " " << pairs[i].second << endl;  
 
 	return 0;
 }
