@@ -21,7 +21,7 @@ int main() {
 	vector< pair<int, int> > vetorzin;
 	vetorzin.push_back(make_pair(1, v[0]));
 
-	for (int i = 1; i < n; i++) {
+	for (int i = 1; i < v.size(); i++) {
 		int found = 0;
 
 		for (int j = 0; j < vetorzin.size(); j++) {
@@ -32,8 +32,12 @@ int main() {
 			}
 		}
 
-		if (found) 
+		if (!found) vetorzin.push_back(make_pair(1, v[i]));
 	}
+
+	sort(vetorzin.begin(), vetorzin.end());
+
+	cout << vetorzin.back().second << endl;
 
 	return 0;
 }
