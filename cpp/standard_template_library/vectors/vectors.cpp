@@ -41,5 +41,16 @@ int main() {
 
   cout << v.size() << endl;
 
+  // making a pair of integers in the vector
+  vector< pair<int, int> > pairs;
+  pairs.push_back(make_pair(1, 1));
+  pairs.push_back(make_pair(2, 2));
+
+  pairs[0].first = 0;
+
+  for (int i = 0; i < pairs.size(); i++)
+  	cout << pairs[i].first << " " << pairs[i].second << endl;
+  
+
 	return 0;
 }
