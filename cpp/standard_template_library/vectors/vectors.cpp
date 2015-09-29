@@ -58,7 +58,20 @@ int main() {
   sort(pairs.begin(), pairs.end());
 
   for (int i = 0; i < pairs.size(); i++)
-  	cout << pairs[i].first << " " << pairs[i].second << endl;  
+  	cout << pairs[i].first << " " << pairs[i].second << endl;
+
+  // sort from end to begin of the vector
+  vector<int> vetor;
+  vetor.push_back(1);
+  vetor.push_back(2);
+  vetor.push_back(3);
+  vetor.push_back(4);
+  vetor.push_back(10);
+
+  sort(vetor.begin(), vetor.end(), std::greater<int>());
+
+  for (int i = 0; i < vetor.size(); i++)
+    cout << vetor[i] << endl;
 
 	return 0;
 }
