@@ -31,5 +31,17 @@ int main() {
 
   cout << endl;
 
+  sort(vetorzin.begin(), vetorzin.end(), greater<int>());
+
+  for (int i = 0; i <= 10; i++)
+    cout << vetorzin[i] << " ";
+
+  cout << endl;
+
+  for (int i = 0; i < 4; i++)
+    cout << vetorzin[i] << " ";
+
+  cout << endl;
+
   return 0;
 }

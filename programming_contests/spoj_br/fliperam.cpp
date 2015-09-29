@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <map>
 
 using namespace std;
 
@@ -18,10 +19,10 @@ int main() {
     v.push_back(temp);
   }
 
-  vector< pair<int, int> > vetor;
+  sort(v.begin(), v.end(), greater<int>());
 
-  for (int i = 0; i < n1; i++) {
-
+  for (int i = 0; i < n2; i++) {
+    cout << v[i] << endl;
   }
 
   return 0;

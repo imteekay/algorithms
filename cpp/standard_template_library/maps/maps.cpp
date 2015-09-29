@@ -32,6 +32,7 @@ int main() {
 
   if (m.find("one") != m.end()) {
     cout << m.find("one")->first << endl;
+    m.find("one")->second++;
     cout << m.find("one")->second << endl;
   }
 
