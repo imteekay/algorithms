@@ -8,7 +8,7 @@ int main() {
 	
 	int n, temp;
 	vector<int> v;	
-
+	
 	cin >> n;
 
 	while (n--) {
