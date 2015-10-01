@@ -31,6 +31,7 @@ int main() {
 
   cout << endl;
 
+  // sort from bigger to smaller integer in the vector
   sort(vetorzin.begin(), vetorzin.end(), greater<int>());
 
   for (int i = 0; i <= 10; i++)
