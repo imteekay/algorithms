@@ -20,8 +20,8 @@ int main() {
 		if (total + n <= n1) total += n;
 	}
 
-	if (total == n1) cout << "S";
-	else cout << "N";
+	if (total == n1) cout << "S" << endl;
+	else cout << "N" << endl;
 
 	return 0;
 }
