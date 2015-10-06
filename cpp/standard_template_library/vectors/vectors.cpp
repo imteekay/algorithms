@@ -5,6 +5,16 @@
 
 using namespace std;
 
+// passing vector as reference
+void desc_sort(vector<int> &v) {
+  sort(v.begin(), v.end(), std::greater<int>());  
+}
+
+// passing vector as pointer
+void desc_sort(vector<int> *v) {
+  sort(v->begin(), v->end(), std::greater<int>());
+}
+
 int main() {
 
 	vector<int> v;
@@ -68,10 +78,22 @@ int main() {
   vetor.push_back(4);
   vetor.push_back(10);
 
-  sort(vetor.begin(), vetor.end(), std::greater<int>());
+  desc_sort(vetor);
 
   for (int i = 0; i < vetor.size(); i++)
     cout << vetor[i] << endl;
+
+  vector<int> vetorzin;
+  vetorzin.push_back(1);
+  vetorzin.push_back(2);
+  vetorzin.push_back(3);
+  vetorzin.push_back(4);
+  vetorzin.push_back(10);
+
+  desc_sort(&vetorzin);
+
+  for (int i = 0; i < vetorzin.size(); i++)
+    cout << vetorzin[i] << endl;
 
 	return 0;
 }
