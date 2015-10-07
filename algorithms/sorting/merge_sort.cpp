@@ -3,22 +3,6 @@
 
 using namespace std;
 
-vector<int> merge_sort(vector<int>& vec) {
-
-  if (vec.size() == 1)
-    return vec;
-
-  vector<int>::iterator middle = vec.begin() + (vec.size() / 2);
-
-  vector<int> left(vec.begin(), middle);
-  vector<int> right(middle, vec.end());
-
-  left = merge_sort(left);
-  right = merge_sort(right);
-
-  return merge(vec, left, right);
-}
-
 vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& right) {
 
   vector<int> result;
@@ -46,6 +30,22 @@ vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& 
 
   vec = result;
   return vec;
+}
+
+vector<int> merge_sort(vector<int>& vec) {
+
+  if (vec.size() == 1)
+    return vec;
+
+  vector<int>::iterator middle = vec.begin() + (vec.size() / 2);
+
+  vector<int> left(vec.begin(), middle);
+  vector<int> right(middle, vec.end());
+
+  left = merge_sort(left);
+  right = merge_sort(right);
+
+  return merge(vec, left, right);
 }
 
 int main() {
