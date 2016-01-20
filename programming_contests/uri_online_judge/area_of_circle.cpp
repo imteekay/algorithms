@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
 
-  const double PI = 3.1415926;
+  const double PI = 3.14159;
   double r;
   cin >> r;
 
@@ -16,3 +16,4 @@ int main() {
 
   return 0;
 }
+
