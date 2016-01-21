@@ -11,7 +11,7 @@ int main() {
 
   cin >> n1 >> n2;
 
-  cout << fixed << setprecision(3) << n1 / n2 << endl;
+  cout << fixed << setprecision(3) << n1 / n2 << " km/l" << endl;
 
   return 0;
 }
