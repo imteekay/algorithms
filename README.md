@@ -1,10 +1,8 @@
 # Competitive Programming
 
-*WARNING*
+**WARNING**: I have a lot of bad code here
 
-I have a lot of bad code here
-
-*- Sites I like:*
+**- Sites I like:**
 
 - [URI Online Judge](urionlinejudge.com.br)
 - [UVa Online Judge](https://uva.onlinejudge.org/)
