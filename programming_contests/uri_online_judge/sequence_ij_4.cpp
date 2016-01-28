@@ -6,27 +6,30 @@ using namespace std;
 
 int main() {
 
-	int counter=0;
+	int counter=0, count=0;
 	double i = 0, j = 1;
 
 	while (true) {
-		cout << "I=" << i << " J=" << j << endl;
+		cout << "I=" << i << " J=" << j << endl;;
+		cout << boolalpha << (j == 5.0) << endl;
+		if (i == 2 && j == 5) break;
 
 		counter++;
-		j++;
 
 		if (counter == 3) {
 			i += 0.2;
-			j -= 2.8;
 			counter = 0;
 		}
-
-		cout << "I=" << i << " J=" << j << endl << "-------------" << endl;
 		
-		if (i == 2 && j == 5) {
-			cout << "I=" << i << " J=" << j << endl;
-			break;
+		count++;
+		
+		if (count == 3) {
+			j -= 1.8;
+			count = 0;
+		} else {
+			j++;
 		}
+		
 	}	
 
 	return 0;
