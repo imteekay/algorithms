@@ -9,7 +9,6 @@ using namespace std;
 
 int main() {
 
-  vector<double> v;
   vector< vector<double> > v1;
   double n, total=0;
   string operation;
@@ -17,6 +16,8 @@ int main() {
   cin >> operation;
 
   for (int i = 0; i < 12; i++) {
+    vector<double> v;
+
     for (int j = 0; j < 12; j++) {
       cin >> n;
       v.push_back(n);
