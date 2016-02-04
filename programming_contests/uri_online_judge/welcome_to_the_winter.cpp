@@ -10,8 +10,14 @@ int main() {
 
   cin >> a >> b >> c;
 
-  if (b - a < c - b) cout << ":)" << endl;
-  else cout << ":(" << endl;
+  if (a == b && b == c) {
+  	cout << ":(" << endl;
+  } else {
+		if (b - a < c - b) cout << ":)" << endl;
+		else if (b - a == c - b && b - a > 0) cout << ":)" << endl;
+		else if (b - a == c - b && b - a < 0) cout << ":(" << endl;
+		else cout << ":(" << endl;
+	}
 
   return 0;
 }
