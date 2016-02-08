@@ -7,7 +7,7 @@ using namespace std;
 
 // passing vector as reference
 void desc_sort(vector<int> &v) {
-  sort(v.begin(), v.end(), std::greater<int>());  
+  sort(v.begin(), v.end(), std::greater<int>());
 }
 
 // passing vector as pointer
