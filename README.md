@@ -1,3 +1,10 @@
+
+# Algorithms
+
+**- Implement some well known algorithms like:**
+
+- Merge Sort
+
 # Competitive Programming
 
 **WARNING**: I have a lot of bad code here
