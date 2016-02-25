@@ -93,13 +93,15 @@ int main() {
   desc_sort(&vetorzin);
 
   int removing = 0;
-  
+
   vetorzin.erase(vetorzin.begin() + 1);
   removing++;
   vetorzin.erase(vetorzin.begin() + 2 - removing);
 
   for (int i = 0; i < vetorzin.size(); i++)
     cout << vetorzin[i] << endl;
+
+  // implement reverse!!!!
 
 	return 0;
 }
