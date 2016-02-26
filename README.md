@@ -4,6 +4,8 @@
 **- Implement some well known algorithms like:**
 
 - Merge Sort
+- Insertion Sort
+- Min Max
 
 # Competitive Programming
 
