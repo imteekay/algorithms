@@ -103,5 +103,18 @@ int main() {
 
   // implement reverse!!!!
 
+  // matrix
+  vector< vector<int> > matrix;
+  vector<int> v;
+
+  for (int i = 0; i < 10; i++) {
+    for (int j = 0; j < 10; j++) {
+      v.push_back(i);
+    }
+
+    matrix.push_back(v);
+    v.clear()
+  }
+
 	return 0;
 }
