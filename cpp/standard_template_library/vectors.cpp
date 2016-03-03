@@ -116,5 +116,13 @@ int main() {
     v.clear()
   }
 
+  // iterators
+  vector<int> vec;
+  vec.push_back(100);
+  vec.push_back(99);
+
+  vec.begin();
+  vec.end();  
+
 	return 0;
 }
