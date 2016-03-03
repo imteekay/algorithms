@@ -126,7 +126,14 @@ int main() {
 
   // capacity
   vec.size();
-  vec.empty();  
+  vec.empty();
+
+  // element access
+  cout << vec[0] << endl;
+  cout << vec[1] << endl;
+  cout << vec.at(0) << endl;
+  cout << vec.front() << endl;
+  cout << vec.back() << endl;
 
 	return 0;
 }
