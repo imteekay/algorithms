@@ -122,7 +122,11 @@ int main() {
   vec.push_back(99);
 
   vec.begin();
-  vec.end();  
+  vec.end();
+
+  // capacity
+  vec.size();
+  vec.empty();  
 
 	return 0;
 }
