@@ -1,4 +1,3 @@
-
 # Algorithms
 
 **- Implement some well known algorithms like:**
