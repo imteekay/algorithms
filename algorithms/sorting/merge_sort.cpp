@@ -34,8 +34,7 @@ vector<int> merge(vector<int>& vec, const vector<int>& left, const vector<int>& 
 
 vector<int> merge_sort(vector<int>& vec) {
 
-  if (vec.size() == 1)
-    return vec;
+  if (vec.size() == 1) return vec;
 
   vector<int>::iterator middle = vec.begin() + (vec.size() / 2);
 
