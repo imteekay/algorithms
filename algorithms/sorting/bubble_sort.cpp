@@ -3,7 +3,7 @@
 void bubble_sort(int v[], int n) {
   for (int i = 1; i <= n - 1; i++) {
     for (int j = 0; j < n - i; j++) {
-      if (v[j] > v[j+1]) troca(v[j], v[j+1]);
+      if (v[j] > v[j+1]) swap(v[j], v[j+1]);
     }
   }
 }
