@@ -2,35 +2,34 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
+int get_position(vector< pair<int, int> >& v, int el) {
+  for (int i = 0; i < v.size(); i++) if (el == v[i].first) return i;
+  return v.size();
+}
+
 int main() {
 
-  int n, x, found=0;
+  int n, x;
   cin >> n;
 
-  vector<int> v1;
-  vector<int> v2;
+  vector< pair<int, int> > v;
+  cin >> x;
+  v.push_back(make_pair(x, 1));
+  n--;
 
-  for (int i = 0; i < n; i++) {
-    v2.push_back(0);
+  while (n--) {
+    cin >> x;    
+    if (get_position(v, x) < v.size()) v[get_position(v, x)].second++;
+    else v.push_back(make_pair(x, 1));    
   }
 
-  for (int i = 0; i < n; i++) {
-    cin >> x;
+  sort(v.begin(), v.end());
 
-    for (int i = 0; i < v1.size(); i++) {
-      if (v1[i] == x) {
-        found = 1;
-        break;
-      }
-    }
-
-    if (!found) v1.push_back(x);
-
-    found = 0;
-  }
+  for (int i = 0; i < v.size(); i++) cout << v[i].first << " aparece " << v[i].second << " vez(es)" << endl;
 
   return 0;
 }
