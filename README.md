@@ -5,6 +5,8 @@
 - Merge Sort
 - Insertion Sort
 - Insertion Sort In Reverse
+- Bubble Sort
+- Selection Sort
 - Min Max
 
 # Competitive Programming

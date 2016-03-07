@@ -46,6 +46,9 @@ int main() {
 
   // remove first element
   v.erase(v.begin());
+  
+  // remove the last element using erase
+  v.erase(v.begin() + v.size() - 1);
 
   for (int i = 0; i < v.size(); i++)
     cout << v[i] << endl;
