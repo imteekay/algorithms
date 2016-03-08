@@ -5,6 +5,12 @@
 
 using namespace std;
 
+string reverse(string password) {
+	string reversed_string = "";
+	for (int i = password.size()-1; i >= 0; i++) reversed_string += password[i];
+	return reversed_string;
+}
+
 int main() {
 	
 	int n;
@@ -17,6 +23,7 @@ int main() {
 		// first step: http://en.cppreference.com/w/cpp/language/ascii
 
 		// second step: reverse string
+		string encrypted_password = reverse(password);
 
 		// third step: left
 	}
