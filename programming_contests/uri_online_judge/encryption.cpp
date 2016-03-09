@@ -7,7 +7,7 @@ using namespace std;
 
 string reverse(string password) {
 	string reversed_string = "";
-	for (int i = password.size()-1; i >= 0; i++) reversed_string += password[i];
+	for (int i = password.size()-1; i >= 0; i--) reversed_string += password[i];
 	return reversed_string;
 }
 
