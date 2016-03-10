@@ -20,7 +20,8 @@ int main() {
 		string password;
 		cin >> password;
 
-		// first step: http://en.cppreference.com/w/cpp/language/ascii
+		// first step: using array to store ascii elements (index and el)
+		// http://en.cppreference.com/w/cpp/language/ascii
 
 		// second step: reverse string
 		string encrypted_password = reverse(password);
