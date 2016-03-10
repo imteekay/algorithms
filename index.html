@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MyBookshelf</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  </head>
+
+  <body ng-app='myBookshelf'>
+    <h1>My Bookshelf</h1>
+    <p>by Leandro Tk</p>
+
+    <h4>2016</h4>
+    <dir ng-controller='BooksController'>
+      <ul>
+        <li ng-repeat="book in books">
+          <span class='book-read' ng-if='book.read'><i class="fa fa-check"></i></span>
+          <b><a href="{{book.url}}" target='_blank'>{{book.title}}</a></b> by {{book.author}}
+          <span class="medium-post" ng-if='book.hasMediumPost'>
+            <i class='fa fa-medium'><a href="{{book.mediumPostUrl}}"></a></i>
+          </span>
+        </li>
+      </ul>
+    </dir>
+  </body>
+
+  <script src="js/books_controller.js"></script>
+</html>
