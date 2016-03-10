@@ -22,6 +22,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+span.my-name {
+  font-weight: 900;
+  font-size: 18px;
+}
+
 a, a:active, a:hover, a:link, a:visited {
   color: black;
 }
