@@ -7,12 +7,12 @@ using namespace std;
 
 // passing vector as reference
 void desc_sort(vector<int> &v) {
-  sort(v.begin(), v.end(), std::greater<int>());
+  sort(v.begin(), v.end(), greater<int>());
 }
 
 // passing vector as pointer
 void desc_sort(vector<int> *v) {
-  sort(v->begin(), v->end(), std::greater<int>());
+  sort(v->begin(), v->end(), greater<int>());
 }
 
 int main() {
@@ -46,7 +46,7 @@ int main() {
 
   // remove first element
   v.erase(v.begin());
-  
+
   // remove the last element using erase
   v.erase(v.begin() + v.size() - 1);
 
@@ -104,7 +104,8 @@ int main() {
   for (int i = 0; i < vetorzin.size(); i++)
     cout << vetorzin[i] << endl;
 
-  // implement reverse!!!!
+  // implement reverse
+  reverse(vetorzin.begin(), vetorzin.end());
 
   // matrix
   vector< vector<int> > matrix;
