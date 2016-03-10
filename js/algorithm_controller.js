@@ -10,7 +10,34 @@ app.controller('AlgorithmController', ['$scope', function($scope) {
       'hasGithubCode': true,
       'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/gh-pages/cpp/standard_template_library/vectors.cpp',
       'studied': true
-    }
+    },
+
+    {
+      'title': 'C++ String: A pretty simple guide',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': false
+    },
+
+    {
+      'title': 'C++ Map: A pretty simple guide',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': false
+    },
+
+    {
+      'title': 'C++ Sorting: A pretty simple guide',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': false
+    },
   ];
 
 }]);

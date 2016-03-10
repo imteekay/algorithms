@@ -26,9 +26,12 @@ a, a:active, a:hover, a:link, a:visited {
   color: black;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
-  margin-left: -40px;
   padding-top: 10px;
   font-size: 19px;
 }
