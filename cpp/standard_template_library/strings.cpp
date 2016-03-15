@@ -47,5 +47,9 @@ int main() {
 		for (int i = 0; i < word; i++) cout << word[i] << " ";
 		cout << endl;
 
+		// compare string letter with char
+		for (int i = 0; i < word; i++) if (word[i] == 'a') cout << word[i] << " ";
+		cout << endl;
+
 		return 0;
 }
