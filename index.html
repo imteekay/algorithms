@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="js/algorithms_controller.js"></script>
   </head>
 
   <body ng-app='algorithm'>
@@ -16,7 +17,7 @@
       <span class='my-name'>Leandro Tk</span>
     </p>
 
-    <div ng-controller='AlgorithmController'>
+    <div ng-controller='CppFeaturesController'>
       <ul>
         <h2>C++ Features</h2>
         <li ng-repeat="feature in cppFeatures">
@@ -31,7 +32,23 @@
         </li>
       </ul>
     </div>
-  </body>
 
-  <script src="js/algorithm_controller.js"></script>
+    <div ng-controller='AlgorithmsController'>
+      <ul>
+        <h2>Algorithms</h2>
+        <li ng-repeat="algorithm in algorithms">
+          <span class='algorithm-studied' ng-if='algorithm.studied'><i class="fa fa-check"></i></span>
+          <b>{{algorithm.title}}</b>
+          <span class="medium-post" ng-if='algorithm.hasMediumPost'>
+            <a href="{{algorithm.mediumPostUrl}}" target="_blank"><i class='fa fa-medium'></i></a>
+          </span>
+          <span class="github-code" ng-if='algorithm.hasGithubCode'>
+            <a href="{{algorithm.githubCodeUrl}}" target="_blank"><i class='fa fa-github'></i></a>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </body>
+  
+  <!---->
 </html>

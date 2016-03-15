@@ -1,6 +1,6 @@
 var app = angular.module('algorithm', []);
 
-app.controller('AlgorithmController', ['$scope', function($scope) {
+app.controller('CppFeaturesController', ['$scope', function($scope) {
 
   $scope.cppFeatures = [
     {
@@ -37,6 +37,48 @@ app.controller('AlgorithmController', ['$scope', function($scope) {
       'hasGithubCode': false,
       'githubCodeUrl': '',
       'studied': false
+    },
+  ];
+
+}]);
+
+app.controller('AlgorithmsController', ['$scope', function($scope) {
+
+  $scope.algorithms = [
+    {
+      'title': 'Bubble Sort',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': true
+    },
+
+    {
+      'title': 'Insertion Sort',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': true
+    },
+
+    {
+      'title': 'Selection Sort',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': true
+    },
+
+    {
+      'title': 'Merge Sort',
+      'hasMediumPost': false,
+      'mediumPostUrl': '',
+      'hasGithubCode': false,
+      'githubCodeUrl': '',
+      'studied': true
     },
   ];
 
