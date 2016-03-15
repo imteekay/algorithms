@@ -44,9 +44,7 @@ int main() {
 		cout << palavra.back() << endl;
 
 		// we can iterate a string: each char
-		for (int i = 0; i < word; i++)
-			cout << word[i] << " ";
-
+		for (int i = 0; i < word; i++) cout << word[i] << " ";
 		cout << endl;
 
 		return 0;
