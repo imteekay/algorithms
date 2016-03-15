@@ -46,6 +46,11 @@ span.feature-studied {
   color: #0BE370;
 }
 
+span.algorithm-studied {
+  margin-right: 5px;
+  color: #0BE370;
+}
+
 span.medium-post {
   margin-left: 5px;
   margin-right: 5px;
