@@ -51,5 +51,8 @@ int main() {
 		for (int i = 0; i < word; i++) if (word[i] == 'a') cout << word[i] << " ";
 		cout << endl;
 
+		// use cin to get string
+		// use getline(cin, string) to get a line of strings
+
 		return 0;
 }
