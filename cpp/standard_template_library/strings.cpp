@@ -49,7 +49,7 @@ int main() {
 		cout << endl;
 
 		// compare string letter with char
-		for (int i = 0; i < word; i++) if (word[i] == 'a') cout << word[i] << " ";
+		for (int i = 0; i < word.size(); i++) if (word[i] == 'a') cout << word[i] << " ";
 		cout << endl;
 
 		// use cin to get string
