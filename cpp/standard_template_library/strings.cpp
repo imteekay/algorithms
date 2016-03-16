@@ -13,6 +13,7 @@ int main() {
 		cout << string1 << endl;
 
 		// finding letter(s) in a string
+		// return npos --> -1 if don't find the element
 		cout << string1.find("e") << endl;
 
 		// using input for string
