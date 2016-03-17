@@ -11,8 +11,6 @@
 
 # Competitive Programming
 
-**WARNING**: I have a lot of bad code here
-
 **- Sites I like:**
 
 - [URI Online Judge](urionlinejudge.com.br)
@@ -26,3 +24,5 @@
 - [TopCoder](https://www.topcoder.com/)
 - [Codeforces](codeforces.com)
 - [Leetcode](https://leetcode.com)
+
+**WARNING**: I have a lot of bad code here
