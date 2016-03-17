@@ -14,11 +14,11 @@ app.controller('CppFeaturesController', ['$scope', function($scope) {
 
     {
       'title': 'C++ String: A pretty simple guide',
-      'hasMediumPost': false,
-      'mediumPostUrl': '',
-      'hasGithubCode': false,
-      'githubCodeUrl': '',
-      'studied': false
+      'hasMediumPost': true,
+      'mediumPostUrl': 'https://medium.com/@leandrotk_/c-string-a-pretty-simple-guide-dadb4acea190#.j2t3w2vks',
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/gh-pages/cpp/standard_template_library/strings.cpp',
+      'studied': true
     },
 
     {
