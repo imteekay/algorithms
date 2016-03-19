@@ -7,12 +7,18 @@
 using namespace std;
 
 void split_by_space(vector<string> &words, string phrase) {
-  int index_start=0, index_end;
+  int index_start=0, length;
+  string aux;
   for (int i = 0; i < phrase.size(); i++) {
-    if (pharse[i] == ' ' || i == phrase.size()-1) {
-      index_end = i;
-      words.push_pack(phrase.substr(index_start, index_end));
-      index_start = index_end + 1;
+    if (phrase[i] == ' ') {
+      length = i - index_start;
+      aux = phrase.substr(index_start, length);
+      words.push_back(aux);
+      index_start = i + 1;
+    } else if (i == phrase.size()-1) {
+      length = i - index_start + 1;
+      aux = phrase.substr(index_start, length);
+      words.push_back(aux);
     }
   }
 }
@@ -20,23 +26,39 @@ void split_by_space(vector<string> &words, string phrase) {
 int main() {
 
   string phrase;
-  string alphabet = "ABCDEFGHIJKLMNOPQRSTUVXWYZabcsdefghijklmnopqrstuvxwyz";
+  string alphabet = "ABCDEFGHIJKLMNOPQRSTUVXWYZabcdefghijklmnopqrstuvxwyzABCDEFGHIJKLMNOPQRSTUVXWYZ";
   vector<string> words;
-  int counter = 0;
 
-  while (getline(cin, phrase) != EOF) {
-    split_by_space(v, phrase);
-    char current_letter = word[i][0];
-    int current_letter_pos = word[i][0];
+  while (getline(cin, phrase)) {
+    vector<int> alli;
+    alli.push_back(0);
+    split_by_space(words, phrase);
+    char current_letter = words[0][0]; // first letter of the first word
 
     if (words.size() > 1) {
       for (int i = 1; i < words.size(); i++) {
         int letter_pos = alphabet.find(words[i][0]);
+        if (current_letter == alphabet[letter_pos] || current_letter == alphabet[letter_pos + 26]) {
+          alli.back()++;
+        } else {
+          alli.push_back(0);
+        }
+
+        current_letter = words[i][0];
       }
+
+      int counter = 0;
+
+      for (int i = 0; i < alli.size(); i++) if (alli[i] > 0) counter++;
+
+      cout << counter << endl;
+
+    } else {
+      cout << 0 << endl;
     }
 
     words.clear();
-    counter = 0;
+    alli.clear();
   }
 
   return 0;
