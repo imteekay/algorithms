@@ -6,15 +6,16 @@
 using namespace std;
 
 int get_index(char letter) {
-	// need to solve escape problem
-	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\]^_`abcdefghijklmnopqrstuvwxyz{-}";
-	for (int i = 0; i < ascii.size(); i++) if (ascii[i] == letter) return i;
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ]^_`abcdefghijklmnopqrstuvwxyz{-}";
+	if (letter == '/') letter = ' ';
+	return ascii.find(letter);
 }
 
 int get_element(char index) {
-	// need to solve escape problem
-	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\]^_`abcdefghijklmnopqrstuvwxyz{-}";
-	for (int i = 0; i < ascii.size(); i++) if (i == index) return ascii[i];
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ]^_`abcdefghijklmnopqrstuvwxyz{-}";	
+	char element = ascii[index];
+	if (element == ' ') element = '/';
+	return element;
 }
 
 int is_number(char letter) {
@@ -23,7 +24,7 @@ int is_number(char letter) {
 }
 
 string shift_to_the_right(string old_string) {
-	string new_string = '';	
+	string new_string = "";	
 
 	for (int i = 0; i < old_string.size(); i++) {
 		if (is_number(old_string[i])) {
@@ -39,7 +40,7 @@ string shift_to_the_right(string old_string) {
 }
 
 string shift_to_the_left(string old_string) {
-	string new_string = '';
+	string new_string = "";
 
 	for (int i = 0; i < old_string.size(); i++) {
 		if (is_number(old_string[i])) {
@@ -60,8 +61,7 @@ string reverse(string password) {
 	return reversed_string;
 }
 
-int main() {
-	
+int main() {	
 	int n;
 	cin >> n;
 
