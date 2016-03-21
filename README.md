@@ -13,14 +13,14 @@
 
 **- Sites I like:**
 
-- [URI Online Judge](urionlinejudge.com.br)
-- [UVa Online Judge](https://uva.onlinejudge.org/)
+- [Code Chef](https://www.codechef.com/)
+- [Codeforces](codeforces.com)
+- [Hacker Earth](https://www.hackerearth.com/)
+- [Hacker Rank](https://www.hackerrank.com/)
+- [Leetcode](https://leetcode.com)
 - [Project Euler - Problemas matemáticos](https://projecteuler.net/)
 - [SPOJ](http://www.spoj.com/)
 - [SPOJ BR](http://br.spoj.com/)
-- [Code Chef](https://www.codechef.com/)
-- [Hacker Earth](https://www.hackerearth.com/)
-- [Hacker Rank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
-- [Codeforces](codeforces.com)
-- [Leetcode](https://leetcode.com)
+- [URI Online Judge](urionlinejudge.com.br)
+- [UVa Online Judge](https://uva.onlinejudge.org/)
