@@ -6,27 +6,30 @@
 using namespace std;
 
 int get_index(char letter) {
-	// need to solve escape problem
-	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\]^_`abcdefghijklmnopqrstuvwxyz{-}";
-	for (int i = 0; i < ascii.size(); i++) if (ascii[i] == letter) return i;
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.]^_`abcdefghijklmnopqrstuvwxyz{-}";
+	if (letter == '/') letter = '.';
+	return ascii.find(letter);
 }
 
 int get_element(char index) {
-	// need to solve escape problem
-	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\]^_`abcdefghijklmnopqrstuvwxyz{-}";
-	for (int i = 0; i < ascii.size(); i++) if (i == index) return ascii[i];
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.]^_`abcdefghijklmnopqrstuvwxyz{-}";
+	char element = ascii[index];
+	if (element == '.') element = '/';
+	return element;
 }
 
 int is_number(char letter) {
-	for (int i = 0; i <= 10; i++) if (letter == i + '0') return 1;
+	string numbers = "012345678910";
+	if (numbers.find(letter) != -1) return 1;
 	return 0;
 }
 
 string shift_to_the_right(string old_string) {
-	string new_string = '';	
+	string new_string = "";
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.]^_`abcdefghijklmnopqrstuvwxyz{-}";
 
 	for (int i = 0; i < old_string.size(); i++) {
-		if (is_number(old_string[i])) {
+		if (is_number(old_string[i]) || old_string[i] == ' ' || ascii.find(old_string[i]) == -1) {
 			new_string += old_string[i];
 		} else {
 			int index = get_index(old_string[i]);
@@ -39,10 +42,11 @@ string shift_to_the_right(string old_string) {
 }
 
 string shift_to_the_left(string old_string) {
-	string new_string = '';
+	string new_string = "";
+	string ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.]^_`abcdefghijklmnopqrstuvwxyz{-}";
 
 	for (int i = 0; i < old_string.size(); i++) {
-		if (is_number(old_string[i])) {
+		if (is_number(old_string[i]) || old_string[i] == ' ' || ascii.find(old_string[i]) == -1) {
 			new_string += old_string[i];
 		} else {
 			int index = get_index(old_string[i]);
@@ -60,23 +64,22 @@ string reverse(string password) {
 	return reversed_string;
 }
 
-int main() {
-	
+int main() {	
 	int n;
 	cin >> n;
+	cin.ignore();
 
 	while (n--) {
 		string password, encrypted_password;
-		cin >> password;
+		getline(cin, password);
 
-		// first step: using array to store ascii elements (index and el)
-		// http://en.cppreference.com/w/cpp/language/ascii
+		// first step: shift to the right
 		encrypted_password = shift_to_the_right(password);
 
 		// second step: reverse string
 		encrypted_password = reverse(encrypted_password);
 
-		// third step: left
+		// third step: shift to the left
 		encrypted_password = shift_to_the_left(encrypted_password);
 
 		cout << encrypted_password << endl;
@@ -84,3 +87,13 @@ int main() {
 
 	return 0;
 }
+
+// Texto #3 --> 3# rvzgV
+// abcABC1 --> 1FECedc
+// vxpdylY .ph --> ks. \n{frzx
+// vv.xwfxo.fd --> gi.r{hyz-xx
+
+// qvzgV
+// 3B
+// 1EDCedc
+// /n{frzx
