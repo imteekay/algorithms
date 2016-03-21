@@ -24,5 +24,3 @@
 - [TopCoder](https://www.topcoder.com/)
 - [Codeforces](codeforces.com)
 - [Leetcode](https://leetcode.com)
-
-**WARNING**: I have a lot of bad code here
