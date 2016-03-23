@@ -8,7 +8,7 @@ int binary_search(vector<int> &v, int element) {
 	int NOT_FOUND = -1;
 	int low = 0, high = v.size()-1, mid;
 
-	while (low < high) {
+	while (low <= high) {
 		mid = (low + high) / 2;
 		if (v[mid] < element) low = mid + 1;
 		else if (v[mid] > element) high = mid -1;
