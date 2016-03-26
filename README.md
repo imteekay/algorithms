@@ -8,6 +8,7 @@
 - Bubble Sort
 - Selection Sort
 - Min Max
+- Binary Search
 
 # Competitive Programming
 
