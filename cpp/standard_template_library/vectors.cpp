@@ -47,6 +47,9 @@ int main() {
   // remove first element
   v.erase(v.begin());
 
+  // remove first element
+  v.erase(v.begin()+1);
+
   // remove the last element using erase
   v.erase(v.begin() + v.size() - 1);
 
