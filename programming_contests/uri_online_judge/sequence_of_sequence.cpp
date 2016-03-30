@@ -10,15 +10,23 @@ int main() {
   int n, counter=1, size, num;
 
   while (scanf("%i", &n) != EOF) {
+    if (n == 0) {
+      cout << "Caso " << counter << ": " << 1 << " numero" << endl;
+      cout << 0;
+    } else {
+      size = ((n * (1 + n)) / 2) + 1;
+      cout << "Caso " << counter << ": ";
+      if (size == 1) cout << size << " numero" << endl;
+      else cout << size << " numeros" << endl;
 
-    size = ((n * (1 + n)) / 2) + 1;
-    cout << "Caso " << counter << ": ";
-    if (size == 1) cout << size << " numero" << endl;
-    else cout << size << " numeros" << endl;
-
-    for (int i = 1; i <= n; i++) {
-      num = i;
-      while (num--) cout << i << " ";
+      for (int i = 0; i <= n; i++) {
+        if (i == 0) num = 1;
+        else num = i;
+        for (int j = 0; j < num; j++) {
+          cout << i;
+          if (i != n || j != num - 1) cout << " ";
+        }
+      }
     }
 
     cout << endl << endl;
@@ -27,3 +35,4 @@ int main() {
 
   return 0;
 }
+
