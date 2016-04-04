@@ -12,6 +12,10 @@ vector<string> parse_string(string line) {
 		if (line[i] == ' ') {
 			v.push_back(word);
 			word.clear();
+		} else if (i == line.size() - 1) {
+			word += line[i];
+			v.push_back(word);
+			word.clear();
 		} else {
 			word += line[i];
 		}
