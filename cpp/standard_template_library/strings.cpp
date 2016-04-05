@@ -13,6 +13,7 @@ int main() {
 		cout << string1 << endl;
 
 		// finding letter(s) in a string
+		// return npos --> -1 if don't find the element
 		cout << string1.find("e") << endl;
 
 		// using input for string
@@ -44,10 +45,15 @@ int main() {
 		cout << palavra.back() << endl;
 
 		// we can iterate a string: each char
-		for (int i = 0; i < word; i++)
-			cout << word[i] << " ";
-
+		for (int i = 0; i < word; i++) cout << word[i] << " ";
 		cout << endl;
+
+		// compare string letter with char
+		for (int i = 0; i < word.size(); i++) if (word[i] == 'a') cout << word[i] << " ";
+		cout << endl;
+
+		// use cin to get string
+		// use getline(cin, string) to get a line of strings
 
 		return 0;
 }

@@ -53,8 +53,8 @@ int main() {
 
   while (n != 0) {
     vector<string> v;
-	int counter = 1;
-	cin.ignore();
+	  int counter = 1;
+	  cin.ignore();
 	
     while (counter <= n) {
       getline(cin, s);
