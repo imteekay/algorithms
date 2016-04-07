@@ -2,14 +2,15 @@
 
 **- Implement some well known algorithms like:**
 
-- Merge Sort
-- Insertion Sort
-- Insertion Sort In Reverse
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
+- Insertion Sort In Reverse
+- Merge Sort
 - Min Max
 - Binary Search
 - Prime Number
+- Parse String
 
 # Competitive Programming
 
