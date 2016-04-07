@@ -11,6 +11,7 @@
 - Binary Search
 - Prime Number
 - Parse String
+- Maximum Subsequence Sum
 
 # Competitive Programming
 
