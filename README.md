@@ -11,7 +11,8 @@
 - Binary Search
 - Prime Number
 - Parse String
-- Maximum Subsequence Sum
+- Maximum Subsequence Sum - Kadane's Algorithm
+- String to Int
 
 # Competitive Programming
 
