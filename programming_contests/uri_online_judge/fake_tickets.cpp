@@ -12,17 +12,22 @@ int main() {
 	int n1, n2, x;
 	
 	while (cin >> n1 >> n2 && n1 + n2 != 0) {
-		for (int = 0; i < n2; i++) {
+		for (int i = 0; i < n2; i++) {
 			cin >> x;
-			if (m.find(x) == b.end()) m[x] = 1;
+			if (m.find(x) == m.end()) m[x] = 1;
 			else m[x]++;
 		}
 		
 		map<int, int>::iterator it;
 		
-		for (it = m.begin(); it != m.end(); i++) {
-			cout << it->first << " " << it->second << endl;
+		int counter = 0;
+
+		for (it = m.begin(); it != m.end(); it++) {
+			if (it->second > 1) counter++;
 		}
+
+		cout << counter << endl;
+		m.clear();
 	}
 	
 	return 0;
