@@ -4,20 +4,16 @@
 using namespace std;
 
 int maximum_subsequence_sum(vector<int> &v) {
-	int sum = 0, result = 0, lastEl = -1;
-
+	int max_seq = 0, result = 0, greater = v[0];
+	
+	for (int i = 1; i < v.size(); i++) if (v[i] > greater) greater = v[i];
+	
 	for (int i = 0; i < v.size(); i++) {
-		if (v[i] >= lastEl) {
-			sum++;
-			lastEl = v[i];
-		} else {
-			sum = 0;
-			lastEl = -1;
-		}
-
-		if (sum > result) result = sum;
+	    if (v[i] == greater) max_seq++;
+	    else max_seq = 0;
+	    if (max_seq > result) result = max_seq;
 	}
-
+	
 	return result;
 }
 
@@ -33,7 +29,7 @@ int main() {
 			cin >> x;
 			v.push_back(x);
 		}
-		
+
 		result = maximum_subsequence_sum(v);
 		cout << "Caso #" << casy << ": " << result << endl;
 		casy++;
