@@ -1,7 +1,7 @@
 // https://www.urionlinejudge.com.br/judge/en/problems/view/1582
 
 #include <iostream>
-#include <cmath>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -15,7 +15,7 @@ int main() {
 
 	int n1, n2, n3;
 
-	while (scanf("%d %d %d", &n1, &n2, &n3) != EOF) {
+	while (cin >> n1 >> n2 >> n3) {
 		int hip, cat1, cat2;
 
 		if (n1 > n2 && n1 > n3) {

@@ -6,13 +6,14 @@
 using namespace std;
 
 int parse_index(int index, int size) {
-	if (index >= size) return index - size;
+	while (index >= size) index -= size;
 	return index;		
 }
 
 int main() {
 	
 	long long int n, num1, num2;
+	int casy = 1;
 	cin >> n;
 
 	while (n--) {
@@ -29,8 +30,8 @@ int main() {
 			v.erase(v.begin() + index);
 		}
 
-		cout << v[0] << endl;
-		
+		cout << "Case " << casy << ": " << v[0] << endl;
+		casy++;
 	}
 
 	return 0;
