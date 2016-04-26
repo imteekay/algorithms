@@ -12,6 +12,24 @@ int get_bigger(vector<int> &v) {
 	return max;
 }
 
+int area_binary_search(vector<int> &v, int area) {
+	int NOT_FOUND = -1;
+	int low = 0, high = get_bigger(v), mid, sum;
+
+	while (low <= high) {
+		mid = (low + high) / 2;
+		sum = 0;
+
+		for (int i = 0; i < v.size(); i++) if (v[i] - mid > 0) sum += v[i] - mid;
+
+		if (sum == area) return mid;
+		else if (sum > area) low = mid + 1;
+		else high = mid - 1;
+	}
+
+	return NOT_FOUND;	
+}
+
 int main() {
 	vector<int> v;
 	int n, x, value, temp, counter;
@@ -25,26 +43,9 @@ int main() {
 			v.push_back(temp);
 		}
 
-		x = get_bigger(v);
-		x--;
 		float result;
 
-		for (int i = x; i >= 0; i--) {
-			counter = 0;
-			for (int j = 0; j < v.size(); j++) {				
-				if (v[j] >= i) {
-					counter += (v[j] - i);
-				}
-			}
-
-			if (counter == value) {
-				result = i;
-				break;
-			} else if (counter > value) {
-				result = -1;
-				break;
-			}
-		}
+		result = area_binary_search(v, value);
 
 		if (result == -1) cout << "-.-" << endl;
 		else if (result == 0) cout << ":D" << endl;

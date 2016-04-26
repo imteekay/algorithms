@@ -4,6 +4,29 @@
 
 using namespace std;
 
+int to_digit_test(char digit) {
+  string numbers = "0123456789";
+  return numbers.find(digit);
+}
+
+int to_digit(char digit) {
+  return digit - '0';
+}
+
+int string_to_number(string n) {
+  if (n == "") {
+    return -1;
+  } else {
+    int num = 0;
+
+    for (int i = 0; i < n.size(); i++) {
+      num = num * 10 + to_digit(n[i]);
+    }
+
+    return num;
+  }
+}
+
 int string_to_int(string n) {
 	int num = 0, digit, pot = n.size()-1;
 

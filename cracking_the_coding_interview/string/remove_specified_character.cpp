@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	string word, characteres, result="";
+	string word, characteres, result = "";
 
 	getline(cin, word);
 	cin >> characteres;
@@ -20,8 +20,7 @@ int main() {
 			}
 		}
 
-		if (!belongs_to)
-			result += word[i];
+		if (!belongs_to) result += word[i];
 	}
 
 	cout << result << endl;
