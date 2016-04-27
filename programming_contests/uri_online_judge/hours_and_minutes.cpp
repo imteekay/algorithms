@@ -4,16 +4,12 @@
 
 using namespace std;
 
-int degree_to_minutes(int degree) {
-  return 60 * degree / 360;
-}
+int main() {  
+  int angle;
 
-int main() {
-
-  int n;
-
-  while (cin >> n) {
-
+  while (scanf("%i", &angle) != EOF) {
+    if (angle % 6 == 0) cout << "Y" << endl;
+    else cout << "N" << endl;
   }
 
   return 0;
