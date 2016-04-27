@@ -6,15 +6,19 @@
 using namespace std;
 
 int main() {
-  string s = "QWERTYUIOP[]\"ASDFGHJKL;'ZXCVBNM,./`1234567890-=";
+  string s = "QWERTYUIOP[]\\ASDFGHJKL;'ZXCVBNM,./`1234567890-=";
   string thing;
   int index;
 
-  while (cin >> thing) {
+  while (getline(cin, thing)) {
     string new_thing = "";
     for (int i = 0; i < thing.size(); i++) {
-      index = s.find(thing[i]) - 1;
-      new_thing += s[index];
+      if (thing[i] != ' ') {
+        index = s.find(thing[i]) - 1;
+        new_thing += s[index];
+      } else {
+        new_thing += " ";
+      }
     }
 
     cout << new_thing << endl;
