@@ -1,6 +1,6 @@
 # Algorithms
 
-**- Implement some well known algorithms like:**
+**- Implemented some well known algorithms like:**
 
 - Bubble Sort
 - Selection Sort
@@ -23,7 +23,7 @@
 - [Hacker Earth](https://www.hackerearth.com/)
 - [Hacker Rank](https://www.hackerrank.com/)
 - [Leetcode](https://leetcode.com)
-- [Project Euler - Problemas matemáticos](https://projecteuler.net/)
+- [Project Euler](https://projecteuler.net/)
 - [SPOJ](http://www.spoj.com/)
 - [SPOJ BR](http://br.spoj.com/)
 - [TopCoder](https://www.topcoder.com/)
