@@ -5,9 +5,9 @@ using namespace std;
 int maximum_subsequence_sum(int ar[], int n) {
 	int sum = 0, result = 0;
 
-	for (int i = 0; i < n; i++) {		
+	for (int i = 0; i < n; i++) {
 		if (sum + ar[i] > 0) sum += ar[i];
-		else sum = 0;			
+		else sum = 0;
 		if (sum > result) result = sum;
 	}
 
