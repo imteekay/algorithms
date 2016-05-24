@@ -1,3 +1,5 @@
+// https://www.urionlinejudge.com.br/judge/en/problems/view/2060
+
 #include <iostream>
 #include <map>
 
@@ -9,7 +11,7 @@ int main() {
 	map<int, int> m;
 	cin >> n;
 
-	for(int i = 2; i < 6; i++) m[i] = 1;
+	for(int i = 2; i < 6; i++) m[i] = 0;
 
 	for (int i = 0; i < n; i++) {
 		cin >> x;
