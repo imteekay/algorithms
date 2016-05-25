@@ -13,8 +13,26 @@ vector<int> buildVector(int n) {
   return v;
 }
 
-int getLastRegion(vector<int> regions) {
+int getLastRegion(vector<int> regions, int m) {
+  int counter = 0, max = regions.size(), ind = 0, c = m;
+  while (counter < max - 1) {
+    while (regions[ind] == 0) {      
+      ind++;
+      if (ind >= max) ind -= max;
+    }
+    
+    if (c == m) {
+      regions[ind] = 0;
+      counter++;
+      c = 0;
+    }
+    
+    ind++;
+    c++;
+    if (ind >= max) ind -= max;
+  }
 
+  for (int i = 0; i < regions.size(); i++) if (regions[i] == 1) return i+1;
 }
 
 int main() {
@@ -22,9 +40,17 @@ int main() {
   int n, regionIndex;
 
   while (cin >> n && n != 0) {
-    for (int i = 5; i < n; i++) {
-      if (getLastRegions(buildVector(n)) == 13) regionIndex = i;
+    int i = 5;
+    while(i < n) {
+      if (getLastRegion(buildVector(n), i) == 13) {
+        regionIndex = i;
+        break;
+      }
+
+      i++;
     }
+
+    cout << regionIndex << endl;
   }
 
   return 0;
