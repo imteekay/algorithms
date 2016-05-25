@@ -7,9 +7,7 @@ using namespace std;
 
 vector<int> buildVector(int n) {
   vector<int> v;
-  for(int i = 0; i < n; i++) {
-    v.push_back(1);
-  }
+  for(int i = 0; i < n; i++) v.push_back(1);
   return v;
 }
 
@@ -40,8 +38,8 @@ int main() {
   int n, regionIndex;
 
   while (cin >> n && n != 0) {
-    int i = 5;
-    while(i < n) {
+    int i = 1;
+    while(true) {
       if (getLastRegion(buildVector(n), i) == 13) {
         regionIndex = i;
         break;
