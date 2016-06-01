@@ -16,13 +16,14 @@ int main() {
     string st = s + s;
     cin >> e;
     e = e % n;
-    while(st.size() < marq){
+
+    while(st.size() < marq) {
       st += s;
     }
 
-  cout << st.substr(e, marq) << endl;
+    if (marq > n) cout << st.substr(e, n) << endl;
+    else cout << st.substr(e, marq) << endl;
   }
-
 
   return 0;
 }
