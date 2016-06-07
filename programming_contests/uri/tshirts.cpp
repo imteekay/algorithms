@@ -29,7 +29,9 @@ int main() {
     }
 
     for (map<string, vector<string> >::iterator it = m.begin(); it != m.end(); ++it) {
-      cout << it->first
+      for (int i = 0; i < it->second.size(); i++) {
+        cout << it->first << " " << it->second[i] << endl;
+      }
     }
   }
 
