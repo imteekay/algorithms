@@ -25,7 +25,7 @@ int main() {
   cout << "HALL OF MURDERERS" << endl;
 
   for (map<string, int>::iterator it = people.begin(); it != people.end(); ++it) {
-    if (it-second != DEAD) cout << it->first << " " << it->second << endl;
+    if (it->second != DEAD) cout << it->first << " " << it->second << endl;
   }
 
   return 0;
