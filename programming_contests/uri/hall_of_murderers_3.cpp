@@ -9,26 +9,23 @@
 using namespace std;
 
 int main() {
+  const int DEAD = -1;
   int murderIndex, victimIndex;
   string murder, victim;
   map<string, int> people;
 
   while (cin >> murder >> victim) {
-    if (people.find(murder) != people.end()) people[murder]++;
-    else people[murder] = 0;
+    if (people.find(murder) != people.end() && people[murder] != DEAD) people[murder]++;
+    else if (people.find(murder) == people.end()) people[murder] = 1;
 
-    if (people.find(victim) != people.end()) people[victim] = 0;
-    else people[victim] = 0;
+    if (people.find(victim) != people.end()) people[victim] = DEAD;
+    else if (people.find(victim) == people.end()) people[victim] = DEAD;
   }
 
   cout << "HALL OF MURDERERS" << endl;
 
-  sort(people.begin(), people.end(), compareByName);
-
-  for (int i = 0; i < people.size(); i++) {
-    if (!people[i].killed) {
-      cout << people[i].name << " " << people[i].kill << endl;
-    }
+  for (map<string, int>::iterator it = people.begin(); it != people.end(); ++it) {
+    if (it-second != DEAD) cout << it->first << " " << it->second << endl;
   }
 
   return 0;
