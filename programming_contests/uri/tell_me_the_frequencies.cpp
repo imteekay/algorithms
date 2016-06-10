@@ -14,7 +14,9 @@ int toASCII(char charac) {
 }
 
 bool compareByFrequency(const pair<int, int> &item1, const pair<int, int> &item2) {
-  return item1.second < item2.second;
+  if (item1.second < item2.second) return true;
+  else if (item1.second == item2.second) return item1.first > item2.first;
+  else return false;
 }
 
 int main() {
