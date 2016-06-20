@@ -25,8 +25,8 @@ app.controller('CppFeaturesController', ['$scope', function($scope) {
       'title': 'C++ Map: A pretty simple guide',
       'hasMediumPost': false,
       'mediumPostUrl': '',
-      'hasGithubCode': false,
-      'githubCodeUrl': '',
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/gh-pages/cpp/standard_template_library/maps.cpp',
       'studied': false
     },
 
