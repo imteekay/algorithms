@@ -16,28 +16,27 @@ void desc_sort(vector<int> *v) {
 }
 
 int main() {
+  vector<int> v;
+  v.push_back(1);
+  v.push_back(2);
+  v.push_back(3);
+  v.push_back(4);
+  v.push_back(10);
 
-	vector<int> v;
-	v.push_back(1);
-	v.push_back(2);
-	v.push_back(3);
-	v.push_back(4);
-	v.push_back(10);
+  for (int i = 0; i < v.size(); i++)
+    cout << v[i] << endl;
 
-	for (int i = 0; i < v.size(); i++)
-		cout << v[i] << endl;
+  string arr[] = { "bla", "ble", "bli" };
+  vector<string> v3(arr, arr + sizeof(arr) / sizeof(arr[0]));
 
-	string arr[] = { "bla", "ble", "bli" };
-	vector<string> v3(arr, arr + sizeof(arr) / sizeof(arr[0]));
+  for (int i = 0; i < v3.size(); i++)
+    cout << v3[i] << endl;
 
-	for (int i = 0; i < v3.size(); i++)
-		cout << v3[i] << endl;
+  int ar[] = { 1, 2, 3, 4, 5 };
+  vector<int> v2(ar, ar + sizeof(ar) / sizeof(ar[0]));
 
-	int ar[] = { 1, 2, 3, 4, 5 };
-	vector<int> v2(ar, ar + sizeof(ar) / sizeof(ar[0]));
-
-	for (int i = 0; i < v2.size(); i++)
-		cout << v2[i] << endl;
+  for (int i = 0; i < v2.size(); i++)
+    cout << v2[i] << endl;
 
   cout << v.size() << endl;
 
@@ -74,7 +73,7 @@ int main() {
   sort(pairs.begin(), pairs.end());
 
   for (int i = 0; i < pairs.size(); i++)
-  	cout << pairs[i].first << " " << pairs[i].second << endl;
+    cout << pairs[i].first << " " << pairs[i].second << endl;
 
   // sort from end to begin of the vector
   vector<int> vetor;
