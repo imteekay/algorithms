@@ -33,8 +33,9 @@ bool compareClothes(const pair< tshirt, vector<string> > &p1, const pair< tshirt
 int main() {
   int n, found;
   string name, tshirtSize, color;
+  cin >> n;
 
-  while (cin >> n && n != 0) {    
+  while (n != 0) {    
     vector< pair< tshirt, vector<string> > > clothes;
     vector<string> v;
 
@@ -64,6 +65,9 @@ int main() {
         cout << clothes[i].first.color << " " << clothes[i].first.tshirtSize << " " << clothes[i].second[j] << endl;
       }
     }
+
+    cin >> n;
+    if (n) cout << endl;
   }
 
   return 0;
