@@ -5,7 +5,7 @@
 
 using namespace std;
 
-bool hasDigitThree(int n) {
+bool hasDigitThree(unsigned long long int n) {
   bool has = false;
   while (n) {
     if (n % 10 == 3) {
@@ -20,19 +20,19 @@ bool hasDigitThree(int n) {
 }
 
 unsigned long long int fibonacci(int n) {
-  map<int, int> ar, threebonacci;
+  map<int, unsigned long long int> ar, threebonacci;
   ar[1] = 1;
   ar[2] = 1;
-  int counter = 0;
+  int counter = 1;
 
   for (int i = 3; counter <= 60; i++) {
     ar[i] = ar[i-1] + ar[i-2];
-    if ((ar[i] % 3 == 0 || hasDigitThree(ar[i]))) {
-      counter++;
+    if ((ar[i] % 3 == 0 || hasDigitThree(ar[i]))) {      
       threebonacci[counter] = ar[i];
+      counter++;
     }
 
-    if (counter >= n) break;
+    if (counter > n) break;
   }
 
   return threebonacci[n];
