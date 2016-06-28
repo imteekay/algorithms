@@ -1,34 +1,61 @@
 // https://www.urionlinejudge.com.br/judge/en/problems/view/1110
 
 #include <iostream>
-#include <map>
 #include <vector>
 
 using namespace std;
 
+struct num {
+	int number;
+	bool discarded;
+};
+
 int main() {
-  int n;
-  map<int, int> m;
-  vector<int> v;
+	int n;
 
-  while (cin >> n && n != 0) {
-    for (int i = 1; i <= n; i++) m[i] = 0;
-    map<int, int>::iterator it = m.begin();
+	while (cin >> n && n != 0) {
+		vector<num> numbers;
+		vector<int> discardedNumbers;
 
-    while (true) {
-      v.push_back(it->first);
-      m.erase(it);
-      if (m.empty()) break;
-      it++;
-      if (it == m.end()) it = m.begin();
-      it++;
-      if (it == m.end()) it = m.begin();
-    }
+		for (int i = 1; i <= n; i++) {
+			num k;
+			k.number = i;
+			k.discarded = false;
+			numbers.push_back(k);
+		}
 
-    for (int i = 0; i < v.size(); i++) {
-      cout << v[i] << " ";
-    }
-  }
+		int numberOfDiscardedNum = 0;
+		int startIndex = 0;
+		int counter;
 
-  return 0;
+		while (numberOfDiscardedNum < n - 1) {
+			counter = 2;
+			numbers[startIndex].discarded = true;
+			discardedNumbers.push_back(numbers[startIndex].number);
+			
+			while (counter--) {
+				startIndex++;
+				if (startIndex >= n) startIndex = 0;
+				while (numbers[startIndex].discarded) {
+					startIndex++;
+					if (startIndex >= n) startIndex = 0;
+				}
+			}
+
+			numberOfDiscardedNum++;
+		}
+
+		cout << "Discarded cards: " << discardedNumbers[0];
+		for (int i = 1; i < discardedNumbers.size(); i++) {
+			cout << ", " << discardedNumbers[i];
+		}
+
+		cout << endl << "Remaining card: ";
+		for (int i = 1; i < n; i++) {
+			if (!numbers[i].discarded)
+				cout << numbers[i].number << endl;
+		}		
+	}
+
+	return 0;
 }
