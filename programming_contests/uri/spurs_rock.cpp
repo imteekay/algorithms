@@ -10,8 +10,8 @@ using namespace std;
 struct team {
   int id;
   int points;
-  int scores;
-  int scoresConceded;
+  float scores;
+  float scoresConceded;
   int games;
 };
 
@@ -28,7 +28,7 @@ bool untie(const team &t1, const team &t2) {
     else team2AverageBasket = t2.scores;
 
     if (team1AverageBasket > team2AverageBasket) return true;
-    else if (team1AverageBasket < team2AverageBasket) return true;
+    else if (team1AverageBasket < team2AverageBasket) return false;
     else {
       if (t1.points > t2.points) return true;
       else if (t1.points < t2.points) return false;
@@ -41,9 +41,11 @@ bool untie(const team &t1, const team &t2) {
 }
 
 int main() {
-  int n, p1, p2, score1, score2;
+  int n, p1, p2, instance=1;
+  float score1, score2;
+  cin >> n;
 
-  while (cin >> n && n != 0) {
+  while (n) {
     vector<team> teams;
     map<int, team> t;
 
@@ -97,16 +99,19 @@ int main() {
         if (t.find(p1) != t.end()) {
           t[p1].points++;
           t[p1].scores += score1;
+          t[p1].scoresConceded += score2;
           t[p1].games++;
           if (t.find(p2) != t.end()) {
             t[p2].points += 2;
             t[p2].scores += score2;
+            t[p2].scoresConceded += score1;
             t[p2].games++;
           } else {
             team te;
             te.id = p2;
             te.points = 2;
             te.scores = score2;
+            te.scoresConceded = score1;
             te.games = 1;
             t[p2] = te;
           }
@@ -115,26 +120,25 @@ int main() {
           te.id = p1;
           te.points = 1;
           te.scores = score1;
+          te.scoresConceded = score2;
           te.games = 1;
           t[p1] = te;
           if (t.find(p2) != t.end()) {
             t[p2].points += 2;
             t[p2].scores += score2;
+            t[p2].scoresConceded += score1;
             t[p2].games++;
           } else {
             team te;
             te.id = p2;
             te.points = 2;
             te.scores = score2;
+            te.scoresConceded += score1;
             te.games = 1;
             t[p2] = te;
           }
         }
       }
-
-      // cout << "Player1: " << p1 << " - " << score1;
-      // cout << " / Player2: " << p2 << " - " << score2 << endl;
-      // if (t.find(3) != t.end()) cout << t[3].points << " " << t[3].scores << " " << t[3].scoresConceded << " " << t[3].games << endl;
     }
 
     for (map<int, team>::iterator it = t.begin(); it != t.end(); ++it) {
@@ -143,11 +147,17 @@ int main() {
 
     sort(teams.begin(), teams.end(), untie);
 
+    cout << "Instancia " << instance << endl;
+
     cout << teams[0].id;
     for (int i = 1; i < teams.size(); i++) {
       cout << " " << teams[i].id;
     }
     cout << endl;
+
+    instance++;
+    cin >> n;
+    if (n) cout << endl;
   }
 
   return 0;
