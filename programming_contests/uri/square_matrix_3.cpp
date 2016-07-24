@@ -6,69 +6,54 @@
 
 using namespace std;
 
-int num_of_spaces(int num) {
+int getNumberOfDigits(int n) {
   int counter = 0;
-  while (num > 0) {
-    num /= 10;
+  while (n) {
     counter++;
+    n /= 10;    
   }
 
   return counter;
 }
 
-string get_spaces_between(int num) {
-  string spaces = "";
-  while (num > 0) {
-    num /= 10;
-    spaces += " ";
-  }
-
-  return spaces;
-}
-
-string get_spaces_left_side(int num) {
-  string spaces = "";
-  num /= 10;
-  while (num > 0) {
-    num /= 10;
-    spaces += " ";
-  }
-
-  return spaces;
+string generateSpaces(int n, int t) {
+  int diff = t - getNumberOfDigits(n);
+  string s = "";
+  for (int i = 0; i < diff; i++) s += " ";
+  return s;
 }
 
 int main() {
+  int n, num, t;
 
-  int n;
-  cin >> n;
-
-  while (n != 0) {
-
+  while (cin >> n && n) {
     vector<int> v;
-    vector< vector<int> > table;
+    vector< vector<int> > matrix;
 
     for (int i = 0; i < n; i++) {
-      for (int j = i; j < n+i; j++) {
-        v.push_back(pow(2, j));
+      num = pow(2, i);
+      v.push_back(num);
+      for (int j = 1; j < n; j++) {
+        num *= 2;
+        v.push_back(num);
       }
-      table.push_back(v);
+
+      matrix.push_back(v);
       v.clear();
     }
 
-    int last_num = table[n-1][n-1];
-    string num_spaces_between = get_spaces_between(last_num);
-    string num_spaces_left_side = get_spaces_left_side(last_num);
+    t = getNumberOfDigits(matrix[n-1][n-1]);
 
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
-        cout << num_spaces_left_side << table[i][j];
-        if (j < n-1) cout << num_spaces_between;
+        if (j == n-1) cout << generateSpaces(matrix[i][j], t) << matrix[i][j];
+        else cout << generateSpaces(matrix[i][j], t) << matrix[i][j] << " ";
       }
+
       cout << endl;
     }
 
     cout << endl;
-    cin >> n;
   }
 
   return 0;
