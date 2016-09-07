@@ -18,8 +18,8 @@ int main() {
       tornado += post;
     }
 
-    if (tornardo.begin() + tornado.back() > 0) {
-
+    if (tornado.begin() == "1" || tornado.back() == "1") {
+      cout << tornado << endl;
     } else {
 
     }
