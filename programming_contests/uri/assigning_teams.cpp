@@ -12,7 +12,7 @@ int main() {
 
 	for (int i = 0; i < 4; i++)	{
 		cin >> n;
-		v.push_back(n);		
+		v.push_back(n);
 	}
 
 	sort(v.begin(), v.end());
