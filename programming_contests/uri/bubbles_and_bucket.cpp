@@ -1,43 +1,35 @@
 // https://www.urionlinejudge.com.br/judge/en/problems/view/1088
 
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
+#include <stdio.h>
 
 using namespace std;
 
-bool sortElements(vector<int> &v) {
-  for (int i = 0; i < v.size()-1; i++) {
-    if (v[i] > v[i+1]) {
-      swap(v[i], v[i+1]);
-      return true;
-    }
-  }
-
-  return false;
-}
-
 int main() {
-  int n, x;
-  string winner;
+    int N, vetor[100001], aux, count;
+    scanf("%d", &N);
 
-  while (cin >> n && n != 0) {
-    vector<int> v;
-    winner = "Carlos";
+    while (N > 0) {
+        count = 0;
 
-    while (n--) {
-      cin >> x;
-      v.push_back(x);
+        for (int i = 1; i <= N; i++) {
+            scanf("%d", &vetor[i]);
+        }
+
+        for (int i = 1; i <= N; i++) {
+            while(vetor[i] != i) {
+                aux = vetor[i];
+                vetor[i] = vetor[aux];
+                vetor[aux] = aux;
+                count++;
+            }
+        }
+
+        if (count % 2 == 0) printf("Carlos\n");
+        else printf("Marcelo\n");
+
+        scanf("%d", &N);
     }
-
-    while (sortElements(v)) {
-      if (winner == "Carlos") winner = "Marcelo";
-      else winner = "Carlos";
-    }
-
-    cout << winner << endl;
-  }
 
   return 0;
 }
