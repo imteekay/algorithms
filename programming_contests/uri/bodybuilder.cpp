@@ -9,9 +9,7 @@ int main() {
 	float total, e = 0;
 
 	while (cin >> n1 >> n2 >> n3 && n1 + n2 + n3 != 0) {
-		if (n1 < n2) total = n1 * (1 + n3 / 30.00) * 2;
-		else total = n2 * (1 + n3 / 30.00) * 2;
-
+		total = (n1 + n2) * (1 + n3 / 30.00) / 2;
 		if (total >= 1 && total < 13) cout << "Nao vai da nao" << endl;
 		else if (total >= 13 && total < 14) cout << "E 13" << endl;
 		else if (total >= 14 && total < 40) cout << "Bora, hora do show! BIIR!" << endl;
@@ -24,7 +22,7 @@ int main() {
 
 	cout << endl;
 
-	if (total / counter > 40) cout << "Aqui nois constroi fibra rapaz! Nao e agua com musculo!" << endl;
+	if (e / counter > 40) cout << "Aqui nois constroi fibra rapaz! Nao e agua com musculo!" << endl;
 
 	return 0;
 }
