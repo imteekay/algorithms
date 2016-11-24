@@ -30,7 +30,7 @@ int main() {
 
       x = Vx * t;
 
-      character = (x >= p1 && x <= p2)? 'D': 'N';
+      character = (x >= p1 && x <= p2) ? 'D': 'N';
 
       printf("%.5lf -> %cUCK\n", x, character);
     }
