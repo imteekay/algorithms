@@ -1,54 +1,51 @@
-// https://www.urionlinejudge.com.br/judge/en/problems/toolkit/2005
+// https://www.urionlinejudge.com.br/judge/en/problems/view/2005
 
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <set>
 
 using namespace std;
 
-int main() {
+struct msComparator {
+  bool operator() (const int &lhs, const int &rhs) const { return lhs > rhs; }
+};
 
-  int n1, n2, temp, food;
-  vector<int> hunger;
+int main() {
+  int n1, n2, temp, food, decremented;
 
   while (cin >> n1 >> n2) {
+    multiset<int, msComparator> ms;
+    multiset<int, msComparator>::iterator it;
+
     for (int i = 0; i < n1; i++) {
       cin >> temp;
-      hunger.push_back(temp);
-    }
-
-    sort(hunger.begin(), hunger.end(), greater<int>());
+      ms.insert(temp);
+    }    
 
     int counter = 0;
 
     while (n2--) {
       cin >> food;
-      sort(hunger.begin(), hunger.end(), greater<int>());
-      bool can_satisfy_hunger = false;
+      bool hunger_satisfied = false;
 
-      for (int j = 0; j < hunger.size(); j++) {
-        if ((hunger[j] - food <= 0) && hunger[j] > 0) {
-          hunger[j] -= food;
-          can_satisfy_hunger = true;
+      for (it = ms.begin(); it != ms.end(); ++it) {
+        if (food >= *it && *it > 0) {
           counter++;
+          ms.erase(*it);
+          hunger_satisfied = true;
           break;
         }
       }
 
-      if (!can_satisfy_hunger) {
-        for (int j = 0; j < hunger.size(); j++) {
-          if (hunger[j] > 0) {
-            hunger[j] -= food;
-            if (hunger[j] <= 0) counter++;
-            break;
-          }
-        }
+      if (!hunger_satisfied) {
+        multiset<int, msComparator>::iterator first = ms.begin();
+        decremented = *first;
+        ms.erase(first);
+        ms.insert(decremented - food);
       }
-
     }
 
     cout << counter << endl;
-    hunger.clear();
   }
 
   return 0;
