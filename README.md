@@ -16,7 +16,7 @@
 
 # Competitive Programming Websites
 
-**- Sites I like:**
+**- My favorites websites:**
 
 - [Code Chef](https://www.codechef.com/)
 - [Codeforces](codeforces.com)
