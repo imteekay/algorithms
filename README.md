@@ -19,7 +19,7 @@
 **- Implemented some well known data structures like:**
 
 - Array
-- Stack
+- [Stack](https://github.com/LeandroTk/algorithms/blob/master/data_structures/stack/stack.py)
 
 # Competitive Programming Websites
 
