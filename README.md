@@ -14,6 +14,13 @@
 - Maximum Subsequence Sum - Kadane's Algorithm
 - String to Int
 
+# Algorithms
+
+**- Implemented some well known data structures like:**
+
+- Array
+- Stack
+
 # Competitive Programming Websites
 
 **- My favorites websites:**
