@@ -9,7 +9,7 @@ def binary_search(list, item):
     elif item > list[middle_index]:
         return binary_search(list[middle_index+1:], item)
     else:
-        return binary_search(list[0:middle_index-1], item)
+        return binary_search(list[:middle_index-1], item)
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(binary_search(list, 8))
