@@ -20,6 +20,7 @@
 
 - Array
 - [Stack](https://github.com/LeandroTk/algorithms/blob/master/data_structures/stack/stack.py)
+- [Queue](https://github.com/LeandroTk/algorithms/blob/master/data_structures/queue/queue.py)
 
 # Competitive Programming Websites
 
