@@ -1,9 +1,5 @@
 def bubble_sort(ar):
-    for el1 in ar:
-        for el2 in ar:
-            if el1 > el2:
-                print el1
-                print el2
-                el1, el2 = el2, el1
-
-    return ar
+    for i in range(len(ar)):
+        for k in range(i, len(ar)-1):
+            if ar[k] > ar[k+1]:
+                ar[k], ar[k+1] = ar[k+1], ar[k]

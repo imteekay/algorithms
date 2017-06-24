@@ -1,3 +1,5 @@
 from bubble_sort import bubble_sort
 
-print(bubble_sort([4, 2, 3, 10, 22, 11, 9]))
+ar = [4, 2, 3, 10, 22, 11, 9]
+bubble_sort(ar)
+print(ar)
