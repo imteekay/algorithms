@@ -13,14 +13,14 @@ void bubble_sort(int v[], int n) {
 
 int main() {
 	int ar[] = { 33,23,10,9,1 };
-	
+
 	for (int i = 0; i < 5; i++) cout << ar[i] << " ";
 	cout << endl;
-	
+
 	bubble_sort(ar, 5);
-	
+
 	for (int i = 0; i < 5; i++) cout << ar[i] << " ";
 	cout << endl;
-	
+
 	return 0;
 }
