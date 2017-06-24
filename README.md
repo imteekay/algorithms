@@ -22,6 +22,7 @@
 - [Stack](https://github.com/LeandroTk/algorithms/blob/master/data_structures/stack/stack.py)
 - [Queue](https://github.com/LeandroTk/algorithms/blob/master/data_structures/queue/queue.py)
 - [Linked List](https://github.com/LeandroTk/algorithms/blob/master/data_structures/linked_list/linked_list.py)
+- [Tree](https://github.com/LeandroTk/algorithms/blob/master/data_structures/tree/tree.py)
 
 # Competitive Programming Websites
 
