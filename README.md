@@ -8,7 +8,7 @@
 - Insertion Sort In Reverse
 - Merge Sort
 - Min Max
-- Binary Search
+- [Binary Search](https://github.com/LeandroTk/algorithms/blob/master/algorithms/search/binary_search.py)
 - Prime Number
 - Parse String
 - Maximum Subsequence Sum - Kadane's Algorithm
