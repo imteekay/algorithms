@@ -2,7 +2,7 @@
 
 **- Implemented some well known algorithms like:**
 
-- Bubble Sort
+- [Bubble Sort](https://github.com/LeandroTk/algorithms/blob/master/algorithms/sorting/bubble_sort/bubble_sort.py)
 - Selection Sort
 - Insertion Sort
 - Insertion Sort In Reverse
