@@ -14,6 +14,9 @@ d = tree.get_left_child().get_right_child().get_root_value()
 e = tree.get_right_child().get_left_child().get_root_value()
 f = tree.get_right_child().get_right_child().get_root_value()
 
+print
+print('---------------------------------------')
+print
 print("               |%s|" %(a))
 print("             /     \\")
 print("           |%s|     |%s|" %(b, c))
@@ -27,3 +30,22 @@ print("             |%s| |%s| |%s|" %(d, e, f))
 #          |b|     |c|
 #           \     /  \
 #           |d| |e|  |f|
+
+print
+print('---------------------------------------')
+print
+
+print('Depth First: Pre Order')
+print
+tree.pre_order()
+print
+
+print('Depth First: Post Order')
+print
+tree.post_order()
+print
+
+print('Depth First: In Order')
+print
+tree.in_order()
+print
