@@ -1,4 +1,4 @@
-from tree import BinaryTree
+from binary_tree import BinaryTree
 
 tree = BinaryTree('a')
 tree.insert_left('b')
