@@ -35,9 +35,9 @@ class BinarySearchTree:
 
     def find_node(self, current_node, value):
         if value < current_node.value and current_node.left_child:
-            self.find_node(current_node.left_child, value)
+            return self.find_node(current_node.left_child, value)
         if value > current_node.value and current_node.right_child:
-            self.find_node(current_node.right_child, value)
+            return self.find_node(current_node.right_child, value)
 
         return value == current_node.value
 
