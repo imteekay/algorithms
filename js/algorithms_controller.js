@@ -50,7 +50,7 @@ app.controller('AlgorithmsController', ['$scope', function($scope) {
       'hasMediumPost': false,
       'mediumPostUrl': '',
       'hasGithubCode': false,
-      'githubCodeUrl': '',
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/master/algorithms/sorting/bubble_sort/bubble_sort.py',
       'studied': true
     },
 
