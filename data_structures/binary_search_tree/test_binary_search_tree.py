@@ -21,3 +21,11 @@ print(bst.find(25))
 print(bst.find(19))
 
 print(bst.find(0))
+
+print
+
+bst.pre_order()
+print
+bst.in_order()
+print
+bst.post_order()

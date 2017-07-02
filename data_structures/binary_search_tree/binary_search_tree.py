@@ -41,5 +41,50 @@ class BinarySearchTree:
 
         return value == current_node.value
 
+    def pre_order(self):
+        if self.root:
+            self.pre_order_traversal(self.root)
+        else:
+            print('Tree empty')
+
+    def pre_order_traversal(self, current_node):
+        print(current_node.value)
+
+        if current_node.left_child:
+            self.pre_order_traversal(current_node.left_child)
+
+        if current_node.right_child:
+            self.pre_order_traversal(current_node.right_child)
+
+    def in_order(self):
+        if self.root:
+            self.in_order_traversal(self.root)
+        else:
+            print('Tree empty')
+
+    def in_order_traversal(self, current_node):
+        if current_node.left_child:
+            self.in_order_traversal(current_node.left_child)
+
+        print(current_node.value)
+
+        if current_node.right_child:
+            self.in_order_traversal(current_node.right_child)
+
+    def post_order(self):
+        if self.root:
+            self.post_order_traversal(self.root)
+        else:
+            print('Tree empty')
+
+    def post_order_traversal(self, current_node):
+        if current_node.left_child:
+            self.post_order_traversal(current_node.left_child)
+
+        if current_node.right_child:
+            self.post_order_traversal(current_node.right_child)
+
+        print(current_node.value)
+
     def __set_root(self, value):
         self.root = Node(value)
