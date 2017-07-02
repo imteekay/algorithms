@@ -15,10 +15,10 @@ class BinarySearchTree:
         self.root = None
 
     def insert(self, value):
-        if self.root == None:
-            self.__set_root(value)
-        else:
+        if self.root:
             self.insert_node(self.root, value)
+        else:
+            self.__set_root(value)
 
     def insert_node(self, current_node, value):
         if value <= current_node.value and current_node.left_child:
