@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/en/problems/view/2334
+
 n = int(raw_input())
 
 while n != -1:
