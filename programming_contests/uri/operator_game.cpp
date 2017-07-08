@@ -54,6 +54,8 @@ int main() {
       cout << people[0];
       for (int i = 1; i < people.size(); i++) cout << " " << people[i];
       cout << endl;
+    } else {
+      cout << "You Shall All Pass!" << endl;
     }
   }
 
