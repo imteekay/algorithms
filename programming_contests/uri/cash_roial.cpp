@@ -9,14 +9,14 @@ using namespace std;
 int enemies_counter(vector<string> &V, int cx, int cy, int N, int M) {
   int counter = 0;
 
-  if (cx-2 >= 0 && cy-2 >= 0) counter += V[cx-2][cy-2];
-  if (cy-2 >= 0) counter += V[cx-1][cy-2];
-  if (cx < N && cy-2 >= 0) counter += V[cx][cy-2];
-  if (cx-2 >= 0) counter += V[cx-2][cy-1];
-  if (cx < N) counter += V[cx][cy-1];
-  if (cx-2 >= 0 && cy-2 >= 0) counter += V[cx-2][cy];
-  if (cx-2 >= 0 && cy-2 >= 0) counter += V[cx-1][cy];
-  if (cx-2 >= 0 && cy-2 >= 0) counter += V[cx][cy];
+  if (cx-1 >= 0 && cy-1 >= 0 && V[cx-1][cy-1] == 'T') counter++;
+  if (cy-1 >= 0 && V[cx][cy-1] == 'T') counter++;
+  if (cx+1 < N && cy-1 >= 0 && V[cx+1][cy-1] == 'T') counter++;
+  if (cx-1 >= 0 && V[cx-1][cy] == 'T') counter++;
+  if (cx+1 < N && V[cx+1][cy] == 'T') counter++;
+  if (cx-1 >= 0 && cy+1 < M && V[cx-1][cy+1] == 'T') counter++;
+  if (cy+1 < M && V[cx][cy+1] == 'T') counter++;
+  if (cx+1 < N && cy+1 < M && V[cx+1][cy+1] == 'T') counter++;
 
   return counter;
 }
@@ -39,7 +39,7 @@ int main() {
 
     while (P--) {
       cin >> cx >> cy;
-      if (enemies_counter(V, cx, cy, N, M) > 5) cout << "GRRR" << endl;
+      if (enemies_counter(V, cx-1, cy-1, N, M) >= 5) cout << "GRRR" << endl;
       else cout << "GG IZI" << endl;
     }
 
