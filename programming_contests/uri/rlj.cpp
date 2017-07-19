@@ -16,18 +16,8 @@ int string_to_int(string num) {
   return n;
 }
 
-int parse_r(string eq) {
-  string r = eq.substr(0, eq.find("+"));
-  return string_to_int(r);
-}
-
-int parse_l(string eq) {
-  string l = eq.substr(eq.find("+")+1, eq.find("=") - eq.find("+") - 1);
-  return string_to_int(l);
-}
-
-int parse_j(string eq) {
-  string j = eq.substr(eq.find("=")+1, eq.size() - eq.find("=") - 1);
+int parse_eq(string eq, int start, int size) {
+  string j = eq.substr(start, size);
   return string_to_int(j);
 }
 
@@ -36,11 +26,11 @@ int main() {
 
   while (getline(cin, eq)) {
     if (eq[0] == 'R') {
-      cout << parse_j(eq) - parse_l(eq) << endl;
+      cout << parse_eq(eq, eq.find("=")+1, eq.size() - eq.find("=") - 1) - parse_eq(eq, eq.find("+")+1, eq.find("=") - eq.find("+") - 1) << endl;
     } else if (eq[eq.size()-1] == 'J') {
-      cout << parse_r(eq) + parse_l(eq) << endl;
+      cout << parse_eq(eq, 0, eq.find("+")) + parse_eq(eq, eq.find("+")+1, eq.find("=") - eq.find("+") - 1) << endl;
     } else {
-      cout << parse_j(eq) - parse_r(eq) << endl;
+      cout << parse_eq(eq, eq.find("=")+1, eq.size() - eq.find("=") - 1) - parse_eq(eq, 0, eq.find("+")) << endl;
     }
   }
 
