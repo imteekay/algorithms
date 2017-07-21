@@ -5,7 +5,7 @@ import sys
 def is_palindrome(s):
     return s == s[::-1]
 
-def palindromeIndex(s):
+def palindrome_index(s):
     for i in range(len(s)):
         if is_palindrome(s[i+1:len(s)-i]):
             return i
@@ -17,5 +17,5 @@ q = int(raw_input().strip())
 
 for num in range(q):
     s = raw_input().strip()
-    result = palindromeIndex(s)
+    result = palindrome_index(s)
     print(result)
