@@ -36,14 +36,9 @@ int main() {
 
     for (int i = 0; i < H && i < 10; i++) {
       if (tasks[i].T <= H) value += tasks[i].V;
-      cout << "value: " << value << endl;
     }
 
     cout << value << endl;
-    cout << "---" << endl;
-    for (int i = 0; i < tasks.size(); i++) {
-      cout << tasks[i].T << " " << tasks[i].V << endl;
-    }
   }
 
   return 0;
