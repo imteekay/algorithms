@@ -8,8 +8,12 @@ using namespace std;
 
 int main() {
   double N, H, C, L, result;
-  cin >> N >> H >> C >> L;
-  result = N * L * (sqrt(H * H + C * C)) / 10000;
-  cout << fixed << setprecision(4) << result << endl;
+
+  while (cin >> N ) {
+    cin >> H >> C >> L;
+    result = N * L * (sqrt(H * H + C * C)) / 10000;
+    cout << fixed << setprecision(4) << result << endl;
+  }
+
   return 0;
 }
