@@ -32,7 +32,7 @@
 - [Codeforces](codeforces.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/programming_contests/codeforces/div2)
 - [Hacker Earth](https://www.hackerearth.com/)
 - [Hacker Rank](https://www.hackerrank.com/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/programming_contests/hacker_rank)
-- [Leetcode](https://leetcode.com)
+- [Leetcode](https://leetcode.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/interview_training/leetcode)
 - [Project Euler](https://projecteuler.net/)
 - [SPOJ](http://www.spoj.com/)
 - [SPOJ BR](http://br.spoj.com/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/programming_contests/spoj_br)
