@@ -11,26 +11,22 @@ class ListNode(object):
         self.next = None
 
 def add_two_numbers(l1, l2):
-    initialNodeValue = l1.val + l2.val
     carry = False
+    result_list = r_list = ListNode(0)
 
-    if initialNodeValue >= 10:
-        initialNodeValue -= 10
-        carry = True
-
-    result_list = ListNode(initialNodeValue)
-    r_list = result_list
-
-    l1 = l1.next
-    l2 = l2.next
-
-    while l1 or l2:
+    while l1 or l2 or carry:
         if l1 and l2:
             value = l1.val + l2.val
+            l1 = l1.next
+            l2 = l2.next
         elif l1:
             value = l1.val
-        else:
+            l1 = l1.next
+        elif l2:
             value = l2.val
+            l2 = l2.next
+        else:
+            value = 0
 
         if carry:
             value += 1
@@ -40,21 +36,10 @@ def add_two_numbers(l1, l2):
             value -= 10
             carry = True
 
-        next_node = ListNode(value)
-        r_list.next = next_node
-        r_list = next_node
+        r_list.next = ListNode(value)
+        r_list = r_list.next
 
-        if l1:
-            l1 = l1.next
-
-        if l2:
-            l2 = l2.next
-
-    if carry:
-        next_node = ListNode(1)
-        r_list.next = next_node
-
-    return result_list
+    return result_list.next
 
 # Test 1:
 
