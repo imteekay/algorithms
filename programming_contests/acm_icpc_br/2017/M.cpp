@@ -7,9 +7,9 @@ int main() {
 
   cin >> N1 >> N2 >> N3;
 
-  int one = N2 + N3 * 2,
-      two = N1 + N3,
-      three = N1 * 2 + N2;
+  int one = N2 * 2 + N3 * 4,
+      two = N1 * 2 + N3 * 2,
+      three = N1 * 4 + N2 * 2;
 
   if (one <= two && one <= three) cout << one << endl;
   else if (two <= three) cout << two << endl;
