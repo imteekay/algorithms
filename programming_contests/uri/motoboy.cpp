@@ -37,9 +37,9 @@ int main() {
 
     sort(objects.begin(), objects.end(), sortByPizza);
 
-    int dp[N][P];
+    int dp[N][P+1];
 
-    for (int i = 0; i < P; i++) {
+    for (int i = 0; i <= P; i++) {
       if (objects[0].pizza <= i) dp[0][i] = objects[0].time;
       else dp[0][i] = 0;
     }
