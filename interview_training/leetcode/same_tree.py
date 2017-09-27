@@ -8,3 +8,9 @@ def is_same_tree(p, q):
         return True
 
     return p.val == q.val and is_same_tree(p.left, q.left) and is_same_tree(p.right, q.right)
+
+def is_same_tree(p, q):
+    if p and q:
+        return p.val == q.val and is_same_tree(p.left, q.left) and is_same_tree(p.right, q.right)
+
+    return p is q
