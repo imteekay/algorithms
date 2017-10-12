@@ -18,7 +18,7 @@ class BinarySearchTree:
         if self.root:
             self.insert_node(self.root, value)
         else:
-            self.__set_root(value)
+            self._set_root(value)
 
     def insert_node(self, current_node, value):
         if value <= current_node.value and current_node.left_child:
@@ -86,5 +86,5 @@ class BinarySearchTree:
 
         print(current_node.value)
 
-    def __set_root(self, value):
+    def _set_root(self, value):
         self.root = Node(value)
