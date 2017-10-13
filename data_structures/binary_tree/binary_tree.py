@@ -4,6 +4,9 @@ class BinaryTree:
         self.left_child = None
         self.right_child = None
 
+    def root_value(self):
+        return self.value
+
     def insert_left(self, value):
         if self.left_child == None:
             self.left_child = BinaryTree(value)
@@ -19,9 +22,6 @@ class BinaryTree:
             new_node = BinaryTree(value)
             new_node.right_child = self.right_child
             self.right_child = new_node
-
-    def get_root_value(self):
-        return self.value
 
     def pre_order(self):
         print(self.value)
