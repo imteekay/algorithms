@@ -20,12 +20,6 @@ class BinaryTree:
             new_node.right_child = self.right_child
             self.right_child = new_node
 
-    def get_left_child(self):
-        return self.left_child
-
-    def get_right_child(self):
-        return self.right_child
-
     def get_root_value(self):
         return self.value
 
