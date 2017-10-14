@@ -2,17 +2,17 @@ from binary_tree import BinaryTree
 
 tree = BinaryTree('a')
 tree.insert_left('b')
-tree.get_left_child().insert_right('d')
+tree.left_child.insert_right('d')
 tree.insert_right('c')
-tree.get_right_child().insert_left('e')
-tree.get_right_child().insert_right('f')
+tree.right_child.insert_left('e')
+tree.right_child.insert_right('f')
 
-a = tree.get_root_value()
-b = tree.get_left_child().get_root_value()
-c = tree.get_right_child().get_root_value()
-d = tree.get_left_child().get_right_child().get_root_value()
-e = tree.get_right_child().get_left_child().get_root_value()
-f = tree.get_right_child().get_right_child().get_root_value()
+a = tree.value
+b = tree.left_child.value
+c = tree.right_child.value
+d = tree.left_child.right_child.value
+e = tree.right_child.left_child.value
+f = tree.right_child.right_child.value
 
 print
 print('---------------------------------------')
