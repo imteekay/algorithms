@@ -1,18 +1,26 @@
 from binary_tree import BinaryTree
 
-tree = BinaryTree('a')
-tree.insert_left('b')
-tree.left_child.insert_right('d')
-tree.insert_right('c')
-tree.right_child.insert_left('e')
-tree.right_child.insert_right('f')
+a_node = BinaryTree('a')
+a_node.insert_left('b')
+a_node.insert_right('c')
 
-a = tree.value
-b = tree.left_child.value
-c = tree.right_child.value
-d = tree.left_child.right_child.value
-e = tree.right_child.left_child.value
-f = tree.right_child.right_child.value
+b_node = a_node.left_child
+b_node.insert_right('d')
+
+c_node = a_node.right_child
+c_node.insert_left('e')
+c_node.insert_right('f')
+
+d_node = b_node.right_child
+e_node = c_node.left_child
+f_node = c_node.right_child
+
+a = a_node.value
+b = b_node.value
+c = c_node.value
+d = d_node.value
+e = e_node.value
+f = f_node.value
 
 print
 print('---------------------------------------')
@@ -34,6 +42,8 @@ print("             |%s| |%s| |%s|" %(d, e, f))
 print
 print('---------------------------------------')
 print
+
+tree = a_node
 
 print('Depth First: Pre Order')
 print
