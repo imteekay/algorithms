@@ -59,3 +59,8 @@ print('Depth First: In Order')
 print
 tree.in_order()
 print
+
+print('Breadth First Search')
+print
+tree.bfs()
+print
