@@ -12,26 +12,10 @@
 
   <body ng-app='algorithm'>
     <h1>Algorithm</h1>
-    <p>My path to master algorithms, data structures & programming competition</p>
+    <p>My path to master Algorithms, Data Structures & Programming Competition</p>
     <p>by
-      <span class='my-name'>Leandro Tk</span>
+      <span class='my-name'>TK</span>
     </p>
-
-    <div ng-controller='CppFeaturesController'>
-      <ul>
-        <h2>C++ Features</h2>
-        <li ng-repeat="feature in cppFeatures">
-          <span class='feature-studied' ng-if='feature.studied'><i class="fa fa-check"></i></span>
-          <b>{{feature.title}}</b>
-          <span class="medium-post" ng-if='feature.hasMediumPost'>
-            <a href="{{feature.mediumPostUrl}}" target="_blank"><i class='fa fa-medium'></i></a>
-          </span>
-          <span class="github-code" ng-if='feature.hasGithubCode'>
-            <a href="{{feature.githubCodeUrl}}" target="_blank"><i class='fa fa-github'></i></a>
-          </span>
-        </li>
-      </ul>
-    </div>
 
     <div ng-controller='AlgorithmsController'>
       <ul>
@@ -44,6 +28,22 @@
           </span>
           <span class="github-code" ng-if='algorithm.hasGithubCode'>
             <a href="{{algorithm.githubCodeUrl}}" target="_blank"><i class='fa fa-github'></i></a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div ng-controller='CppFeaturesController'>
+      <ul>
+        <h2>C++ Features</h2>
+        <li ng-repeat="feature in cppFeatures">
+          <span class='feature-studied' ng-if='feature.studied'><i class="fa fa-check"></i></span>
+          <b>{{feature.title}}</b>
+          <span class="medium-post" ng-if='feature.hasMediumPost'>
+            <a href="{{feature.mediumPostUrl}}" target="_blank"><i class='fa fa-medium'></i></a>
+          </span>
+          <span class="github-code" ng-if='feature.hasGithubCode'>
+            <a href="{{feature.githubCodeUrl}}" target="_blank"><i class='fa fa-github'></i></a>
           </span>
         </li>
       </ul>
