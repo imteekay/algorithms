@@ -4,12 +4,6 @@ class Node:
         self.left_child = None
         self.right_child = None
 
-    def get(self):
-        return self.value
-
-    def set(self, new_value):
-        self.value = new_value
-
 class BinarySearchTree:
     def __init__(self):
         self.root = None
