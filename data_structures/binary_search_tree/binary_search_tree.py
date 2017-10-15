@@ -18,7 +18,7 @@ class BinarySearchTree:
         if self.root:
             self.insert_node(self.root, value)
         else:
-            self._set_root(value)
+            self.root = Node(value)
 
     def insert_node(self, current_node, value):
         if value <= current_node.value and current_node.left_child:
@@ -85,6 +85,3 @@ class BinarySearchTree:
             self.post_order_traversal(current_node.right_child)
 
         print(current_node.value)
-
-    def _set_root(self, value):
-        self.root = Node(value)
