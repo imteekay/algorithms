@@ -10,16 +10,16 @@ bst.insert_node(17)
 bst.insert_node(25)
 bst.insert_node(19)
 
-print(bst.find_node(15))
-print(bst.find_node(10))
-print(bst.find_node(8))
-print(bst.find_node(12))
-print(bst.find_node(20))
-print(bst.find_node(17))
-print(bst.find_node(25))
-print(bst.find_node(19))
+print(bst.find_node(15)) # True
+print(bst.find_node(10)) # True
+print(bst.find_node(8)) # True
+print(bst.find_node(12)) # True
+print(bst.find_node(20)) # True
+print(bst.find_node(17)) # True
+print(bst.find_node(25)) # True
+print(bst.find_node(19)) # True
 
-print(bst.find_node(0))
+print(bst.find_node(0)) # False
 
 print
 
