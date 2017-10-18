@@ -23,6 +23,10 @@ print(bst.find_node(0)) # False
 
 print
 
+print(bst.find_minimum_value())
+
+print
+
 bst.pre_order_traversal()
 print
 bst.in_order_traversal()
