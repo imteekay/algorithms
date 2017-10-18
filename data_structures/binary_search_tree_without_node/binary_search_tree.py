@@ -22,6 +22,12 @@ class BinarySearchTree:
 
         return value == self.value
 
+    def find_minimum_value(self):
+        if self.left_child:
+            return self.left_child.find_minimum_value()
+        else:
+            return self.value
+
     def pre_order_traversal(self):
         print(self.value)
 
