@@ -22,13 +22,31 @@ print(bst.find_node(19)) # True
 print(bst.find_node(0)) # False
 
 print
-
 print(bst.find_minimum_value())
 
 print
-
 bst.pre_order_traversal()
 print
 bst.in_order_traversal()
 print
 bst.post_order_traversal()
+
+print
+print(bst.remove_node(8, None))
+print
+bst.pre_order_traversal()
+
+print
+print(bst.remove_node(17, None))
+print
+bst.pre_order_traversal()
+
+print
+print(bst.remove_node(15, None))
+print
+bst.pre_order_traversal()
+
+print
+print(bst.remove_node(20, None))
+print
+bst.pre_order_traversal()
