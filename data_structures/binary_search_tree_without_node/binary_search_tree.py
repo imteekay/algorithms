@@ -35,28 +35,25 @@ class BinarySearchTree:
             if self.left_child is None and self.right_child is None and self == parent.left_child:
                 parent.left_child = None
                 self.clear_node()
-                return True
             elif self.left_child is None and self.right_child is None and self == parent.right_child:
                 parent.right_child = None
-                return True
-            elif self.left_child and self == parent.left_child:
+            elif self.left_child and self.right_child is None and self == parent.left_child:
                 parent.left_child = self.left_child
                 self.clear_node()
-                return True
-            elif self.left_child and self == parent.right_child:
+            elif self.left_child and self.right_child is None and self == parent.right_child:
                 parent.right_child = self.left_child
                 self.clear_node()
-                return True
-            elif self.right_child and self == parent.left_child:
+            elif self.right_child and self.left_child is None and self == parent.left_child:
                 parent.left_child = self.right_child
                 self.clear_node()
-                return True
-            elif self.right_child and self == parent.right_child:
+            elif self.right_child and self.left_child is None and self == parent.right_child:
                 parent.right_child = self.right_child
                 self.clear_node()
-                return True
             else:
+                self.value = self.right_child.find_minimum_value()
+                self.right_child.remove_node(self.value, self)
 
+            return True
 
     def clear_node(self):
         self.value = None
