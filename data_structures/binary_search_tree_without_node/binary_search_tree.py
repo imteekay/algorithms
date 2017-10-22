@@ -60,12 +60,6 @@ class BinarySearchTree:
         self.left_child = None
         self.right_child = None
 
-    def find_smaller_node(self):
-        if self.left_child:
-            return self.left_child.find_smaller_node()
-        else:
-            return self
-
     def find_minimum_value(self):
         if self.left_child:
             return self.left_child.find_minimum_value()
