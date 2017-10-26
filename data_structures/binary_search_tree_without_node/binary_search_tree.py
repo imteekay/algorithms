@@ -37,6 +37,7 @@ class BinarySearchTree:
                 self.clear_node()
             elif self.left_child is None and self.right_child is None and self == parent.right_child:
                 parent.right_child = None
+                self.clear_node()
             elif self.left_child and self.right_child is None and self == parent.left_child:
                 parent.left_child = self.left_child
                 self.clear_node()
