@@ -7,7 +7,7 @@ def reverse(array):
 
     return array
 
-new_array = reverse([1, 2, 3, 4, 5])
+new_array = reverse(list(range(1, 6))
 
 for i in new_array:
     print(i)
