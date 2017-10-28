@@ -2,13 +2,13 @@
 
 **- Implemented some well known algorithms like:**
 
-- [Bubble Sort](https://github.com/LeandroTk/algorithms/blob/master/algorithms/sorting/bubble_sort/bubble_sort.py)
+- Bubble Sort: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/algorithms/sorting/bubble_sort/bubble_sort.py)
 - Selection Sort
 - Insertion Sort
 - Insertion Sort In Reverse
 - Merge Sort
 - Min Max
-- [Binary Search](https://github.com/LeandroTk/algorithms/blob/master/algorithms/search/binary_search.py)
+- Binary Search: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/algorithms/search/binary_search.py)
 - Prime Number
 - Parse String
 - Maximum Subsequence Sum - Kadane's Algorithm
@@ -23,6 +23,7 @@
 - Linked List: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/data_structures/linked_list/linked_list.py)
 - Binary Tree: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/data_structures/binary_tree/binary_tree.py)
 - Binary Search Tree: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/data_structures/binary_search_tree/binary_search_tree.py)
+- Binary Search Tree Without Node class: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/data_structures/binary_search_tree_without_node/binary_search_tree.py)
 
 # Competitive Programming Websites
 
