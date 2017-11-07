@@ -33,6 +33,22 @@
       </ul>
     </div>
 
+    <div ng-controller='DataStructuresController'>
+      <ul>
+        <h2>Data Structures</h2>
+        <li ng-repeat="dataStructure in dataStructures">
+          <span class='data-structure-studied' ng-if='dataStructure.studied'><i class="fa fa-check"></i></span>
+          <b>{{dataStructure.title}}</b>
+          <span class="medium-post" ng-if='dataStructure.hasMediumPost'>
+            <a href="{{dataStructure.mediumPostUrl}}" target="_blank"><i class='fa fa-medium'></i></a>
+          </span>
+          <span class="github-code" ng-if='dataStructure.hasGithubCode'>
+            <a href="{{dataStructure.githubCodeUrl}}" target="_blank"><i class='fa fa-github'></i></a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
     <div ng-controller='CppFeaturesController'>
       <ul>
         <h2>C++ Features</h2>
