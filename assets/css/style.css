@@ -41,12 +41,9 @@ li {
   font-size: 19px;
 }
 
-span.feature-studied {
-  margin-right: 5px;
-  color: #0BE370;
-}
-
-span.algorithm-studied {
+span.feature-studied,
+span.algorithm-studied,
+span.data-structure-studied {
   margin-right: 5px;
   color: #0BE370;
 }

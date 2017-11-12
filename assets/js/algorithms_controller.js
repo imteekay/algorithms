@@ -1,7 +1,6 @@
 var app = angular.module('algorithm', []);
 
 app.controller('CppFeaturesController', ['$scope', function($scope) {
-
   $scope.cppFeatures = [
     {
       'title': 'C++ Vector: A pretty simple guide',
@@ -39,11 +38,9 @@ app.controller('CppFeaturesController', ['$scope', function($scope) {
       'studied': false
     },
   ];
-
 }]);
 
 app.controller('AlgorithmsController', ['$scope', function($scope) {
-
   $scope.algorithms = [
     {
       'title': 'Bubble Sort',
@@ -81,5 +78,17 @@ app.controller('AlgorithmsController', ['$scope', function($scope) {
       'studied': true
     },
   ];
+}]);
 
+app.controller('DataStructuresController', ['$scope', function($scope) {
+  $scope.dataStructures = [
+    {
+      'title': 'Trees',
+      'hasMediumPost': true,
+      'mediumPostUrl': 'https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c',
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/tree/master/data_structures/binary_search_tree',
+      'studied': true
+    }
+  ];
 }]);
