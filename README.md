@@ -30,7 +30,7 @@
 **- My favorites websites:**
 
 - [Code Chef](https://www.codechef.com/)
-- [Codeforces](codeforces.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2)
+- [Codeforces](https://codeforces.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2)
 - [Hacker Earth](https://www.hackerearth.com/)
 - [Hacker Rank](https://www.hackerrank.com/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/hacker_rank)
 - [Leetcode](https://leetcode.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/interview_training/leetcode)
@@ -40,5 +40,5 @@
 - [Timus](http://acm.timus.ru/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/timus)
 - [TopCoder](https://www.topcoder.com/)
 - [UCoder](https://ucoder.com.br/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/ucoder)
-- [URI Online Judge](urionlinejudge.com.br): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uri)
+- [URI Online Judge](https://urionlinejudge.com.br): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uri)
 - [UVa Online Judge](https://uva.onlinejudge.org/)
