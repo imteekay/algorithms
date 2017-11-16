@@ -3,8 +3,8 @@
 using namespace std;
 
 typedef pair<int, int> ii;
-typedef vector<int> vi;
 typedef vector<ii> vii;
+typedef vector<int> vi;
 
 int main() {
 
