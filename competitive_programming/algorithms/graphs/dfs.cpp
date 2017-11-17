@@ -2,8 +2,8 @@
 
 using namespace std;
 
-typedef pair<int, int> ii;
-typedef vector<ii> vii;
+typedef pair<int, int> pii;
+typedef vector<pii> vii;
 typedef vector<int> vi;
 
 typedef VISITED = 1;
