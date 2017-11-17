@@ -27,6 +27,8 @@
 
 # Competitive Programming Websites
 
+My template [Here](https://github.com/LeandroTk/algorithms/blob/master/competitive_programming/template.cpp) (in progress)
+
 **- My favorites websites:**
 
 - [Code Chef](https://www.codechef.com/)
