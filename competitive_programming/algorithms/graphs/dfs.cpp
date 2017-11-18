@@ -6,8 +6,8 @@ typedef pair<int, int> pii;
 typedef vector<pii> vii;
 typedef vector<int> vi;
 
-typedef VISITED = 1;
-typedef UNVISITED = -1;
+int VISITED = 1;
+int UNVISITED = 0;
 
 vi dfs_num;
 
