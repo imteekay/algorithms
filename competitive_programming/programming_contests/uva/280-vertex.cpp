@@ -8,6 +8,20 @@ typedef pair<int, int> pii;
 typedef vector<pii> vii;
 typedef vector<int> vi;
 
+int VISITED = 1;
+int UNVISITED = 0;
+
+void dfs(int vertex, vector<vi> & AdjList, set<int> & reached, int dfs_num[]) {
+  dfs_num[vertex] = VISITED;
+  int edge;
+
+  for (int i = 0; i < AdjList[vertex].size(); i++) {
+    edge = AdjList[vertex][i];
+    reached.insert(edge);
+    if (dfs_num[edge] == UNVISITED) dfs(edge, AdjList, reached, dfs_num);
+  }
+}
+
 int main() {
   int n, edge, starting_vertex, test, vertex;
   vi V;
@@ -18,35 +32,46 @@ int main() {
       AdjList.push_back(V);
     }
 
-    for (int i = 0; i < n; i++) {
-      while (cin >> starting_vertex && starting_vertex) {
-        while (cin >> edge && edge) {
-          AdjList[starting_vertex].push_back(edge);
-        }
+    while (cin >> starting_vertex && starting_vertex) {
+      while (cin >> edge && edge) {
+        AdjList[starting_vertex].push_back(edge);
       }
     }
 
     cin >> test;
 
     while (test--) {
-      vector<int> unreached;
+      set<int> reached, unreached;
       cin >> vertex;
-      bool reached = false;
+      int dfs_num[101];
+      bool a = false;
+
+      fill(dfs_num, dfs_num+101, 0);
+      dfs(vertex, AdjList, reached, dfs_num);
 
       for (int i = 1; i <= n; i++) {
-        for (int j = 0; j < AdjList[vertex].size(); j++) {
-          if (i == AdjList[vertex][j]) reached = true;
-          cout << AdjList[vertex][j] << " ";
+        for (set<int>::iterator it = reached.begin(); it != reached.end(); it++) {
+          if (*it == i) a = true;
         }
 
-        if (!reached) unreached.push_back(i);
-        reached = false;
+        if (!a) unreached.insert(i);
+        a = false;
       }
 
-      cout << unreached.size();
-      for (int i = 0; i < unreached.size(); i++) cout << " " << unreached[i];
-      cout << endl;
+      if (unreached.size()) {
+        cout << unreached.size();
+
+        for (set<int>::iterator it = unreached.begin(); it != unreached.end(); it++) {
+          cout << " " << *it;
+        }
+
+        cout << endl;
+      } else {
+        cout << unreached.size() << endl;
+      }
     }
+
+    AdjList.clear();
   }
 
   return 0;
