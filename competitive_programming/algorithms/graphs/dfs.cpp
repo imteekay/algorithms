@@ -8,8 +8,9 @@ typedef vector<int> vi;
 
 int VISITED = 1;
 int UNVISITED = 0;
+int vertices_number = 100;
 
-vi dfs_num;
+vi dfs_num(vertices_number, 0);
 
 void dfs(int u) {
   dfs_num[u] = VISITED;
