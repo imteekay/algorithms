@@ -13,10 +13,9 @@ def most_frequent(given_list):
         else:
             frequencies[item] = 1
 
-    for keyvalue in frequencies.items():
-        if keyvalue[1] > max_item:
-            result = keyvalue[0]
-            max_item = keyvalue[1]
+        if frequencies[item] > max_item:
+            result = item
+            max_item = frequencies[item]
 
     return result
 
