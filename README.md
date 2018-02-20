@@ -18,6 +18,7 @@
 
 **- Implemented some well known data structures like:**
 
+- Array: Python API [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/list.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/big_o.py)
 - Stack: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/stack.py)
 - Queue: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/queue/queue.py)
 - Linked List: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/linked_list/linked_list.py)
