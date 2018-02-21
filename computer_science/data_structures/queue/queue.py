@@ -13,3 +13,9 @@ class Queue:
 
     def size(self):
         return len(self.items)
+
+    def front(self):
+        return self.items[0]
+
+    def back(self):
+        return self.items[len(self.items)-1]
