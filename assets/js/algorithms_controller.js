@@ -83,6 +83,30 @@ app.controller('AlgorithmsController', ['$scope', function($scope) {
 app.controller('DataStructuresController', ['$scope', function($scope) {
   $scope.dataStructures = [
     {
+      'title': 'Stack',
+      'hasMediumPost': false,
+      'mediumPostUrl': null,
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/stack.py',
+      'studied': true
+    },
+    {
+      'title': 'Queue',
+      'hasMediumPost': false,
+      'mediumPostUrl': null,
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/queue/queue.py',
+      'studied': true
+    },
+    {
+      'title': 'Linked List',
+      'hasMediumPost': false,
+      'mediumPostUrl': null,
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/linked_list/linked_list.py',
+      'studied': true
+    },
+    {
       'title': 'Trees',
       'hasMediumPost': true,
       'mediumPostUrl': 'https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c',
