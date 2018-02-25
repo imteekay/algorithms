@@ -10,10 +10,19 @@ class LinkedList:
     def is_empty(self):
         return self.head == None
 
-    def add(self, data):
+    def push_front(self, data):
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
+
+    def push_back(self, data):
+        new_node = Node(data)
+        current_node = self.head
+
+        while current_node.next:
+            current_node = current_node.next
+
+        current_node.next = new_node
 
     def size(self):
         current_node = self.head
