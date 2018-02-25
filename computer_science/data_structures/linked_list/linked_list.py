@@ -47,16 +47,12 @@ class LinkedList:
             print('List is empty')
             return
 
-        found = False
         current_node = self.head
         previous_node = None
 
-        while not found and current_node:
-            if current_node.data == item:
-                found = True
-            else:
-                previous_node = current_node
-                current_node = current_node.next
+        while current_node and current_node.data != item:
+            previous_node = current_node
+            current_node = current_node.next
 
         if previous_node == None:
             self.head = current_node.next
