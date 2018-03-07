@@ -50,14 +50,26 @@ print
 tree.pre_order()
 print
 
+print
+print('---------------------------------------')
+print
+
 print('Depth First: Post Order')
 print
 tree.post_order()
 print
 
+print
+print('---------------------------------------')
+print
+
 print('Depth First: In Order')
 print
 tree.in_order()
+print
+
+print
+print('---------------------------------------')
 print
 
 print('Breadth First Search')

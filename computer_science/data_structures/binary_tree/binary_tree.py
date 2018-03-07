@@ -1,4 +1,4 @@
-from Queue import Queue
+from queue import Queue
 
 class BinaryTree:
     def __init__(self, value):
@@ -7,20 +7,16 @@ class BinaryTree:
         self.right_child = None
 
     def insert_left(self, value):
-        if self.left_child == None:
-            self.left_child = BinaryTree(value)
+        if self.left_child:
+            self.insert_left(value)
         else:
-            new_node = BinaryTree(value)
-            new_node.left_child = self.left_child
-            self.left_child = new_node
+            self.left_child = BinaryTree(value)
 
     def insert_right(self, value):
-        if self.right_child == None:
-            self.right_child = BinaryTree(value)
+        if self.right_child:
+            self.insert_right(value)
         else:
-            new_node = BinaryTree(value)
-            new_node.right_child = self.right_child
-            self.right_child = new_node
+            self.right_child = BinaryTree(value)
 
     def pre_order(self):
         print(self.value)
