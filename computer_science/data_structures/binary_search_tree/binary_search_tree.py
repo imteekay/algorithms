@@ -19,7 +19,7 @@ class BinarySearchTree:
             self.insert_node(current_node.left_child, value)
         elif value <= current_node.value:
             current_node.left_child = Node(value)
-        elif value > current_node.value and current_node.right_child:
+        elif current_node.right_child:
             self.insert_node(current_node.right_child, value)
         else:
             current_node.right_child = Node(value)
