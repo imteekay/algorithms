@@ -1,3 +1,5 @@
+from queue import Queue
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -79,3 +81,17 @@ class BinarySearchTree:
             self.post_order_traversal(current_node.right_child)
 
         print(current_node.value)
+
+    def bfs(self):
+        queue = Queue()
+        queue.put(self.root)
+
+        while not queue.empty():
+            current_node = queue.get()
+            print(current_node.value)
+
+            if current_node.left_child:
+                queue.put(current_node.left_child)
+
+            if current_node.right_child:
+                queue.put(current_node.right_child)

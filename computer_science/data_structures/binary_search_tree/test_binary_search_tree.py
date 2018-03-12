@@ -42,3 +42,7 @@ print()
 
 print('Post Order')
 bst.post_order()
+print()
+
+print('BFS')
+bst.bfs()
