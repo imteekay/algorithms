@@ -11,11 +11,11 @@ def remove_duplicates(head):
 
     current_node = head
 
-    while current_node:
-        while current_node.next and current_node.val == current_node.next.val:
+    while current_node and current_node.next:
+        if current_node.val == current_node.next.val:
             current_node.next = current_node.next.next
-
-        current_node = current_node.next
+        else:
+            current_node = current_node.next
 
     return head
 
