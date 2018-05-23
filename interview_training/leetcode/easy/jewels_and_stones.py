@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/jewels-and-stones/description/
+
 # input: J = "aA" | S = "aAAbbbb"
 # output: 3
 
