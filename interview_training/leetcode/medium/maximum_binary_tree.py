@@ -19,18 +19,11 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
-def extract_index(nums, number):
-    for index in range(len(nums)):
-        if nums[index] == number: return index
-
-    return None
-
 def construct_maximum_binary_tree(nums):
     if not nums: return None
 
-    copy_nums = sorted(nums)
-    maximum_number = copy_nums[-1]
-    maximum_number_index = extract_index(nums, maximum_number)
+    maximum_number = max(nums)
+    maximum_number_index = nums.index(maximum_number)
 
     left_side_nums = nums[0:maximum_number_index]
     right_side_nums = nums[maximum_number_index+1:]
