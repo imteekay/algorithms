@@ -21,15 +21,7 @@ class TreeNode(object):
 
 def construct_maximum_binary_tree(nums):
     if not nums: return None
-
-    maximum_number = max(nums)
-    maximum_number_index = nums.index(maximum_number)
-
-    left_side_nums = nums[0:maximum_number_index]
-    right_side_nums = nums[maximum_number_index+1:]
-
-    root_node = TreeNode(maximum_number)
-    root_node.left = construct_maximum_binary_tree(left_side_nums)
-    root_node.right = construct_maximum_binary_tree(right_side_nums)
-
+    root_node = TreeNode(max(nums))
+    root_node.left = construct_maximum_binary_tree(nums[0:nums.index(max(nums))])
+    root_node.right = construct_maximum_binary_tree(nums[nums.index(max(nums))+1:])
     return root_node
