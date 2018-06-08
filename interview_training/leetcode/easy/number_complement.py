@@ -27,11 +27,8 @@ def to_complement(complement_binary_num):
 def find_complement(num):
     binary_num = to_binary(num)
     complement_binary_num = to_binary_complement(binary_num)
-    # print(binary_num)
-    # print(complement_binary_num)
     return to_complement(complement_binary_num)
 
 print(find_complement(5) == 2)
 print(find_complement(1) == 0)
 print(find_complement(8) == 7)
-# 8 --> 1000 --> 0111 --> 7
