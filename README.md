@@ -36,7 +36,7 @@ My template [Here](https://github.com/LeandroTk/algorithms/blob/master/competiti
 - [Codeforces](http://codeforces.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2) | My Profile [Here](http://codeforces.com/profile/leandrotk)
 - [Hacker Earth](https://www.hackerearth.com/)
 - [Hacker Rank](https://www.hackerrank.com/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/hacker_rank) | My Profile [Here](https://www.hackerrank.com/LeandroTk)
-- [Leetcode](https://leetcode.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/interview_training/leetcode) | My Profile [Here](https://leetcode.com/leandro2/)
+- [Leetcode](https://leetcode.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/interview_training/leetcode) | My Profile [Here](https://leetcode.com/leandrotk/)
 - [Project Euler](https://projecteuler.net/)
 - [SPOJ](https://www.spoj.com/) My Profile [Here](http://www.spoj.com/users/leandrotk/)
 - [SPOJ BR](https://br.spoj.com/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/spoj_br)
