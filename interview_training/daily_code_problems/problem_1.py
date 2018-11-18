@@ -10,7 +10,6 @@ start, end = 0, len(l) - 1
 found = False
 
 while start < end:
-    print(start, end)
     if l[start] + l[end] == k:
         found = True
         break
