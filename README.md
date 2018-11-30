@@ -45,3 +45,7 @@ My template [Here](https://github.com/LeandroTk/algorithms/blob/master/competiti
 - [UCoder](https://ucoder.com.br/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/ucoder)
 - [URI Online Judge](https://urionlinejudge.com.br): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uri) | My Profile [Here](https://www.urionlinejudge.com.br/judge/en/profile/64046)
 - [UVa Online Judge](https://uva.onlinejudge.org/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uva)
+
+# Resources
+
+- [The ultimate guide to preparing for the coding interview](https://medium.freecodecamp.org/the-ultimate-guide-to-preparing-for-the-coding-interview-183251ee36c9)
