@@ -1,6 +1,6 @@
 var app = angular.module('algorithm', []);
 
-app.controller('CppFeaturesController', ['$scope', function($scope) {
+app.controller('CppFeaturesController', ['$scope', function ($scope) {
   $scope.cppFeatures = [
     {
       'title': 'C++ Vector: A pretty simple guide',
@@ -40,7 +40,7 @@ app.controller('CppFeaturesController', ['$scope', function($scope) {
   ];
 }]);
 
-app.controller('AlgorithmsController', ['$scope', function($scope) {
+app.controller('AlgorithmsController', ['$scope', function ($scope) {
   $scope.algorithms = [
     {
       'title': 'Bubble Sort',
@@ -80,7 +80,7 @@ app.controller('AlgorithmsController', ['$scope', function($scope) {
   ];
 }]);
 
-app.controller('DataStructuresController', ['$scope', function($scope) {
+app.controller('DataStructuresController', ['$scope', function ($scope) {
   $scope.dataStructures = [
     {
       'title': 'Stack',
@@ -113,6 +113,14 @@ app.controller('DataStructuresController', ['$scope', function($scope) {
       'hasGithubCode': true,
       'githubCodeUrl': 'https://github.com/LeandroTk/algorithms/tree/master/computer_science/data_structures/binary_search_tree',
       'studied': true
+    },
+    {
+      'title': 'Graph',
+      'hasMediumPost': false,
+      'mediumPostUrl': null,
+      'hasGithubCode': true,
+      'githubCodeUrl': 'https://github.com/leandrotk/algorithms/blob/master/computer_science/data_structures/graph/graph.py',
+      'studied': false
     }
   ];
 }]);
