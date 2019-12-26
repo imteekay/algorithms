@@ -15,12 +15,21 @@
 
 ### [Build a Solid Foundation](http://blog.gainlo.co/index.php/2017/02/24/chapter-2-build-solid-foundation-complete-guide-google-interview-preparation/)
 
+Some questions to have in mind:
+
+- How to do a search in a graph? What are the pros and cons of each approach? How to decide which one to use?
+- For a list of objects, you can use linked list, array, stack, queue and other data structures. How would you decide which one to use? What is the biggest advantage/disadvantage?
+- What’s the difference between dynamic programming and recursion? How do you compare a recursive solution and its iterative version?
+- If I want to improve my solution from O(n^2) time complexity to O(nlogn), what algorithms come to your mind? How about O(n)?
+
 Build the the foundation by learning the fundamental algorithms and data structures:
 
 - Fundamental Algorithms
-    - [ ] Sorting
-    - [ ] Binary Search
-    - [ ] ...
+    - [ ] Sorting: merge, quick, bucket, heap, counting
+    - [ ] Searching: Binary Search, Depth First Search, Breadth First Search
+    - [ ] Dynamic Programming
+    - [ ] String / Array: reverse
+    - [ ] Linked list: insertion, deletion
 - Fundamental Data Structures
     - [ ] Stack
     - [ ] Queue
@@ -37,3 +46,6 @@ Build the the foundation by learning the fundamental algorithms and data structu
 ## Resources
 
 - [Google Interview Preparation](http://blog.gainlo.co/index.php/category/google-interview-preparation/)
+- [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
+- [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
+- [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
