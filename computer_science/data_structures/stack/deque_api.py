@@ -10,5 +10,3 @@ print(q)
 print(q.pop())
 print(q.pop())
 print(q.pop())
-
-q.pop()
