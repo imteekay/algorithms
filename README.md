@@ -1,6 +1,6 @@
 # Algorithms
 
-**- Implemented some well known algorithms like:**
+Implementation of some well known algorithms
 
 - Bubble Sort: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/algorithms/sorting/bubble_sort/bubble_sort.py)
 - Selection Sort
@@ -16,7 +16,7 @@
 
 # Data Structures
 
-**- Implemented some well known data structures like:**
+Implementation of some well known data structures
 
 - Array: Python API [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/list.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/big_o.py)
 - Stack: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/stack.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/big_o.py)
@@ -28,9 +28,7 @@
 
 # Competitive Programming Websites
 
-My template [Here](https://github.com/LeandroTk/algorithms/blob/master/competitive_programming/template.cpp) (in progress)
-
-**- My favorites websites:**
+My favorites websites
 
 - [Code Chef](https://www.codechef.com/)
 - [Codeforces](http://codeforces.com): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2) | My Profile [Here](http://codeforces.com/profile/leandrotk)
@@ -45,7 +43,3 @@ My template [Here](https://github.com/LeandroTk/algorithms/blob/master/competiti
 - [UCoder](https://ucoder.com.br/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/ucoder)
 - [URI Online Judge](https://urionlinejudge.com.br): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uri) | My Profile [Here](https://www.urionlinejudge.com.br/judge/en/profile/64046)
 - [UVa Online Judge](https://uva.onlinejudge.org/): Solutions [Here](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uva)
-
-# Resources
-
-- [The ultimate guide to preparing for the coding interview](https://medium.freecodecamp.org/the-ultimate-guide-to-preparing-for-the-coding-interview-183251ee36c9)
