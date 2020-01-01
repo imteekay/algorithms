@@ -25,11 +25,11 @@ f = f_node.value
 print
 print('---------------------------------------')
 print
-print("               |%s|" %(a))
+print("               |%s|" % (a))
 print("             /     \\")
-print("           |%s|     |%s|" %(b, c))
+print("           |%s|     |%s|" % (b, c))
 print("              \\   /   \\")
-print("             |%s| |%s| |%s|" %(d, e, f))
+print("             |%s| |%s| |%s|" % (d, e, f))
 
 # ------- Building this Tree -------
 #
