@@ -104,3 +104,29 @@ test_dequeue(queue)  # []
 
 test_emptiness(queue)  # True
 test_size(queue)  # 0
+
+# Other test
+queue = Queue()
+queue.enqueue(1)
+queue.enqueue(2)
+queue.enqueue(3)
+queue.enqueue(4)
+queue.enqueue(5)
+
+for item in queue.items:
+    print(item)
+
+test_front(queue)
+test_back(queue)
+
+queue.dequeue()
+test_front(queue)
+
+queue.dequeue()
+test_size(queue)
+
+while not queue.is_empty():
+    test_front(queue)
+    queue.dequeue()
+
+test_size(queue)
