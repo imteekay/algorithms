@@ -8,13 +8,13 @@ class BinaryTree:
 
     def insert_left(self, value):
         if self.left_child:
-            self.insert_left(value)
+            self.left_child.insert_left(value)
         else:
             self.left_child = BinaryTree(value)
 
     def insert_right(self, value):
         if self.right_child:
-            self.insert_right(value)
+            self.right_child.insert_right(value)
         else:
             self.right_child = BinaryTree(value)
 
