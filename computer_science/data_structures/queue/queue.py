@@ -38,7 +38,7 @@ class Queue:
         if self.is_empty():
             raise Emptiness('The Queue is empty')
 
-        return self.items[self.size() - 1]
+        return self.items[-1]
 
     def size(self):
         return len(self.items)
