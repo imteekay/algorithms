@@ -8,6 +8,8 @@ abcdefghij => True
 abcdefghia => False
 '''
 
+# First approach using Hash Map
+
 
 def all_unique_characters(string):
     characters_counter = {}
@@ -29,3 +31,22 @@ print(all_unique_characters('abc'))
 print(all_unique_characters('aaa'))
 print(all_unique_characters('abcdefghij'))
 print(all_unique_characters('abcdefghia'))
+
+# Second approach using Set
+
+
+def all_unique_characters(string):
+    unique_chars = set()
+
+    for char in string:
+        unique_chars.add(char)
+
+    return len(unique_chars) == len(string)
+
+
+print(all_unique_characters('abc'))
+print(all_unique_characters('aaa'))
+print(all_unique_characters('abcdefghij'))
+print(all_unique_characters('abcdefghia'))
+
+# Both approaches are O(N)
