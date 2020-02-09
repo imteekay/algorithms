@@ -2,10 +2,15 @@
 Is Unique: Implement an algorithm to determine if a string has all unique characters.
 What if you cannot use additional data structures?
 
+- Examples:
 abc => True
 aaa => False
 abcdefghij => True
 abcdefghia => False
+
+Some questions:
+- Could the string be an empty string?
+- What's the memory constraints?
 '''
 
 # First approach using Hash Map
@@ -49,4 +54,8 @@ print(all_unique_characters('aaa'))
 print(all_unique_characters('abcdefghij'))
 print(all_unique_characters('abcdefghia'))
 
-# Both approaches are O(N)
+'''
+Both approaches are:
+- Space: O(N)
+- Time: O(N)
+'''
