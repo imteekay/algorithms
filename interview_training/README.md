@@ -49,3 +49,4 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
 - [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 - [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+- [CtCI Python solutions](https://github.com/careercup/CtCI-6th-Edition-Python)
