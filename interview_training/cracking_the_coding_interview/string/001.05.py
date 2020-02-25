@@ -52,9 +52,31 @@ def one_away(str1, str2):
     return needed_changes <= 1
 
 
-print(one_away('pale', 'ple'))  # True
-print(one_away('pales', 'pale'))  # True
-print(one_away('pale', 'bale'))  # True
-print(one_away('pale', 'bake'))  # False
-print(one_away('bla', 'bleble'))  # False
-print(one_away('pale', 'pales'))  # True
+data = [
+    ('pale', 'ple', True),
+    ('pales', 'pale', True),
+    ('pale', 'bale', True),
+    ('paleabc', 'pleabc', True),
+    ('pale', 'ble', False),
+    ('a', 'b', True),
+    ('', 'd', True),
+    ('d', 'de', True),
+    ('pale', 'pale', True),
+    ('pale', 'ple', True),
+    ('ple', 'pale', True),
+    ('pale', 'bale', True),
+    ('pale', 'bake', False),
+    ('pale', 'pse', False),
+    ('ples', 'pales', True),
+    ('pale', 'pas', False),
+    ('pas', 'pale', False),
+    ('pale', 'pkle', True),
+    ('pkle', 'pable', False),
+    ('pal', 'palks', False),
+    ('palks', 'pal', False),
+    ('bla', 'bleble', False)
+]
+
+for [test_s1, test_s2, expected] in data:
+    actual = one_away(test_s1, test_s2)
+    print(actual == expected)
