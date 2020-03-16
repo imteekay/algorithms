@@ -21,11 +21,10 @@ def strStr(haystack, needle):
     if needle == '':
         return 0
 
-    needle_first_char = needle[0]
     neddle_length = len(needle)
 
     for index in range(len(haystack) - neddle_length + 1):
-        if haystack[index] == needle_first_char and haystack[index:index+neddle_length] == needle:
+        if haystack[index:index+neddle_length] == needle:
             return index
 
     return -1
