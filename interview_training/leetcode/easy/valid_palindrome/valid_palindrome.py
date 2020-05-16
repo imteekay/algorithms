@@ -20,7 +20,7 @@ def build_new_string_variation(string, index):
     return string[:index] + string[index+1:]
 
 
-def is_at_most_palindrome(string):
+def valid_palindrome(string):
     if string == '':
         return True
 
@@ -43,5 +43,5 @@ data = [
 ]
 
 for string, expected in data:
-    result = is_at_most_palindrome(string)
+    result = valid_palindrome(string)
     print(result == expected)
