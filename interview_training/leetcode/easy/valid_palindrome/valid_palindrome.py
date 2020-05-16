@@ -61,8 +61,8 @@ def valid_palindrome_2(string):
         last_current_index = len(string) - 1 - i
 
         if string[i] != string[last_current_index]:
-            string_shifted_to_left = string[i:last_current_index - 1]
-            string_shifted_to_right = string[i + 1:last_current_index]
+            string_shifted_to_left = string[i:last_current_index]
+            string_shifted_to_right = string[i + 1:last_current_index + 1]
             return is_palindrome(string_shifted_to_left) or is_palindrome(string_shifted_to_right)
 
     return True
@@ -70,6 +70,7 @@ def valid_palindrome_2(string):
 
 data = [
     ("aba", True),
+    ("abc", False),
     ("abca", True),
     ("abccadsfa", False),
     ("", True)
