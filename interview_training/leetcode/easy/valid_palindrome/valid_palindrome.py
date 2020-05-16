@@ -11,6 +11,8 @@ Example
 "abca" 1 => "aca"
 '''
 
+# Brute force
+
 
 def is_palindrome(string):
     return string == string[::-1]
@@ -44,4 +46,37 @@ data = [
 
 for string, expected in data:
     result = valid_palindrome(string)
+    print(result == expected)
+
+
+# Greedy Solution: find if it is not palindrome
+def valid_palindrome_2(string):
+    if string == '':
+        return True
+
+    if is_palindrome(string):
+        return True
+
+    for i in range(len(string) // 2):
+        last_current_index = len(string) - 1 - i
+
+        if string[i] != string[last_current_index]:
+            string_shifted_to_left = string[i:last_current_index - 1]
+            string_shifted_to_right = string[i + 1:last_current_index]
+            return is_palindrome(string_shifted_to_left) or is_palindrome(string_shifted_to_right)
+
+    return True
+
+
+data = [
+    ("aba", True),
+    ("abca", True),
+    ("abccadsfa", False),
+    ("", True)
+
+
+]
+
+for string, expected in data:
+    result = valid_palindrome_2(string)
     print(result == expected)
