@@ -74,8 +74,6 @@ data = [
     ("abca", True),
     ("abccadsfa", False),
     ("", True)
-
-
 ]
 
 for string, expected in data:
