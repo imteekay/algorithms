@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+
+
 def reduce_number(num):
     if num % 2 == 0:
         return num / 2
