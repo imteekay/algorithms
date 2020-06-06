@@ -38,3 +38,19 @@ def bst_to_gst(root):
         smaller_total += value
 
     return modify_helper(root, mapper)
+
+
+value = 0
+
+
+def bst_to_gst(node):
+    if node.right:
+        bst_to_gst(node.right)
+
+    node.val = node.val + value
+    value = node.val
+
+    if node.left:
+        bst_to_gst(node.left)
+
+    return node
