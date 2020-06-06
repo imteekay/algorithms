@@ -10,7 +10,10 @@ def sum_and_list(node, total, values):
     if node.right:
         [right_total, right_values] = sum_and_list(node.right, total, values)
 
-    return [total + left_total + node.val + right_total, values + left_values + [node.val] + right_values]
+    return [
+        total + left_total + node.val + right_total,
+        values + left_values + [node.val] + right_values
+    ]
 
 
 def modify_helper(node, mapper):
