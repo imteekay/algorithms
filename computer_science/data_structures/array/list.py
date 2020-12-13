@@ -21,6 +21,10 @@ print(a[3])
 
 a[2] = 33
 
+# immutable sorting
+sorted_a = sorted(a)
+print(sorted_a)
+
 # in place sorting: O(N log N)
 a.sort()
 print(a)
@@ -28,3 +32,13 @@ print(a)
 # in place reverse: O(N)
 a.reverse()
 print(a)
+
+# length of an array
+length = len(a)
+print(length)
+
+# min and max
+min = min(a)
+max = max(a)
+print(min)
+print(max)
