@@ -3,11 +3,11 @@
 class Solution:
     def __init__(self):
         self.inorder_list = []
-    
-    def inorderTraversal(self, root: TreeNode) -> List[int]:
+
+    def inorder_traversal(self, root):
         if root:
-            self.inorderTraversal(root.left)
+            self.inorder_traversal(root.left)
             self.inorder_list.append(root.val)
-            self.inorderTraversal(root.right)
-            
+            self.inorder_traversal(root.right)
+
         return self.inorder_list
