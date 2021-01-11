@@ -12,15 +12,16 @@ Write a program that takes an array of n integers, where A[i] denotes the maximu
 and returns whether it is possible to advance to the last index starting from the beginning of the array.
 """
 
-def can_reach_end(A):
-    furthest_reach_so_far, last_index = 0, len(A) - 1
+def can_reach_end(board_game):
+    furthest_reach_so_far, last_index = 0, len(board_game) - 1
     current_index = 0
 
     while current_index <= furthest_reach_so_far and furthest_reach_so_far < last_index:
-        furthest_reach_so_far = max(furthest_reach_so_far, A[current_index] + current_index)
+        furthest_reach_so_far = max(furthest_reach_so_far, board_game[current_index] + current_index)
         current_index += 1
     
     return furthest_reach_so_far >= last_index
 
 print(can_reach_end([3, 3, 7, 0, 2, 0, 1]))
 print(can_reach_end([2, 4, 1, 1, 0, 2, 3]))
+print(can_reach_end([3, 2, 0, 0, 2, 0, 1]))
