@@ -12,3 +12,22 @@ def min_operations(boxes):
         answer.append(counter)
         
     return answer
+
+def sum_moves(answer, boxes, boxes_indices):
+    moves, number_of_balls_seen = 0, 0
+    
+    for index in boxes_indices:
+        answer[index] += moves
+
+        if boxes[index] == '1':
+            number_of_balls_seen += 1
+
+        moves += number_of_balls_seen
+
+    return answer
+
+def min_operations(boxes):
+    length_boxes = len(boxes)
+    answer, moves, number_of_balls_seen = [0] * length_boxes, 0, 0
+    answer = sum_moves(answer, boxes, range(length_boxes))
+    return sum_moves(answer, boxes, reversed(range(length_boxes)))
