@@ -15,3 +15,16 @@ def sum_odd_length_subarrays(arr):
         odd += 2
             
     return sum_of_subarrays
+
+'''
+Time complexity: O(N)
+Space complexity: O(1)
+'''
+
+def sum_odd_length_subarrays_optimized(A):
+    sum_of_subarrays, length_of_A = 0, len(A)
+
+    for index, num in enumerate(A):
+        sum_of_subarrays += ((index + 1) * (length_of_A - index) + 1) // 2 * num
+
+    return sum_odd_length_subarrays
