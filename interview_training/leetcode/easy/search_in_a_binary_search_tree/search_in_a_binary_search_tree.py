@@ -1,16 +1,10 @@
 # https://leetcode.com/problems/search-in-a-binary-search-tree
 
 def searchBST(root, val):
-    if root is None: return None
-    
-    if val < root.val:
-        found_node = searchBST(root.left, val)
-        if found_node: return found_node
+    if root and val < root.val:
+        return searchBST(root.left, val)
         
-    if val > root.val:
-        found_node = searchBST(root.right, val)
-        if found_node: return found_node
+    if root and val > root.val:
+        return searchBST(root.right, val)
         
-    if val == root.val: return root
-    
-    return None
+    return root
