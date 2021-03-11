@@ -24,3 +24,13 @@ def hamming_distance(x, y):
         if max_bit[index] != min_bit[index]: counter += 1
             
     return counter
+
+def hamming_distance_2(x, y):
+    counter = 0
+
+    while x or y:
+        if (x % 2) != (y % 2): counter += 1
+        x //= 2
+        y //= 2
+
+    return counter
