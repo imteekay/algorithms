@@ -1,7 +1,7 @@
 def get_bit(number):
     return "{0:b}".format(number)
 
-def hammingDistance(x, y):
+def hamming_distance(x, y):
     x_bit = get_bit(x)
     y_bit = get_bit(y)
     
