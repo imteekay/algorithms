@@ -8,12 +8,11 @@ def unique_occurrences(arr):
             num_to_occurrences[num] += 1
         else:
             num_to_occurrences[num] = 1
-            
-    occurrences_arr = []
-    occurrences_set = set()
-    
-    for occurrence in num_to_occurrences.values():
-        occurrences_arr.append(occurrence)
-        occurrences_set.add(occurrence)
-        
-    return len(occurrences_arr) == len(occurrences_set)
+
+    return len(num_to_occurrences) == len(set(num_to_occurrences.values()))
+
+from collections import Counter
+
+def unique_occurrences_2(arr):
+    num_to_occurrences = Counter(arr)
+    return len(num_to_occurrences) == len(set(num_to_occurrences.values()))
