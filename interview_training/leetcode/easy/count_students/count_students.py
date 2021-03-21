@@ -30,3 +30,23 @@ def count_students(students, sandwiches):
             break
             
     return len(students)
+
+
+
+def count_students(students, sandwiches):
+    preferences = [0, 0]
+        
+    for student in students:
+        preferences[student] += 1
+
+    index = 0
+
+    while index < len(students):
+        if preferences[sandwiches[index]] > 0:
+            preferences[sandwiches[index]] -= 1
+        else:
+            break
+            
+        index += 1
+
+    return len(students) - index
