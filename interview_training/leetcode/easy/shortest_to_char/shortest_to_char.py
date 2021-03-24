@@ -23,4 +23,21 @@ def shortest_to_char(s, c):
     return answer
 
 def shortest_to_char(s, c):
+    previous = float('-Inf')
+    answer = []
     
+    for index, char in enumerate(s):
+        if char == c:
+            previous = index
+            
+        answer.append(index - previous)
+        
+    previous = float('Inf')
+    
+    for index in range(len(s) - 1, -1, -1):
+        if s[index] == c:
+            previous = index
+            
+        answer[index] = min(answer[index], previous - index)
+            
+    return answer
