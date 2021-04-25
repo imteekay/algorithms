@@ -13,3 +13,15 @@ def min_operations(nums):
         previous_num = nums[index + 1]
         
     return operations
+
+def min_operations(nums):
+    prev, ops = 0, 0
+
+    for num in nums:
+        if num <= prev:
+            prev += 1
+            ops += prev - num
+        else:
+            prev = num
+    
+    return ops
