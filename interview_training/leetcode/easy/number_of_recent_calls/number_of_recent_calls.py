@@ -2,6 +2,22 @@
 
 class RecentCounter:
     def __init__(self):
+        self.requests = []
+
+    def ping(self, t: int) -> int:
+        self.requests.append(t)
+        initial_time = t - 3000
+        
+        counter = 0
+        
+        for request in self.requests:
+            if request >= initial_time and request <= t:
+                counter += 1
+        
+        return counter
+
+class RecentCounter:
+    def __init__(self):
         self.requests = deque()
 
     def ping(self, t: int) -> int:
