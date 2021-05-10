@@ -37,3 +37,19 @@ def finding_users_active_minutes(logs, k):
     unique_actions_by_id = build_unique_actions_by_id(logs)
     count_by_actions_number = build_count_by_actions_number(unique_actions_by_id)
     return build_answer(count_by_actions_number, k)
+
+# -------------------------------------------------------------------------------
+
+def finding_users_active_minutes(logs, k):
+    d = defaultdict(set)
+
+    for id, minute in logs:
+        d[id].add(minute)
+    
+    answer = [0] * k
+
+    for _, actions in d.items():
+        count = len(actions)
+        answer[count - 1] += 1
+    
+    return answer
