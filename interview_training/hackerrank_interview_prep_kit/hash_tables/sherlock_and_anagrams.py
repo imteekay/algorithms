@@ -23,5 +23,4 @@ def sherlock_and_anagrams(s):
 print(sherlock_and_anagrams('abba'))
 print(sherlock_and_anagrams('ifailuhkqq'))
 print(sherlock_and_anagrams('kkkk'))
-# print(sherlock_and_anagrams('ifailuhkqqhucpoltgtyovarjsnrbfpvmupwjjjfiwwhrlkpekxxnebfrwibylcvkfealgonjkzwlyfhhkefuvgndgdnbelgruel'))
-
+print(sherlock_and_anagrams('ifailuhkqqhucpoltgtyovarjsnrbfpvmupwjjjfiwwhrlkpekxxnebfrwibylcvkfealgonjkzwlyfhhkefuvgndgdnbelgruel'))
