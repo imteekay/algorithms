@@ -8,13 +8,4 @@
 - Binary Search Tree: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/binary_search_tree.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/big_o.py)
 - Binary Search Tree Without Node class: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
 
-# Competitive Programming
-
-- [Codeforces](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2)
-- [Hacker Rank](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/hacker_rank)
-- [Leetcode](https://github.com/LeandroTk/algorithms/tree/master/interview_training/leetcode)
-- [SPOJ BR](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/spoj_br)
-- [Timus](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/timus)
-- [UCoder](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/ucoder)
-- [URI Online Judge](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uri)
-- [UVa Online Judge](https://github.com/LeandroTk/algorithms/tree/master/competitive_programming/programming_contests/uva)
+- [Programming Contest](./competitive_programming/programming_contests/README.md)
