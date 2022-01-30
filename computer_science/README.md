@@ -7,3 +7,8 @@
 - Binary Tree: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_tree/binary_tree.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_tree/big_o.py)
 - Binary Search Tree: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/binary_search_tree.py) & Big O Complexity [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/big_o.py)
 - Binary Search Tree Without Node class: Implementation [Here](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
+
+## Resources
+
+- [Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
