@@ -1,0 +1,9 @@
+{
+  "name": "algorithms",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "0.2.7"
+  }
+}
