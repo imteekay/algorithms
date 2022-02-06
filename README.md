@@ -34,12 +34,12 @@ Build the the foundation by learning the fundamental algorithms and data structu
   - [x] [String / Array: reverse](computer_science/algorithms/reverse-string/reverse-string.js)
   - [x] Linked list: insertion, deletion
 - Fundamental Data Structures
-  - [x] [Stack](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/stack)
-  - [x] [Queue](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/queue)
-  - [x] [Linked List](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/linked_list)
-  - [x] [Hash Map](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/hash_table)
-  - [x] [Graph](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/graph)
-  - [x] [Tree](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/binary_search_tree)
+  - [x] [Stack](computer_science/data_structures/stack)
+  - [x] [Queue](computer_science/data_structures/queue)
+  - [x] [Linked List](computer_science/data_structures/linked_list)
+  - [x] [Hash Map](computer_science/data_structures/hash_table)
+  - [x] [Graph](computer_science/data_structures/graph)
+  - [x] [Tree](computer_science/data_structures/binary_search_tree)
 - Complexity
   - [ ] Space complexity for all algorithms / data structures
   - [ ] Runtime complexity for all algorithms / data structures
@@ -90,11 +90,11 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 ## Competitive Programming
 
-- [Codeforces](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/codeforces/div2)
-- [Hacker Rank](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/hacker_rank)
-- [Leetcode](https://github.com/imteekay/algorithms/tree/master/interview_training/leetcode)
-- [SPOJ BR](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/spoj_br)
-- [Timus](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/timus)
-- [UCoder](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/ucoder)
-- [URI Online Judge](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/uri)
-- [UVa Online Judge](https://github.com/imteekay/algorithms/tree/master/competitive_programming/programming_contests/uva)
+- [Codeforces](competitive_programming/programming_contests/codeforces/div2)
+- [Hacker Rank](competitive_programming/programming_contests/hacker_rank)
+- [Leetcode](coding_interviews/leetcode)
+- [SPOJ BR](competitive_programming/programming_contests/spoj_br)
+- [Timus](competitive_programming/programming_contests/timus)
+- [UCoder](competitive_programming/programming_contests/ucoder)
+- [URI Online Judge](competitive_programming/programming_contests/uri)
+- [UVa Online Judge](competitive_programming/programming_contests/uva)
