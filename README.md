@@ -2,13 +2,13 @@
 
 ## Data Structures
 
-- Array: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/list.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/array/big_o.py)
-- Stack: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/stack.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/stack/big_o.py)
-- Queue: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/queue/queue.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/queue/big_o.py)
-- Linked List: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/linked_list/linked_list.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/linked_list/big_o.py)
-- Binary Tree: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_tree/binary_tree.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_tree/big_o.py)
-- Binary Search Tree: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/binary_search_tree.py) & [Big O Complexity](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree/big_o.py)
-- Binary Search Tree Without Node class: [Implementation](https://github.com/LeandroTk/algorithms/blob/master/computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
+- Array: [Implementation](computer_science/data_structures/array/list.py) & [Big O Complexity](computer_science/data_structures/array/big_o.py)
+- Stack: [Implementation](computer_science/data_structures/stack/stack.py)
+- Queue: [Implementation](computer_science/data_structures/queue/queue.py) & [Big O Complexity](computer_science/data_structures/queue/big_o.py)
+- Linked List: [Implementation](computer_science/data_structures/linked_list/linked_list.py) & [Big O Complexity](computer_science/data_structures/linked_list/big_o.py)
+- Binary Tree: [Implementation](computer_science/data_structures/binary_tree/binary_tree.py) & [Big O Complexity](computer_science/data_structures/binary_tree/big_o.py)
+- Binary Search Tree: [Implementation](computer_science/data_structures/binary_search_tree/binary_search_tree.py) & [Big O Complexity](computer_science/data_structures/binary_search_tree/big_o.py)
+- Binary Search Tree Without Node class: [Implementation](computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
 
 ### Resources: Algorithms & Data Structures
 
