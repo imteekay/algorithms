@@ -31,7 +31,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
   - [ ] Sorting: merge, quick, bucket, heap, counting
   - [ ] Searching: Binary Search, Depth First Search, Breadth First Search
   - [ ] Dynamic Programming
-  - [ ] String / Array: reverse
+  - [x] [String / Array: reverse](computer_science/algorithms/reverse-string/reverse-string.js)
   - [x] Linked list: insertion, deletion
 - Fundamental Data Structures
   - [x] [Stack](https://github.com/imteekay/algorithms/tree/master/computer_science/data_structures/stack)
