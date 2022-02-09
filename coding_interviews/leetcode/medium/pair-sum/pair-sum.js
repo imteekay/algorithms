@@ -25,3 +25,14 @@ export function pairSum(list) {
 
   return maximumTwin;
 }
+
+export function pairSumLinkedList(head) {
+  const list = [];
+
+  while (head) {
+    list.push(head.val);
+    head = head.next;
+  }
+
+  return pairSum(list);
+}
