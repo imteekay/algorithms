@@ -10,9 +10,7 @@
 - Binary Search Tree: [Implementation](computer_science/data_structures/binary_search_tree/binary_search_tree.py) & [Big O Complexity](computer_science/data_structures/binary_search_tree/big_o.py)
 - Binary Search Tree Without Node class: [Implementation](computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
 
-### Resources: Algorithms & Data Structures
-
-#### Introduction
+### Introduction
 
 - [Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
 - [Data Structures and Algorithms in JavaScript](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
@@ -21,25 +19,25 @@
 - [Useful links about algorithms](https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-Leetcode)
 - [Algorithms and Data Structures Tutorial](https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org)
 
-#### Big-O notation and design
+### Big-O notation and design
 
 - [Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 - [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
 
-#### Data Structures
+### Data Structures
 
 - [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
 
-#### Linked Lists
+### Linked Lists
 
 - [Linked Lists for Technical Interviews](https://www.youtube.com/watch?v=Hj_rA0dhr2I&ab_channel=freeCodeCamp.org)
 
-#### Trees
+### Trees
 
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI&ab_channel=freeCodeCamp.org)
 
-#### Graphs
+### Graphs
 
 - [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU&ab_channel=freeCodeCamp.org)
 
@@ -65,9 +63,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
   - [ ] Runtime complexity for all algorithms / data structures
   - [ ] Make comparisons between algorithms and data structures
 
-### Resources: Coding Interviews
-
-#### Preparation
+### Preparation
 
 - [Google Interview Preparation](http://blog.gainlo.co/index.php/category/google-interview-preparation/)
 - [The ultimate guide to preparing for the coding interview](https://medium.com/free-code-camp/the-ultimate-guide-to-preparing-for-the-coding-interview-183251ee36c9)
@@ -87,17 +83,14 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Must Do Medium Questions](https://leetcode.com/list/xineettm)
 - [Blind Curated 75](https://leetcode.com/list/x84cr1pj)
 - [8 Most Popular Microsoft Coding Interview Questions Solved Step by Step](https://www.youtube.com/watch?v=1P3xh7CGSU8&ab_channel=SCALER)
-
-#### Interviewers' POV
-
 - [Brian Bi considerations](https://qr.ae/TSJE9l)
 - [knock a technical interview](https://qr.ae/TSJEkK)
 
-#### Big O Notation
+### Big O Notation
 
 - [Big O Notation w/ Gayle](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
 
-#### System Design
+### System Design
 
 - [Preparing to System Design](https://qr.ae/TSJEwu)
 - [InterviewBit System Design course](https://www.interviewbit.com/courses/system-design/)
@@ -106,11 +99,11 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [High Scalability](http://highscalability.com/)
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
-#### In the interview
+### In the interview
 
 - [Green flags in a interview](https://qr.ae/TSJEQA)
 
-#### Platforms to learn
+### Platforms to learn
 
 - [Binary Search](https://binarysearch.com/)
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
