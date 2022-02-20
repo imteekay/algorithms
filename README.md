@@ -86,6 +86,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Must Do Easy Questions](https://leetcode.com/list/xip8yt56)
 - [Must Do Medium Questions](https://leetcode.com/list/xineettm)
 - [Blind Curated 75](https://leetcode.com/list/x84cr1pj)
+- [8 Most Popular Microsoft Coding Interview Questions Solved Step by Step](https://www.youtube.com/watch?v=1P3xh7CGSU8&ab_channel=SCALER)
 
 #### Interviewers' POV
 
