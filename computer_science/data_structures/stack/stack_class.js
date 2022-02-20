@@ -4,11 +4,11 @@ class Stack {
   }
 
   push(item) {
-    this.items = [...this.items, item];
+    this.items.push(item);
   }
 
   pop() {
-    this.items.pop();
+    return this.items.pop();
   }
 
   top() {
@@ -59,3 +59,30 @@ console.log(stack.items);
 
 console.log(stack.isEmpty());
 console.log(stack.top());
+
+// Reversing a list with the stack data structure
+function reverse(list) {
+  const stack = new Stack();
+
+  for (item of list) {
+    stack.push(item);
+  }
+
+  const reversedList = [];
+
+  while (!stack.isEmpty()) {
+    reversedList.push(stack.pop());
+  }
+
+  return reversedList;
+}
+
+const reversedBooks = reverse([
+  'Harry Potter',
+  'Atomic Habits',
+  'Leonardo da Vinci',
+  'Sapiens',
+  'Peak',
+]);
+
+console.log(reversedBooks);
