@@ -4,15 +4,15 @@ class Stack {
   }
 
   push(item) {
-    this.items = [item, ...this.items];
+    this.items = [...this.items, item];
   }
 
   pop() {
-    this.items = this.items.slice(1);
+    this.items.pop();
   }
 
   top() {
-    return this.items[0];
+    return this.items[this.items.length - 1];
   }
 
   isEmpty() {
