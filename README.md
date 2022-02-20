@@ -12,16 +12,35 @@
 
 ### Resources: Algorithms & Data Structures
 
-- [Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+#### Introduction
+
 - [Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
-- [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
-- [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
-- [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+- [Data Structures and Algorithms in JavaScript](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 - [Python Algorithms for Interviews](https://www.youtube.com/watch?v=p65AHm9MX80)
-- [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
-- [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
-- [Programming Interview Questions](http://www.ardendertat.com/2012/01/09/programming-interview-questions/)
+- [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 - [Useful links about algorithms](https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-Leetcode)
+
+#### Big-O notation and design
+
+- [Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
+
+#### Data Structures
+
+- [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
+- [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+
+#### Linked Lists
+
+- [Linked Lists for Technical Interviews](https://www.youtube.com/watch?v=Hj_rA0dhr2I&ab_channel=freeCodeCamp.org)
+
+#### Trees
+
+- [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI&ab_channel=freeCodeCamp.org)
+
+#### Graphs
+
+- [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU&ab_channel=freeCodeCamp.org)
 
 ## Coding Interviews
 
@@ -61,6 +80,11 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Algorithm Template](https://docs.google.com/document/d/1TKNUaBdgzEoPaD8LNexz9JlquRKc1ZSBnNJuZmhFp4Y/edit)
 - [Build a Solid Foundation – The Complete Guide to Google Interview Preparation](http://blog.gainlo.co/index.php/2017/02/24/chapter-2-build-solid-foundation-complete-guide-google-interview-preparation/)
 - [Before the interview](http://blog.gainlo.co/index.php/2017/02/18/chapter-1-get-interview-google-complete-guide-google-interview-preparation/)
+- [Programming Interview Questions](http://www.ardendertat.com/2012/01/09/programming-interview-questions/)
+- [10 Common Coding Interview Problems](https://www.youtube.com/watch?v=Peq4GCPNC5c&ab_channel=freeCodeCamp.org)
+- [Must Do Easy Questions](https://leetcode.com/list/xip8yt56)
+- [Must Do Medium Questions](https://leetcode.com/list/xineettm)
+- [Blind Curated 75](https://leetcode.com/list/x84cr1pj)
 
 #### Interviewers' POV
 
@@ -87,6 +111,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 #### Platforms to learn
 
 - [Binary Search](https://binarysearch.com/)
+- [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
 
 ## Competitive Programming
 
