@@ -19,6 +19,7 @@
 - [Python Algorithms for Interviews](https://www.youtube.com/watch?v=p65AHm9MX80)
 - [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 - [Useful links about algorithms](https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-Leetcode)
+- [Algorithms and Data Structures Tutorial](https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org)
 
 #### Big-O notation and design
 
