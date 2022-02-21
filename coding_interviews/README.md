@@ -71,3 +71,10 @@ Some questions to have in mind:
 - A lot of problems can be treated as graph problems and/or use breadth-first or depth-first traversal.
 - If you have a lot of strings, try putting them in a prefix tree / trie.
 - Any time you repeatedly have to take the min or max of a dynamic collection, think heaps. (If you don’t need to insert random elements, prefer a sorted array.)
+
+### Common problems and approaches
+
+- subsequence
+  - consecutive sequence vs non-consecutive sequence
+    - consecutive sequence: [1, 2, 3] is the consecutive sequence of [1, 2, 3, 4, 5]
+    - non-consecutive sequence: [1, 3, 5] is the non-consecutive sequence of [1, 2, 3, 4, 5]
