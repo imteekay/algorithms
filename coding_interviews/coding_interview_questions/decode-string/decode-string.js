@@ -15,7 +15,7 @@ export function decodeString(encodedString) {
         index++;
       }
 
-      stack.push(Number(number));
+      stack.push(Number(number.join('')));
       continue;
     }
 
