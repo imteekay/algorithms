@@ -20,7 +20,7 @@ export class Queue {
   }
 
   back() {
-    return this.items[this.size() - 1];
+    return this.items.at(-1);
   }
 
   size() {
