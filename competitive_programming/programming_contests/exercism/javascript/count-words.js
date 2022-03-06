@@ -1,5 +1,5 @@
-const specialCharacters = /[!@#\$%\^\&*\".,;:?<>~`(\){}[\]\\/\+=_-]/g;
-const spaceCharacters = /\s+/g;
+const SPECIAL_CHARACTERS = /[!@#\$%\^\&*\".,;:?<>~`(\){}[\]\\/\+=_-]/g;
+const SPACE_CHARACTERS = /\s+/g;
 
 function removeEmptySpace(string) {
   return string !== '';
@@ -40,19 +40,15 @@ function cleanWords(word) {
 export const countWords = (phrase) => {
   const words = phrase
     .toLowerCase()
-    .replaceAll(specialCharacters, ' ')
-    .split(spaceCharacters)
-    .filter(removeEmptySpace);
+    .replaceAll(SPECIAL_CHARACTERS, ' ')
+    .split(SPACE_CHARACTERS)
+    .filter(removeEmptySpace)
+    .map(cleanWords);
 
-  const cleanedWords = words.map(cleanWords);
   const wordCounter = {};
 
-  for (const word of cleanedWords) {
-    if (wordCounter[word]) {
-      wordCounter[word] = wordCounter[word] + 1;
-    } else {
-      wordCounter[word] = 1;
-    }
+  for (const word of words) {
+    wordCounter[word] = (wordCounter[word] || 0) + 1;
   }
 
   return wordCounter;
