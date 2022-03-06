@@ -1,7 +1,7 @@
 const SPECIAL_CHARACTERS = /[!@#\$%\^\&*\".,;:?<>~`(\){}[\]\\/\+=_-]/g;
 const SPACE_CHARACTERS = /\s+/g;
 
-function removeEmptySpace(string) {
+function isEmptySpace(string) {
   return string !== '';
 }
 
@@ -22,7 +22,7 @@ export const countWords = (phrase) => {
     .toLowerCase()
     .replaceAll(SPECIAL_CHARACTERS, ' ')
     .split(SPACE_CHARACTERS)
-    .filter(removeEmptySpace)
+    .filter(isEmptySpace)
     .map(removeQuotes);
 
   const wordCounter = {};
