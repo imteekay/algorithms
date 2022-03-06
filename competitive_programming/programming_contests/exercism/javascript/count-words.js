@@ -1,10 +1,3 @@
-/*
-contraction:
-'re
-'s
-'m
-*/
-
 const specialCharacters = /[!@#\$%\^\&*\".,;:?<>~`(\){}[\]\\/\+=_-]/g;
 const spaceCharacters = /\s+/g;
 
