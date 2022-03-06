@@ -5,36 +5,16 @@ function removeEmptySpace(string) {
   return string !== '';
 }
 
-function cleanWords(word) {
-  const chars = [];
+function removeOpenQuote(word) {
+  return word.startsWith("'") ? word.substring(1) : word;
+}
 
-  for (let index = 0; index < word.length; index++) {
-    // if character ' is the last character in the string
-    // we should not add this character: clean it!
-    if (word[index] === "'" && index === word.length - 1) {
-      continue;
-    }
+function removeCloseQuote(word) {
+  return word.endsWith("'") ? word.substring(0, word.length - 1) : word;
+}
 
-    // if character ' is the first character in the string
-    // we should not add this character: clean it!
-    if (word[index] === "'" && index === 0) {
-      continue;
-    }
-
-    // if character ' is not followed by 's', 'm', 't', or 're'
-    // we should not add this character: clean it!
-    if (
-      word[index] === "'" &&
-      !['s', 'm', 't'].includes(word[index + 1]) &&
-      word.substring(index + 1, index + 3) !== 're'
-    ) {
-      continue;
-    }
-
-    chars.push(word[index]);
-  }
-
-  return chars.join('');
+function removeQuotes(word) {
+  return removeCloseQuote(removeOpenQuote(word));
 }
 
 export const countWords = (phrase) => {
@@ -43,7 +23,7 @@ export const countWords = (phrase) => {
     .replaceAll(SPECIAL_CHARACTERS, ' ')
     .split(SPACE_CHARACTERS)
     .filter(removeEmptySpace)
-    .map(cleanWords);
+    .map(removeQuotes);
 
   const wordCounter = {};
 
