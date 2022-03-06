@@ -118,3 +118,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [UCoder](competitive_programming/programming_contests/ucoder)
 - [URI Online Judge](competitive_programming/programming_contests/uri)
 - [UVa Online Judge](competitive_programming/programming_contests/uva)
+
+## License
+
+[MIT](/LICENSE) © [TK](https://iamtk.co)
