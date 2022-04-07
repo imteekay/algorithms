@@ -1,7 +1,3 @@
-// [3,2,3,2,2,2]
-// { 3: 2, 2: 4 }
-// => true
-
 export function divideArray(nums) {
   const map = {};
 
