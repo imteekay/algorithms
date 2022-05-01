@@ -120,6 +120,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 - [Binary Search](https://binarysearch.com/)
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
+- [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
 
 ## Competitive Programming
 
