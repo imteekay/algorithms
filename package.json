@@ -5,5 +5,6 @@
   },
   "devDependencies": {
     "vitest": "0.2.7"
-  }
+  },
+  "type": "module"
 }
