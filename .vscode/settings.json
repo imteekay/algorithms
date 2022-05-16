@@ -1,5 +1,4 @@
 {
-  "python.formatting.provider": "yapf",
   "editor.tabSize": 2,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
