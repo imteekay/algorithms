@@ -53,6 +53,11 @@
 ### Graphs
 
 - [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU&ab_channel=freeCodeCamp.org)
+- [Graph Search Algorithms in 100 Seconds](https://www.youtube.com/watch?v=cWNEl4HE2OE&ab_channel=Fireship)
+- [Depth First Search](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
+- [Breadth First Search & Depth First Search](https://www.youtube.com/watch?v=pcKY4hjDrxk&ab_channel=AbdulBari)
+- [Graph data structure — Part 1](https://www.youtube.com/watch?v=JDP1OVgoa0Q&ab_channel=JunminLee)
+- [Graph data structure — Part 2](https://www.youtube.com/watch?v=bSZ57h7GN2w&ab_channel=JunminLee)
 
 ## Coding Interviews
 
