@@ -16,8 +16,8 @@ function dfs(grid, row, col, maximumLocalIslandArea = 0) {
     dfs(grid, row - 1, col, maximumLocalIslandArea) + // top
     dfs(grid, row + 1, col, maximumLocalIslandArea) + // bottom
     dfs(grid, row, col + 1, maximumLocalIslandArea) + // right
-    dfs(grid, row, col - 1, maximumLocalIslandArea)
-  ); // left
+    dfs(grid, row, col - 1, maximumLocalIslandArea) // left
+  );
 }
 
 function maxAreaOfIsland(grid) {
