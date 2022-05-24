@@ -4,8 +4,8 @@ function postorderTraversal(root) {
   }
 
   return [
-    ...postorderTraversal(root.right),
     ...postorderTraversal(root.left),
+    ...postorderTraversal(root.right),
     root.val,
   ];
 }
