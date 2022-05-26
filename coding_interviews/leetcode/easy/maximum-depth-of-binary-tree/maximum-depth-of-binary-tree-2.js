@@ -4,7 +4,6 @@ function getMaximumDepth(node, depth) {
   }
 
   return Math.max(
-    depth + 1,
     getMaximumDepth(node.left, depth + 1),
     getMaximumDepth(node.right, depth + 1)
   );
@@ -16,7 +15,6 @@ function maxDepth(root) {
   }
 
   return Math.max(
-    1,
     getMaximumDepth(root.left, 1),
     getMaximumDepth(root.right, 1)
   );
