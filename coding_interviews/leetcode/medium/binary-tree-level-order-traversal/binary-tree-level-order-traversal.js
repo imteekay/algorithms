@@ -1,25 +1,31 @@
-function levelOrderTraversal(left, right) {
-  if (!left && !right) {
+function levelOrder(root) {
+  if (!root) {
     return [];
   }
 
-  if (left && !right) {
-    return [[left.val], ...levelOrderTraversal(left.left, left.right)];
+  let queue = [root];
+  let levelOrderTree = [];
+
+  while (queue.length) {
+    let levelNodes = [];
+    let levels = queue.length;
+
+    for (let level = 0; level < levels; level++) {
+      let node = queue.shift();
+
+      if (node.left) {
+        queue.push(node.left);
+      }
+
+      if (node.right) {
+        queue.push(node.right);
+      }
+
+      levelNodes.push(node.val);
+    }
+
+    levelOrderTree.push(levelNodes);
   }
 
-  if (!left && right) {
-    return [[right.val], ...levelOrderTraversal(right.left, right.right)];
-  }
-
-  return [
-    [left.val, right.val],
-    ...levelOrderTraversal(left.left, left.right),
-    ...levelOrderTraversal(right.left, right.right),
-  ];
-}
-
-function levelOrder(root) {
-  return root
-    ? [[root.val], ...levelOrderTraversal(root.left, root.right)]
-    : [];
+  return levelOrderTree;
 }
