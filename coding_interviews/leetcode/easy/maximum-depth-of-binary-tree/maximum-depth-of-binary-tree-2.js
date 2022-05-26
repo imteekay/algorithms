@@ -25,10 +25,6 @@ function maxDepth(root) {
 // shorter without a helper function
 function maxDepth(root, depth = 0) {
   return root
-    ? Math.max(
-        depth + 1,
-        maxDepth(root.left, depth + 1),
-        maxDepth(root.right, depth + 1)
-      )
-    : 0;
+    ? Math.max(maxDepth(root.left, depth + 1), maxDepth(root.right, depth + 1))
+    : depth;
 }
