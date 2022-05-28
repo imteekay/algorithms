@@ -24,3 +24,23 @@ function findTarget(root, k) {
 
   return false;
 }
+
+// second try with better memory usage
+
+function dfs2(node, target, hashmap) {
+  if (!node) {
+    return false;
+  }
+
+  if (hashmap[target - node.val]) {
+    return true;
+  }
+
+  hashmap[node.val] = true;
+
+  return dfs2(node.left, target, hashmap) || dfs2(node.right, target, hashmap);
+}
+
+function findTarget2(root, k) {
+  return dfs2(root, k, {});
+}
