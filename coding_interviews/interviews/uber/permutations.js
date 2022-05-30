@@ -27,12 +27,12 @@ let numberToValues = {
   9: 'WXYZ',
 };
 
-function combine(values1, values2) {
+function combine(permutations, chars) {
   let combination = [];
 
-  for (let char1 of values1) {
-    for (let char2 of values2) {
-      combination.push(char1 + char2);
+  for (let permutation of permutations) {
+    for (let char of chars) {
+      combination.push(permutation + char);
     }
   }
 
@@ -41,21 +41,21 @@ function combine(values1, values2) {
 
 function permutations(numbers) {
   if (numbers.length === 0) {
-    return [[], 0];
+    return [];
   }
 
   let allPermutations = [];
-  let num1 = numbers[0];
-  let values1 = numberToValues[num1];
+  let num = numbers[0];
+  let chars = numberToValues[num];
 
-  for (let char of values1) {
+  for (let char of chars) {
     allPermutations.push(char);
   }
 
-  for (let j = 1; j < numbers.length; j++) {
-    let num2 = numbers[j];
-    let values2 = numberToValues[num2];
-    allPermutations = combine(allPermutations, values2);
+  for (let index = 1; index < numbers.length; index++) {
+    let num = numbers[index];
+    let chars = numberToValues[num];
+    allPermutations = combine(allPermutations, chars);
   }
 
   return allPermutations;
