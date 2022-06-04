@@ -140,4 +140,4 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 ## License
 
-[MIT](/LICENSE) © [TK](https://iamtk.co)
+[MIT](/license) © [TK](https://iamtk.co)
