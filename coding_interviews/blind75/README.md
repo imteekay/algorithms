@@ -6,7 +6,7 @@
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate): [Solution 1](/coding_interviews/leetcode/easy/contains-duplicate/contains-duplicate.js) & [Solution 2](/coding_interviews/leetcode/easy/contains-duplicate/contains-duplicate-hashmap.js)
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self): [Solution](/coding_interviews/leetcode/medium/product-of-array-except-self/product-of-array-except-self.js)
-- [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
+- [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray): [Solution](/coding_interviews/leetcode/easy/maximum-subarray/maximum-subarray.js)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)
 - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
