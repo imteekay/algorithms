@@ -2,7 +2,7 @@
 
 ## Array
 
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum): [Solution](/coding_interviews/leetcode/easy/two-sum/two-sum.js)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
