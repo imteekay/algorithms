@@ -4,7 +4,7 @@
 
 - [x] [Two Sum](https://leetcode.com/problems/two-sum): [Solution](/coding_interviews/leetcode/easy/two-sum/two-sum.js)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate): [Solution 1](/coding_interviews/leetcode/easy/contains-duplicate/contains-duplicate.js) & [Solution 2](/coding_interviews/leetcode/easy/contains-duplicate/contains-duplicate-hashmap.js)
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self): [Solution](/coding_interviews/leetcode/medium/product-of-array-except-self/product-of-array-except-self.js)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)
