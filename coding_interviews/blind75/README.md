@@ -75,7 +75,7 @@
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/coding_interviews/leetcode/easy/valid-anagram/valid-anagram.js)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses): [Solution](/coding_interviews/leetcode/easy/valid-parentheses/valid-parentheses.js)
 - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
