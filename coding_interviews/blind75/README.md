@@ -85,7 +85,7 @@
 
 ## Tree
 
-- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree): [Solution 1](https://github.com/imteekay/algorithms/blob/f01ea4a90acf1a17269e3b6aa8693680a109fea4/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.js) & [Solution 2](https://github.com/imteekay/algorithms/blob/6150dbdad2997102743598353c6109a5075177c9/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree-2.js)
+- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree): [Solution 1](/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.js) & [Solution 2](/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree-2.js)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree): [Solution](/coding_interviews/leetcode/easy/same-tree/same-tree.js)
 - [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree)
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
