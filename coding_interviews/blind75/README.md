@@ -78,7 +78,7 @@
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/coding_interviews/leetcode/easy/valid-anagram/valid-anagram.js)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams): [Solution](/coding_interviews/leetcode/medium/group-anagrams/group-anagrams.js)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses): [Solution](/coding_interviews/leetcode/easy/valid-parentheses/valid-parentheses.js)
-- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+- [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome): [Solution](/coding_interviews/leetcode/easy/valid-palindrome/valid-palindrome.js)
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)
 
