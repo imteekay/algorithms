@@ -90,7 +90,7 @@
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 - [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal): [Solution](/coding_interviews/leetcode/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.js)
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
-- [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
+- [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree): [Solution](/coding_interviews/leetcode/easy/subtree-of-another-tree/subtree-of-another-tree.js)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 - [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
