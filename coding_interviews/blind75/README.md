@@ -72,7 +72,7 @@
 
 ## String
 
-- [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters): [Solution](/coding_interviews/leetcode/medium/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.js)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/coding_interviews/leetcode/easy/valid-anagram/valid-anagram.js)
