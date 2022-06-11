@@ -92,7 +92,7 @@
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree): [Solution](/coding_interviews/leetcode/easy/subtree-of-another-tree/subtree-of-another-tree.js)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
-- [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree): [Solution](/coding_interviews/leetcode/medium/validate-binary-search-tree/validate-binary-search-tree-2.js)
+- [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree): [Solution 1](/coding_interviews/leetcode/medium/validate-binary-search-tree/validate-binary-search-tree-2.js) & [Solution 2](/coding_interviews/leetcode/medium/validate-binary-search-tree/validate-binary-search-tree.js)
 - [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
 - [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree): [Solution](/coding_interviews/leetcode/easy/lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.js)
 - [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)
