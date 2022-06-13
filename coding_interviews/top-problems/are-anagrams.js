@@ -1,3 +1,7 @@
+// Time Complexity: O(N) where N is the size of the string
+// more precisely, it should be O(N1) + O(N2) where N1 = length of string1 and N2 = length of string2
+// Space Complexity: O(N) where N is the size of the string
+
 function hasDifferentLengths(string1, string2) {
   return string1.length !== string2.length;
 }
