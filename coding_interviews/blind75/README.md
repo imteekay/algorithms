@@ -86,7 +86,7 @@
 
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree): [Solution 1](/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.js) & [Solution 2](/coding_interviews/leetcode/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree-2.js)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree): [Solution](/coding_interviews/leetcode/easy/same-tree/same-tree.js)
-- [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+- [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree): [Solution](/coding_interviews/leetcode/easy/invert-binary-tree/invert-binary-tree.js)
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 - [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal): [Solution](/coding_interviews/leetcode/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.js)
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
