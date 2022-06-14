@@ -40,7 +40,7 @@
 - [x] [Clone Graph](https://leetcode.com/problems/clone-graph): [Solution](https://github.com/imteekay/algorithms/blob/master/coding_interviews/leetcode/medium/clone-graph/clone-graph.js)
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule)
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)
-- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands)
+- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands): [Solution](/coding_interviews/leetcode/medium/number-of-islands/number-of-islands.js)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
 - [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary)
 - [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree)
