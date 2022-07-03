@@ -18,7 +18,7 @@
     - Sufficiently large. Most examples are too small, by about 50%.
     - Not a special case. Be careful. It's very easy to inadvertently draw a special case. If there's any way your example is a special case (even if you think it probably won't be a big deal), you should fix it.
 
-### [Build a Solid Foundation](http://blog.gainlo.co/index.php/2017/02/24/chapter-2-build-solid-foundation-complete-guide-google-interview-preparation/)
+### Build a Solid Foundation
 
 Some questions to have in mind:
 
