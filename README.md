@@ -104,6 +104,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Brian Bi considerations](https://qr.ae/TSJE9l)
 - [knock a technical interview](https://qr.ae/TSJEkK)
 - [How to Land a Front-end Software Engineer job at Big Tech Companies such as Google, Facebook, and Twitter](https://javascript.plainenglish.io/how-to-land-a-software-engineer-job-in-google-facebook-and-twitter-44e49906e87)
+- [Get an Interview with Google – The Complete Guide to Google Interview Preparation](http://blog.gainlo.co/index.php/2017/02/18/chapter-1-get-interview-google-complete-guide-google-interview-preparation)
 
 ### Big O Notation
 

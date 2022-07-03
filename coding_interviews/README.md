@@ -2,7 +2,7 @@
 
 ## Tech Interview Preparation
 
-### [Before the interview](http://blog.gainlo.co/index.php/2017/02/18/chapter-1-get-interview-google-complete-guide-google-interview-preparation/)
+### Before the interview
 
 - Referral Is The Core
   - Talk to some friends at this Tech companies
