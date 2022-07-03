@@ -103,6 +103,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [8 Most Popular Microsoft Coding Interview Questions Solved Step by Step](https://www.youtube.com/watch?v=1P3xh7CGSU8&ab_channel=SCALER)
 - [Brian Bi considerations](https://qr.ae/TSJE9l)
 - [knock a technical interview](https://qr.ae/TSJEkK)
+- [How to Land a Front-end Software Engineer job at Big Tech Companies such as Google, Facebook, and Twitter](https://javascript.plainenglish.io/how-to-land-a-software-engineer-job-in-google-facebook-and-twitter-44e49906e87)
 
 ### Big O Notation
 
