@@ -6,8 +6,6 @@ export function decodeMessage(key, message) {
   hashmap.set(' ', ' ');
 
   for (let char of key) {
-    if (char === ' ') continue;
-
     if (!hashmap.has(char)) {
       hashmap.set(char, alphabet[counter]);
       counter++;
