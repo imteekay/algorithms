@@ -55,7 +55,7 @@
 - [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists): [Solution](/coding_interviews/leetcode/easy/merge-two-sorted-lists/merge-two-sorted-lists.js)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
-- [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
+- [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list): [Solution 1](/coding_interviews/leetcode/medium/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.js) & [Solution 2](/coding_interviews/leetcode/medium/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list-fast-slow.js)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list)
 
 ## Matrix
