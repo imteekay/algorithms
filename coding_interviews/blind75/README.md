@@ -51,7 +51,7 @@
 
 ## Linked List
 
-- [ ] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list)
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list): [Solution](/coding_interviews/leetcode/easy/reverse-linked-list/reverse-linked-list.js)
 - [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
