@@ -141,6 +141,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [URI Online Judge](competitive_programming/programming_contests/uri)
 - [UVa Online Judge](competitive_programming/programming_contests/uva)
 
+## Computing
+
+- [Software as Computational Media](https://www.youtube.com/watch?v=I-aGF-47hqI&ab_channel=ACMSIGPLAN)
+
 ## License
 
 [MIT](/license) © [TK](https://iamtk.co)
