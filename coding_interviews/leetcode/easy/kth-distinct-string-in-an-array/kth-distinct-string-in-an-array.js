@@ -25,3 +25,25 @@ function kthDistinct(arr, k) {
 
   return '';
 }
+
+function kthDistinct(arr, k) {
+  let hashmap = new Map();
+
+  for (let string of arr) {
+    if (hashmap.has(string)) {
+      hashmap.set(string, hashmap.get(string) + 1);
+    } else {
+      hashmap.set(string, 1);
+    }
+  }
+
+  let distinctStrings = [];
+
+  hashmap.forEach((count, string) => {
+    if (count === 1) {
+      distinctStrings.push(string);
+    }
+  });
+
+  return distinctStrings[k - 1] || '';
+}
