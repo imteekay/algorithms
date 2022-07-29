@@ -108,6 +108,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Build a Solid Foundation – The Complete Guide to Google Interview Preparation](http://blog.gainlo.co/index.php/2017/02/24/chapter-2-build-solid-foundation-complete-guide-google-interview-preparation)
 - [How to study Data Structures and Algorithms while working a full-time job?](https://medium.com/@pepcoding/how-to-study-data-structures-and-algorithms-while-working-a-full-time-job-8ac21c93da5e)
 - [3-month plan for Cracking the Coding Interview](https://medium.com/interviewnoodle/3-month-plan-for-cracking-the-coding-interview-5534f0ad7595)
+- [How I build a habit to leetcode](https://medium.com/@chuayewwee/how-i-build-a-habit-to-leetcode-23b1fdb5e0d9)
 
 ### Big O Notation
 
