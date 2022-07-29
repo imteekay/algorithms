@@ -110,6 +110,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [3-month plan for Cracking the Coding Interview](https://medium.com/interviewnoodle/3-month-plan-for-cracking-the-coding-interview-5534f0ad7595)
 - [How I build a habit to leetcode](https://medium.com/@chuayewwee/how-i-build-a-habit-to-leetcode-23b1fdb5e0d9)
 - [From Zero to Hero in Problem Solving](https://1162429.medium.com/from-zero-to-hero-in-problem-solving-c616641b5639)
+- [How To Study For Coding Interviews Efficiently](https://www.youtube.com/watch?v=2nVFdxJJdLw&ab_channel=ConnerArdman)
 
 ### Big O Notation
 
