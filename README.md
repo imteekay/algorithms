@@ -128,6 +128,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 - [Green flags in a interview](https://qr.ae/TSJEQA)
 - [Google Coding Interview](https://www.youtube.com/watch?v=rw4s4M3hFfs&ab_channel=Cl%C3%A9mentMihailescu)
+- [A “strong yes” technical interview.](https://medium.com/@paulanthonysalvatore/a-strong-yes-technical-interview-195fb851d836)
 
 ### Platforms to learn
 
