@@ -124,9 +124,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [High Scalability](http://highscalability.com/)
 - [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
-### In the interview
+### Interview
 
 - [Green flags in a interview](https://qr.ae/TSJEQA)
+- [Google Coding Interview](https://www.youtube.com/watch?v=rw4s4M3hFfs&ab_channel=Cl%C3%A9mentMihailescu)
 
 ### Platforms to learn
 
