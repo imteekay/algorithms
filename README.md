@@ -59,6 +59,10 @@
 - [Graph data structure — Part 1](https://www.youtube.com/watch?v=JDP1OVgoa0Q&ab_channel=JunminLee)
 - [Graph data structure — Part 2](https://www.youtube.com/watch?v=bSZ57h7GN2w&ab_channel=JunminLee)
 
+## Algorithms
+
+- [3 Tricks To Master String Problems](https://medium.com/interviewnoodle/leetcode-3-tricks-to-master-string-problems-bf10079df639)
+
 ## Coding Interviews
 
 Build the the foundation by learning the fundamental algorithms and data structures:
