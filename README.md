@@ -62,6 +62,7 @@
 ## Algorithms
 
 - [3 Tricks To Master String Problems](https://medium.com/interviewnoodle/leetcode-3-tricks-to-master-string-problems-bf10079df639)
+- [3 Tricks To Master Linked List Problems](https://medium.com/interviewnoodle/leetcode-3-tricks-to-master-linked-list-problems-8647a74a5f1c)
 
 ## Coding Interviews
 
