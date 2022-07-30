@@ -64,6 +64,7 @@
 - [3 Tricks To Master String Problems](https://medium.com/interviewnoodle/leetcode-3-tricks-to-master-string-problems-bf10079df639)
 - [3 Tricks To Master Linked List Problems](https://medium.com/interviewnoodle/leetcode-3-tricks-to-master-linked-list-problems-8647a74a5f1c)
 - [5 Tricks To Solve Any Interval/Conflict Schedule Related Problems](https://medium.com/interviewnoodle/leetcode-5-tricks-to-solve-any-interval-conflict-schedule-related-problems-3f33d6e5af55)
+- [Master 2D matrix/maze traversal](https://medium.com/interviewnoodle/leetcode-master-2d-matrix-maze-traversal-ec9f2e0bc300)
 
 ## Coding Interviews
 
