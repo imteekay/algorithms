@@ -66,6 +66,7 @@
 - [5 Tricks To Solve Any Interval/Conflict Schedule Related Problems](https://medium.com/interviewnoodle/leetcode-5-tricks-to-solve-any-interval-conflict-schedule-related-problems-3f33d6e5af55)
 - [Master 2D matrix/maze traversal](https://medium.com/interviewnoodle/leetcode-master-2d-matrix-maze-traversal-ec9f2e0bc300)
 - [Find Kth Largest/Smallest Element Without Sorting](https://medium.com/interviewnoodle/leetcode-find-kth-largest-smallest-element-without-sorting-77b92c75c890)
+- [After solved 1000 medium leetcode found these patterns — Binary Search, Trie, Heap](https://medium.com/@iorilan/after-solved-1000-medium-leetcode-found-these-patterns-binary-search-trie-heap-8dc5c82e9e94)
 
 ## Coding Interviews
 
