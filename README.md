@@ -157,10 +157,16 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [URI Online Judge](competitive_programming/programming_contests/uri)
 - [UVa Online Judge](competitive_programming/programming_contests/uva)
 
-## Computing
+## Computer Science
+
+### Computing
 
 - [Software as Computational Media](https://www.youtube.com/watch?v=I-aGF-47hqI&ab_channel=ACMSIGPLAN)
 - [Tools & Craft: Andy Matuschak - Software and Computing](https://www.youtube.com/watch?v=bcrcaTuvpBk&ab_channel=Notion)
+
+### Theory
+
+- [A Uniﬁed Theory of Garbage Collection](https://www.youtube.com/watch?v=XtUtfARSIv8&ab_channel=PapersWeLove)
 
 ## License
 
