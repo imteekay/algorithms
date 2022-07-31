@@ -167,6 +167,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 ### Theory
 
 - [A Uniﬁed Theory of Garbage Collection](https://www.youtube.com/watch?v=XtUtfARSIv8&ab_channel=PapersWeLove)
+- [Computer Organization | Performance of Computer](https://www.geeksforgeeks.org/computer-organization-performance-of-computer)
 
 ## License
 
