@@ -25,3 +25,20 @@ export function sortArrayByParityII(nums) {
 
   return result;
 }
+
+export function sortArrayByParityIIInPlace(nums) {
+  for (let index = 0; index < nums.length - 1; index++) {
+    if (isEven(index) !== isEven(nums[index])) {
+      for (let index2 = index + 1; index2 < nums.length; index2++) {
+        if (isEven(index) === isEven(nums[index2])) {
+          let num = nums[index];
+          nums[index] = nums[index2];
+          nums[index2] = num;
+          break;
+        }
+      }
+    }
+  }
+
+  return nums;
+}
