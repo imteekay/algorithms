@@ -71,3 +71,9 @@ function minimumOperations(nums) {
 
   return count;
 }
+
+// --------------------------------------------------
+
+function minimumOperationsSet(nums) {
+  return new Set(nums.filter((num) => num !== 0));
+}
