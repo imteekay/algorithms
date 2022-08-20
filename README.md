@@ -18,6 +18,7 @@
 - [Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 - [Useful links about algorithms](https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-Leetcode)
 - [Algorithms and Data Structures Tutorial](https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org)
+- [Introduction of Data Structure and algorithm](https://www.scaler.com/topics/data-structures/)
 
 ### Big-O notation and design
 
@@ -28,6 +29,7 @@
 
 - [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+- [What is Data Structure?](https://www.scaler.com/topics/data-structures/what-is-data-structure/)
 
 ### Stack
 
@@ -38,17 +40,20 @@
 
 - [Queue Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/queue-data-structure)
 - [Queue Data Structure](https://www.iamtk.co/series/data-structures/queue-data-structure)
+- [Queue Data Structure](https://www.scaler.com/topics/data-structures/queue-in-data-structure/)
 
 ### Linked Lists
 
 - [Linked Lists Data Structure](https://www.iamtk.co/series/data-structures/linked-list-data-structure)
 - [Linked Lists Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/linked-list-data-structure)
 - [Linked Lists for Technical Interviews](https://www.youtube.com/watch?v=Hj_rA0dhr2I&ab_channel=freeCodeCamp.org)
+- [Linked Lists Data Structure](https://www.scaler.com/topics/linked-list/)
 
 ### Trees
 
 - [Tree Data Structure](https://www.iamtk.co/series/data-structures/tree-data-structure)
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI&ab_channel=freeCodeCamp.org)
+- [Tree Data Structure](https://www.scaler.com/topics/data-structures/tree-data-structure/)
 
 ### Graphs
 
@@ -58,6 +63,7 @@
 - [Breadth First Search & Depth First Search](https://www.youtube.com/watch?v=pcKY4hjDrxk&ab_channel=AbdulBari)
 - [Graph data structure — Part 1](https://www.youtube.com/watch?v=JDP1OVgoa0Q&ab_channel=JunminLee)
 - [Graph data structure — Part 2](https://www.youtube.com/watch?v=bSZ57h7GN2w&ab_channel=JunminLee)
+- [Graph in Data Structure](https://www.scaler.com/topics/data-structures/graph-in-data-structure/)
 
 ## Algorithms
 
@@ -67,6 +73,7 @@
 - [Master 2D matrix/maze traversal](https://medium.com/interviewnoodle/leetcode-master-2d-matrix-maze-traversal-ec9f2e0bc300)
 - [Find Kth Largest/Smallest Element Without Sorting](https://medium.com/interviewnoodle/leetcode-find-kth-largest-smallest-element-without-sorting-77b92c75c890)
 - [After solved 1000 medium leetcode found these patterns — Binary Search, Trie, Heap](https://medium.com/@iorilan/after-solved-1000-medium-leetcode-found-these-patterns-binary-search-trie-heap-8dc5c82e9e94)
+- [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 
 ## Coding Interviews
 
@@ -145,6 +152,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Binary Search](https://binarysearch.com/)
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
 - [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 ## Competitive Programming
 
