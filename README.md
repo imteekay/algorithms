@@ -178,6 +178,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Computer Organization | Performance of Computer](https://www.geeksforgeeks.org/computer-organization-performance-of-computer)
 - [Computer Organization - Performance](https://www.csie.nuk.edu.tw/~kcf/course/95_Spring/Organization/Chapter4_Performance.pdf)
 
+### Courses
+
+- [Intro to Theoretical Computer Science](https://classroom.udacity.com/courses/cs313)
+
 ## License
 
 [MIT](/license) © [TK](https://iamtk.co)
