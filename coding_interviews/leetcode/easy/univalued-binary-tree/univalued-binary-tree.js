@@ -11,3 +11,12 @@ function isUnivalTree(root) {
 
   return result && leftResult && rightResult;
 }
+
+function isUnivalTree(root, value = root.val) {
+  if (!root) return true;
+  return (
+    root.val === value &&
+    isUnivalTree(root.left, value) &&
+    isUnivalTree(root.right, value)
+  );
+}
