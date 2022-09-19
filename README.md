@@ -131,6 +131,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 ### Big O Notation
 
 - [Big O Notation w/ Gayle](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
+- [Big O](computer_science/big_o)
 
 ### System Design
 
