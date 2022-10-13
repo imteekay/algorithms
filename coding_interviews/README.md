@@ -1,3 +1,5 @@
+<samp>
+
 # Interview Traning
 
 ## Tech Interview Preparation
@@ -78,3 +80,5 @@ Some questions to have in mind:
   - consecutive sequence vs non-consecutive sequence
     - consecutive sequence: [1, 2, 3] is the consecutive sequence of [1, 2, 3, 4, 5]
     - non-consecutive sequence: [1, 3, 5] is the non-consecutive sequence of [1, 2, 3, 4, 5]
+
+</samp>

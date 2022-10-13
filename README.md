@@ -1,3 +1,5 @@
+<samp>
+
 # Algorithms & Data Structures
 
 ## Data Structures
@@ -187,3 +189,5 @@ Build the the foundation by learning the fundamental algorithms and data structu
 ## License
 
 [MIT](/license) © [TK](https://iamtk.co)
+
+</samp>

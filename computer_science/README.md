@@ -1,3 +1,5 @@
+<samp>
+
 # Computer Science
 
 ## Algorithms & Data Structures
@@ -8,3 +10,5 @@
 - Bubble Sort
 - Linked List Data Structure
 - Queue Data Structure
+
+</samp>

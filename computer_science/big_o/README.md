@@ -1,3 +1,5 @@
+<samp>
+
 # Big O
 
 A generalize way to categorize an algorithm time and space based on input.
@@ -68,3 +70,5 @@ function sumCharCodes(n) {
   return sum;
 }
 ```
+
+</samp>
