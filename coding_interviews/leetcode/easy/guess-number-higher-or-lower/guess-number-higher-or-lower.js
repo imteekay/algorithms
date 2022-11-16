@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/guess-number-higher-or-lower
+
 function guessNumber(n) {
   let start = 1;
   let end = n;
