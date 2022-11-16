@@ -81,6 +81,6 @@ Some questions to have in mind:
     - consecutive sequence: [1, 2, 3] is the consecutive sequence of [1, 2, 3, 4, 5]
     - non-consecutive sequence: [1, 3, 5] is the non-consecutive sequence of [1, 2, 3, 4, 5]
 - binary search
-  - [problem](coding_interviews/leetcode/easy/guess-number-higher-or-lower/guess-number-higher-or-lower.js)
+  - [problem](/coding_interviews/leetcode/easy/guess-number-higher-or-lower/guess-number-higher-or-lower.js)
 
 </samp>
