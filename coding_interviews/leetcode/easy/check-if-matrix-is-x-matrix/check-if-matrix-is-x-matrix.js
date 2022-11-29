@@ -68,3 +68,19 @@ function checkXMatrix(grid) {
     isFromLeftToRightNonZero && isFromRightToLeftNonZero && isOtherElementsZero
   );
 }
+
+function checkXMatrix(grid) {
+  const n = grid.length;
+
+  for (let i = 0; i < grid.length; i++) {
+    for (let j = 0; j < grid[0].length; j++) {
+      if (i == j || i + j + 1 == n) {
+        if (grid[i][j] == 0) return false;
+      } else {
+        if (grid[i][j] != 0) return false;
+      }
+    }
+  }
+
+  return true;
+}
