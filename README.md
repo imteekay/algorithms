@@ -76,6 +76,7 @@
 - [Find Kth Largest/Smallest Element Without Sorting](https://medium.com/interviewnoodle/leetcode-find-kth-largest-smallest-element-without-sorting-77b92c75c890)
 - [After solved 1000 medium leetcode found these patterns — Binary Search, Trie, Heap](https://medium.com/@iorilan/after-solved-1000-medium-leetcode-found-these-patterns-binary-search-trie-heap-8dc5c82e9e94)
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
+- [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 
 ## Coding Interviews
 
