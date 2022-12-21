@@ -77,6 +77,7 @@
 - [After solved 1000 medium leetcode found these patterns — Binary Search, Trie, Heap](https://medium.com/@iorilan/after-solved-1000-medium-leetcode-found-these-patterns-binary-search-trie-heap-8dc5c82e9e94)
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
+- [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
 
 ## Coding Interviews
 
