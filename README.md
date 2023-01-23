@@ -132,6 +132,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [From Zero to Hero in Problem Solving](https://1162429.medium.com/from-zero-to-hero-in-problem-solving-c616641b5639)
 - [How To Study For Coding Interviews Efficiently](https://www.youtube.com/watch?v=2nVFdxJJdLw&ab_channel=ConnerArdman)
 - [Coding Interview Prep Guide](https://formation.dev/guide)
+- [Don’t Study 500 LeetCode Problems, Do This Instead](https://medium.com/@brianjenney/dont-study-500-leetcode-problems-do-this-instead-28181ebb1eb1)
 
 ### Big O Notation
 
