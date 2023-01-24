@@ -37,6 +37,7 @@
 
 - [Stack Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/stack-data-structure)
 - [Stack Data Structure](https://www.iamtk.co/series/data-structures/stack-data-structure)
+- [Stack Data Structure Practice Problems](https://medium.com/techie-delight/stack-data-structure-practice-problems-and-interview-questions-9f08a35a7f19)
 
 ### Queues
 
