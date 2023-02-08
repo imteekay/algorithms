@@ -161,6 +161,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
 - [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
 - [Scaler Topics](https://www.scaler.com/topics/)
+- [Structy](https://structy.net)
 
 ## Competitive Programming
 
