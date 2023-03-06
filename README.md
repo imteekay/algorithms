@@ -37,6 +37,7 @@
 
 - [Stack Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/stack-data-structure)
 - [Stack Data Structure](https://www.iamtk.co/series/data-structures/stack-data-structure)
+- [Stack Data Structure Practice Problems](https://medium.com/techie-delight/stack-data-structure-practice-problems-and-interview-questions-9f08a35a7f19)
 
 ### Queues
 
@@ -160,6 +161,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming/)
 - [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
 - [Scaler Topics](https://www.scaler.com/topics/)
+- [Structy](https://structy.net)
 
 ## Competitive Programming
 
