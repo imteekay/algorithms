@@ -24,4 +24,22 @@ export class BinaryTree {
       this.right = new BinaryTree(value);
     }
   }
+
+  preOrder() {
+    console.log(this.value);
+    if (this.left) this.left.preOrder();
+    if (this.right) this.right.preOrder();
+  }
+
+  inOrder() {
+    if (this.left) this.left.inOrder();
+    console.log(this.value);
+    if (this.right) this.right.inOrder();
+  }
+
+  postOrder() {
+    if (this.left) this.left.postOrder();
+    if (this.right) this.right.postOrder();
+    console.log(this.value);
+  }
 }

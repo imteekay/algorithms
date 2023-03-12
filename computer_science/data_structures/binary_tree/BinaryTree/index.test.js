@@ -40,4 +40,41 @@ describe('BinaryTree', () => {
       expect(tree.right.value).toEqual('b');
     });
   });
+
+  describe('traversal', () => {
+    const root = new BinaryTree(1);
+    const two = new BinaryTree(2);
+    const three = new BinaryTree(3);
+    const four = new BinaryTree(4);
+    const five = new BinaryTree(5);
+    const six = new BinaryTree(6);
+    const seven = new BinaryTree(7);
+
+    two.left = three;
+    two.right = four;
+
+    five.left = six;
+    five.right = seven;
+
+    root.left = two;
+    root.right = five;
+
+    it('traverses in pre order', () => {
+      console.log('====== pre order ======');
+      root.preOrder();
+      console.log('====== // ======');
+    });
+
+    it('traverses in order', () => {
+      console.log('====== in order ======');
+      root.inOrder();
+      console.log('====== // ======');
+    });
+
+    it('traverses in post order', () => {
+      console.log('====== post order ======');
+      root.postOrder();
+      console.log('====== // ======');
+    });
+  });
 });
