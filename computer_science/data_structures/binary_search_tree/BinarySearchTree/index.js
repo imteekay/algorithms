@@ -16,4 +16,16 @@ export class BinarySearchTree {
       this.right = new BinarySearchTree(value);
     }
   }
+
+  findNode(value) {
+    if (value < this.value && this.left) {
+      return this.left.findNode(value);
+    }
+
+    if (value > this.value && this.right) {
+      return this.right.findNode(value);
+    }
+
+    return this.value === value;
+  }
 }
