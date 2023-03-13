@@ -1,3 +1,5 @@
+import { Queue } from '../../queue/queue';
+
 export class BinaryTree {
   constructor(value) {
     this.value = value;
@@ -41,5 +43,17 @@ export class BinaryTree {
     if (this.left) this.left.postOrder();
     if (this.right) this.right.postOrder();
     console.log(this.value);
+  }
+
+  bfs() {
+    const queue = new Queue();
+    queue.enqueue(this);
+
+    while (!queue.isEmpty()) {
+      const node = queue.dequeue();
+      console.log(node.value);
+      if (node.left) queue.enqueue(node.left);
+      if (node.right) queue.enqueue(node.right);
+    }
   }
 }

@@ -76,5 +76,11 @@ describe('BinaryTree', () => {
       root.postOrder();
       console.log('====== // ======');
     });
+
+    it('traverses via breadth first search', () => {
+      console.log('====== bfs ======');
+      root.bfs();
+      console.log('====== // ======');
+    });
   });
 });
