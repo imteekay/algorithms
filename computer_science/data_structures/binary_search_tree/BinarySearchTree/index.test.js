@@ -16,6 +16,88 @@ function buildBST() {
 }
 
 describe('BinarySearchTree', () => {
+  it('instantiates a BinarySearchTree', () => {
+    const tree = new BinarySearchTree('a');
+    expect(tree.value).toEqual('a');
+    expect(tree.right).toEqual(null);
+    expect(tree.left).toEqual(null);
+  });
+
+  describe('inserts a left node', () => {
+    it('with a left child', () => {
+      const tree = new BinarySearchTree('a');
+      tree.left = new BinarySearchTree('b');
+      tree.insertLeft('c');
+      expect(tree.left.value).toEqual('c');
+      expect(tree.left.left.value).toEqual('b');
+    });
+
+    it('without a left child', () => {
+      const tree = new BinarySearchTree('a');
+      tree.insertLeft('b');
+      expect(tree.left.value).toEqual('b');
+    });
+  });
+
+  describe('inserts a right node', () => {
+    it('with a right child', () => {
+      const tree = new BinarySearchTree('a');
+      tree.right = new BinarySearchTree('b');
+      tree.insertRight('c');
+      expect(tree.right.value).toEqual('c');
+      expect(tree.right.right.value).toEqual('b');
+    });
+
+    it('without a right child', () => {
+      const tree = new BinarySearchTree('a');
+      tree.insertRight('b');
+      expect(tree.right.value).toEqual('b');
+    });
+  });
+
+  describe('traversal', () => {
+    const root = new BinarySearchTree(1);
+    const two = new BinarySearchTree(2);
+    const three = new BinarySearchTree(3);
+    const four = new BinarySearchTree(4);
+    const five = new BinarySearchTree(5);
+    const six = new BinarySearchTree(6);
+    const seven = new BinarySearchTree(7);
+
+    two.left = three;
+    two.right = four;
+
+    five.left = six;
+    five.right = seven;
+
+    root.left = two;
+    root.right = five;
+
+    it('traverses in pre order', () => {
+      console.log('====== pre order ======');
+      root.preOrder();
+      console.log('====== // ======');
+    });
+
+    it('traverses in order', () => {
+      console.log('====== in order ======');
+      root.inOrder();
+      console.log('====== // ======');
+    });
+
+    it('traverses in post order', () => {
+      console.log('====== post order ======');
+      root.postOrder();
+      console.log('====== // ======');
+    });
+
+    it('traverses via breadth first search', () => {
+      console.log('====== bfs ======');
+      root.bfs();
+      console.log('====== // ======');
+    });
+  });
+
   it('inserts nodes to the BST', () => {
     const tree = buildBST();
 
