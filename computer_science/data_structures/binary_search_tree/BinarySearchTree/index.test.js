@@ -133,7 +133,7 @@ describe('BinarySearchTree', () => {
       const tree = buildBST();
 
       expect(tree.findNode(4)).toEqual(true);
-      expect(tree.removeNode(4, tree)).toEqual(true);
+      expect(tree.removeNode(4)).toEqual(true);
       expect(tree.findNode(4)).toEqual(false);
     });
 
@@ -141,7 +141,7 @@ describe('BinarySearchTree', () => {
       const tree = buildBST();
 
       expect(tree.findNode(21)).toEqual(true);
-      expect(tree.removeNode(21, tree)).toEqual(true);
+      expect(tree.removeNode(21)).toEqual(true);
       expect(tree.findNode(21)).toEqual(false);
 
       expect(tree.value).toEqual(50);
@@ -157,7 +157,7 @@ describe('BinarySearchTree', () => {
       const tree = buildBST();
 
       expect(tree.findNode(76)).toEqual(true);
-      expect(tree.removeNode(76, tree)).toEqual(true);
+      expect(tree.removeNode(76)).toEqual(true);
       expect(tree.findNode(76)).toEqual(false);
 
       expect(tree.value).toEqual(50);
