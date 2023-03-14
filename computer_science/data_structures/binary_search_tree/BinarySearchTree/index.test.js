@@ -55,10 +55,36 @@ describe('BinarySearchTree', () => {
       expect(tree.findNode(4)).toEqual(false);
     });
 
-    it('removes a node in the tree', () => {
+    it('removes a node in the middle of the left subtree', () => {
       const tree = buildBST();
 
-      expect(tree.findNode(4)).toEqual(true);
+      expect(tree.findNode(21)).toEqual(true);
+      expect(tree.removeNode(21, tree)).toEqual(true);
+      expect(tree.findNode(21)).toEqual(false);
+
+      expect(tree.value).toEqual(50);
+      expect(tree.left.value).toEqual(32);
+      expect(tree.left.left.value).toEqual(4);
+      expect(tree.right.value).toEqual(76);
+      expect(tree.right.left.value).toEqual(64);
+      expect(tree.right.left.left.value).toEqual(52);
+      expect(tree.right.right.value).toEqual(100);
+    });
+
+    it('removes a node in the middle of the right subtree', () => {
+      const tree = buildBST();
+
+      expect(tree.findNode(76)).toEqual(true);
+      expect(tree.removeNode(76, tree)).toEqual(true);
+      expect(tree.findNode(76)).toEqual(false);
+
+      expect(tree.value).toEqual(50);
+      expect(tree.left.value).toEqual(21);
+      expect(tree.left.left.value).toEqual(4);
+      expect(tree.left.right.value).toEqual(32);
+      expect(tree.right.value).toEqual(100);
+      expect(tree.right.left.value).toEqual(64);
+      expect(tree.right.left.left.value).toEqual(52);
     });
   });
 });

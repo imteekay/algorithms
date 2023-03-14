@@ -92,4 +92,9 @@ export class BinarySearchTree {
     this.left = null;
     this.right = null;
   }
+
+  findMinimumValue() {
+    if (this.left) return this.left.findMinimumValue();
+    return this.value;
+  }
 }
