@@ -8,7 +8,7 @@ export class Queue {
   }
 
   dequeue() {
-    this.items.shift();
+    return this.items.shift();
   }
 
   isEmpty() {
