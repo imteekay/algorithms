@@ -168,5 +168,21 @@ describe('BinarySearchTree', () => {
       expect(tree.right.left.value).toEqual(64);
       expect(tree.right.left.left.value).toEqual(52);
     });
+
+    it('removes the root node', () => {
+      const tree = buildBST();
+
+      expect(tree.findNode(50)).toEqual(true);
+      expect(tree.removeNode(50)).toEqual(true);
+      expect(tree.findNode(50)).toEqual(false);
+
+      expect(tree.value).toEqual(52);
+      expect(tree.left.value).toEqual(21);
+      expect(tree.left.left.value).toEqual(4);
+      expect(tree.left.right.value).toEqual(32);
+      expect(tree.right.value).toEqual(76);
+      expect(tree.right.right.value).toEqual(100);
+      expect(tree.right.left.value).toEqual(64);
+    });
   });
 });
