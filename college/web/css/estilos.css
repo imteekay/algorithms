@@ -1,0 +1,16 @@
+body {
+  background-color: #f7f9ac;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p.corpoDoTexto {
+  color: blue;
+}
+
+p.corpoDoTexto2 {
+  color: red;
+}
