@@ -79,6 +79,7 @@
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 - [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
+- [Grokking LeetCode: A Smarter Way to Prepare for Coding Interviews](https://interviewnoodle.com/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1)
 
 ## Coding Interviews
 
@@ -134,6 +135,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [How To Study For Coding Interviews Efficiently](https://www.youtube.com/watch?v=2nVFdxJJdLw&ab_channel=ConnerArdman)
 - [Coding Interview Prep Guide](https://formation.dev/guide)
 - [Don’t Study 500 LeetCode Problems, Do This Instead](https://medium.com/@brianjenney/dont-study-500-leetcode-problems-do-this-instead-28181ebb1eb1)
+- [Joining the Uber Eng Team - Coding Interview](https://www.youtube.com/watch?v=xxAnIoIxWGM)
 
 ### Big O Notation
 
