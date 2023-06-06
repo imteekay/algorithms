@@ -80,6 +80,7 @@
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 - [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
 - [Grokking LeetCode: A Smarter Way to Prepare for Coding Interviews](https://interviewnoodle.com/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1)
+- [Dynamic Programming 🇧🇷🇵🇹](https://www.youtube.com/watch?v=qp9UOJ0XUlg&ab_channel=GubnunBR)
 
 ## Coding Interviews
 
