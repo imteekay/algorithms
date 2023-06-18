@@ -138,6 +138,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Coding Interview Prep Guide](https://formation.dev/guide)
 - [Don’t Study 500 LeetCode Problems, Do This Instead](https://medium.com/@brianjenney/dont-study-500-leetcode-problems-do-this-instead-28181ebb1eb1)
 - [Joining the Uber Eng Team - Coding Interview](https://www.youtube.com/watch?v=xxAnIoIxWGM)
+- [Google Interview Guide](https://www.linkedin.com/posts/arslanahmad_google-datastructures-algorithms-activity-7076187648985350144-fYbP)
 
 ### Big O Notation
 
