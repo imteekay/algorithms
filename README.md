@@ -77,6 +77,7 @@
 - [Find Kth Largest/Smallest Element Without Sorting](https://medium.com/interviewnoodle/leetcode-find-kth-largest-smallest-element-without-sorting-77b92c75c890)
 - [Coding Patterns — Binary Search, Trie, Heap](https://medium.com/@iorilan/after-solved-1000-medium-leetcode-found-these-patterns-binary-search-trie-heap-8dc5c82e9e94)
 - [Coding Patterns - UnionFind, Devide And Conquer, Toposort](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-unionfind-devide-and-conquer-toposort-9210dfc90223)
+- [Coding Patterns - Sliding Window, 2 Pointer, String](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-sliding-window-2-pointer-string-18332ca4861)
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 - [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
