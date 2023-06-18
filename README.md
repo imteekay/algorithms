@@ -79,6 +79,7 @@
 - [Coding Patterns - UnionFind, Devide And Conquer, Toposort](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-unionfind-devide-and-conquer-toposort-9210dfc90223)
 - [Coding Patterns - Sliding Window, 2 Pointer, String](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-sliding-window-2-pointer-string-18332ca4861)
 - [Coding Patterns - Presum, Greedy, intervals](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-presum-greedy-intervals-511d899bcee3)
+- [Coding Patterns - Mono-Stack](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-thes-patterns-mono-stack-40ce6067abfe)
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 - [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
