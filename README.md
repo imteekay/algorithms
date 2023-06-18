@@ -81,6 +81,7 @@
 - [Coding Patterns - Presum, Greedy, intervals](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-these-patterns-presum-greedy-intervals-511d899bcee3)
 - [Coding Patterns - Mono-Stack](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-thes-patterns-mono-stack-40ce6067abfe)
 - [Coding Patterns - Backtracking](https://iorilan.medium.com/after-solved-1000-medium-leetcode-found-thes-patterns-backtracking-b683aa8bd8ac)
+- [Coding Patterns - Dynamic Programming](https://iorilan.medium.com/after-solved-1000-leetcode-medium-level-i-found-these-patterns-dynamic-programming-205226223f4e)
 - [Problem Patterns](https://designgurus.org/course/grokking-the-coding-interview)
 - [Recursive descent parsing](https://austinhenley.com/blog/teenytinycompiler2.html)
 - [Let's implement a Bloom Filter](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
