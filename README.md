@@ -149,6 +149,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Crack The Coding Interview Spreadsheet - Leetcode](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947)
 - [How to Crack The Coding Interview? | Important LeetCode Questions | Preparation Tips](https://www.youtube.com/watch?v=cM4o7_UY9vM&ab_channel=DineshVaryani)
 - [Data Structures and Algorithms in Java | Free course | Animations and Implementations](https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&ab_channel=DineshVaryani)
+- [Google's Career Page - Interview Tips](https://www.youtube.com/watch?v=VXE1eBIulKg&ab_channel=JeffHSipe-PracticeInterviews)
 
 ### Big O Notation
 
