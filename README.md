@@ -147,6 +147,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Joining the Uber Eng Team - Coding Interview](https://www.youtube.com/watch?v=xxAnIoIxWGM)
 - [Google Interview Guide](https://www.linkedin.com/posts/arslanahmad_google-datastructures-algorithms-activity-7076187648985350144-fYbP)
 - [Crack The Coding Interview Spreadsheet - Leetcode](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947)
+- [How to Crack The Coding Interview? | Important LeetCode Questions | Preparation Tips](https://www.youtube.com/watch?v=cM4o7_UY9vM&ab_channel=DineshVaryani)
 
 ### Big O Notation
 
