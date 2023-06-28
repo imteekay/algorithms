@@ -146,6 +146,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Don’t Study 500 LeetCode Problems, Do This Instead](https://medium.com/@brianjenney/dont-study-500-leetcode-problems-do-this-instead-28181ebb1eb1)
 - [Joining the Uber Eng Team - Coding Interview](https://www.youtube.com/watch?v=xxAnIoIxWGM)
 - [Google Interview Guide](https://www.linkedin.com/posts/arslanahmad_google-datastructures-algorithms-activity-7076187648985350144-fYbP)
+- [Facebook Interview Guide](https://www.linkedin.com/posts/arslanahmad_fb-meta-sde-activity-6980448214105669632-5-9e)
 - [Crack The Coding Interview Spreadsheet - Leetcode](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947)
 - [How to Crack The Coding Interview? | Important LeetCode Questions | Preparation Tips](https://www.youtube.com/watch?v=cM4o7_UY9vM&ab_channel=DineshVaryani)
 - [Data Structures and Algorithms in Java | Free course | Animations and Implementations](https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&ab_channel=DineshVaryani)
