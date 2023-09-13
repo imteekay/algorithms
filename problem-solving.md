@@ -1,4 +1,4 @@
-# Problem Solving
+# Algorithm Problem Solving
 
 0. Start with the naive solution. It shows you understand the problem.
 1. Think out loud, even if it's quiet. It lets the interviewer help out if you get stuck.
