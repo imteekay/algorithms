@@ -155,6 +155,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Google's Career Page - Interview Tips](https://www.youtube.com/watch?v=VXE1eBIulKg&ab_channel=JeffHSipe-PracticeInterviews)
 - [Meta's Career Page - Interview Prep](https://www.metacareers.com/profile/trial/?redirect=job_details&chooseView=Hello%20World)
 - [Deliberate practice coding interviews](https://www.linkedin.com/feed/update/urn:li:activity:7102397119537303554)
+- [Algorithm Problem Solving](./problem-solving.md)
 
 ### Big O Notation
 
