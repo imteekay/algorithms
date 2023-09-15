@@ -17,4 +17,20 @@ describe('Set', () => {
     set.delete(2);
     expect(set.values()).toEqual([]);
   });
+
+  it('union sets', () => {
+    const setA = new Set();
+    setA.add(1);
+    setA.add(2);
+    setA.add(3);
+
+    const setB = new Set();
+    setB.add(3);
+    setB.add(4);
+    setB.add(5);
+    setB.add(6);
+
+    const unionAB = setA.union(setB);
+    expect(unionAB.values()).toEqual([1, 2, 3, 4, 5, 6]);
+  });
 });
