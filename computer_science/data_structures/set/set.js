@@ -67,4 +67,14 @@ export class Set {
 
     return differenceSet;
   }
+
+  isSubsetOf(otherSet) {
+    for (let value of this.values()) {
+      if (!otherSet.has(value)) {
+        return false;
+      }
+    }
+
+    return true;
+  }
 }
