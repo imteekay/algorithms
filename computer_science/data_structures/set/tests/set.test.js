@@ -33,4 +33,19 @@ describe('Set', () => {
     const unionAB = setA.union(setB);
     expect(unionAB.values()).toEqual([1, 2, 3, 4, 5, 6]);
   });
+
+  it('intersection sets', () => {
+    const setA = new Set();
+    setA.add(1);
+    setA.add(2);
+    setA.add(3);
+
+    const setB = new Set();
+    setB.add(2);
+    setB.add(3);
+    setB.add(4);
+
+    const intersectionAB = setA.intersection(setB);
+    expect(intersectionAB.values()).toEqual([2, 3]);
+  });
 });

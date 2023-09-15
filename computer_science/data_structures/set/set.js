@@ -43,4 +43,16 @@ export class Set {
 
     return unionSet;
   }
+
+  intersection(otherSet) {
+    const intersectionSet = new Set();
+
+    for (let value of this.values()) {
+      if (otherSet.has(value)) {
+        intersectionSet.add(value);
+      }
+    }
+
+    return intersectionSet;
+  }
 }
