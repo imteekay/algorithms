@@ -55,4 +55,16 @@ export class Set {
 
     return intersectionSet;
   }
+
+  difference(otherSet) {
+    const differenceSet = new Set();
+
+    for (let value of this.values()) {
+      if (!otherSet.has(value)) {
+        differenceSet.add(value);
+      }
+    }
+
+    return differenceSet;
+  }
 }
