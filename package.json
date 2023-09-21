@@ -4,7 +4,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "vitest": "0.2.7"
+    "vitest": "0.34.5"
   },
   "type": "module"
 }
