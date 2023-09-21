@@ -187,14 +187,14 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 ## Competitive Programming
 
-- [Codeforces](competitive_programming/programming_contests/codeforces/div2)
-- [Hacker Rank](competitive_programming/programming_contests/hacker_rank)
+- [Codeforces](competitive-programming/codeforces/div2)
+- [Hacker Rank](competitive-programming/hacker-rank)
 - [Leetcode](coding_interviews/leetcode)
-- [SPOJ BR](competitive_programming/programming_contests/spoj_br)
-- [Timus](competitive_programming/programming_contests/timus)
-- [UCoder](competitive_programming/programming_contests/ucoder)
-- [URI Online Judge](competitive_programming/programming_contests/uri)
-- [UVa Online Judge](competitive_programming/programming_contests/uva)
+- [SPOJ BR](competitive-programming/spoj-br)
+- [Timus](competitive-programming/timus)
+- [UCoder](competitive-programming/ucoder)
+- [URI Online Judge](competitive-programming/uri)
+- [UVa Online Judge](competitive-programming/uva)
 
 ## Computer Science
 
