@@ -1,6 +1,6 @@
 function reverseVowels(s) {
   const allVowels = [];
-  const vowels = 'aeiouAEIOU';
+  const vowels = "aeiouAEIOU";
 
   for (let char of s) {
     if (vowels.includes(char)) allVowels.push(char);
@@ -21,5 +21,5 @@ function reverseVowels(s) {
     }
   }
 
-  return reversedVowels.join('');
+  return reversedVowels.join("");
 }
