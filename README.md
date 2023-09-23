@@ -163,12 +163,12 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
 - [Scaler Topics](https://www.scaler.com/topics/)
 - [Structy](https://structy.net)
+- [Leetcode](coding_interviews/leetcode)
 
 ## Competitive Programming
 
-- [Codeforces](competitive-programming/codeforces/div2)
+- [Codeforces](competitive-programming/codeforces)
 - [Hacker Rank](competitive-programming/hacker-rank)
-- [Leetcode](coding_interviews/leetcode)
 - [SPOJ BR](competitive-programming/spoj-br)
 - [Timus](competitive-programming/timus)
 - [UCoder](competitive-programming/ucoder)
