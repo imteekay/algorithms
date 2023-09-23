@@ -88,7 +88,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 - Fundamental Algorithms
   - [ ] Sorting: merge, quick, bucket, heap, counting
-  - [x] Searching: [Binary Search](computer_science/algorithms/binary-search/binary-search.js), Depth First Search, Breadth First Search
+  - [x] Searching
+    - [x] [Binary Search](computer_science/algorithms/binary-search/binary-search.js)
+    - [x] [Depth First Search](computer_science/data_structures/binary_search_tree)
+    - [x] [Breadth First Search](computer_science/data_structures/binary_search_tree)
   - [ ] Dynamic Programming
   - [x] [String / Array: reverse](computer_science/algorithms/reverse-string/reverse-string.js)
   - [x] [Linked list: insertion, deletion](computer_science/data_structures/linked_list)
