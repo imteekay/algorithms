@@ -87,7 +87,12 @@
 Build the the foundation by learning the fundamental algorithms and data structures:
 
 - Fundamental Algorithms
-  - [ ] Sorting: merge, quick, bucket, heap, counting
+  - [ ] Sorting
+    - [ ] Merge Sort
+    - [ ] Quick Sort
+    - [ ] Bucket Sort
+    - [ ] Heap Sort
+    - [ ] Counting Sort
   - [x] Searching
     - [x] [Binary Search](computer_science/algorithms/binary-search/binary-search.js)
     - [x] [Depth First Search](computer_science/data_structures/binary_search_tree)
