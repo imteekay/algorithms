@@ -10,7 +10,7 @@ export function nextGreaterElement(nums1, nums2) {
   const stack = [];
   const hashmap = new Map();
 
-  for (num of nums2) {
+  for (let num of nums2) {
     while (!isEmpty(stack) && num > peek(stack)) {
       hashmap.set(stack.pop(), num);
     }
