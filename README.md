@@ -2,17 +2,7 @@
 
 # Algorithms & Data Structures
 
-## Data Structures
-
-- Array: [Implementation](computer_science/data_structures/array/list.py) & [Big O Complexity](computer_science/data_structures/array/big_o.py)
-- Stack: [Implementation](computer_science/data_structures/stack/stack.py)
-- Queue: [Implementation](computer_science/data_structures/queue/queue.py) & [Big O Complexity](computer_science/data_structures/queue/big_o.py)
-- Linked List: [Implementation](computer_science/data_structures/linked_list/linked_list.py) & [Big O Complexity](computer_science/data_structures/linked_list/big_o.py)
-- Binary Tree: [Implementation](computer_science/data_structures/binary_tree/binary_tree.py) & [Big O Complexity](computer_science/data_structures/binary_tree/big_o.py)
-- Binary Search Tree: [Implementation](computer_science/data_structures/binary_search_tree/binary_search_tree.py) & [Big O Complexity](computer_science/data_structures/binary_search_tree/big_o.py)
-- Binary Search Tree Without Node class: [Implementation](computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py)
-
-### Introduction
+## Introduction
 
 - [Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
 - [Data Structures and Algorithms in JavaScript](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
@@ -22,43 +12,45 @@
 - [Algorithms and Data Structures Tutorial](https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org)
 - [Introduction of Data Structure and algorithm](https://www.scaler.com/topics/data-structures/)
 
-### Big-O notation and design
+## Big-O notation and design
 
 - [Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 - [Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com/)
+- [Big O Notation w/ Gayle](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
+- [Big O](computer_science/big_o)
 
-### Data Structures
+## Data Structures
 
 - [Data Structures and Algorithms cheat sheet](https://github.com/TSiege/Tech-Interview-Cheat-Sheet)
 - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
 - [What is Data Structure?](https://www.scaler.com/topics/data-structures/what-is-data-structure/)
 
-### Stack
+## Stack
 
 - [Stack Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/stack-data-structure)
 - [Stack Data Structure](https://www.iamtk.co/series/data-structures/stack-data-structure)
 - [Stack Data Structure Practice Problems](https://medium.com/techie-delight/stack-data-structure-practice-problems-and-interview-questions-9f08a35a7f19)
 
-### Queues
+## Queues
 
 - [Queue Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/queue-data-structure)
 - [Queue Data Structure](https://www.iamtk.co/series/data-structures/queue-data-structure)
 - [Queue Data Structure](https://www.scaler.com/topics/data-structures/queue-in-data-structure/)
 
-### Linked Lists
+## Linked Lists
 
 - [Linked Lists Data Structure](https://www.iamtk.co/series/data-structures/linked-list-data-structure)
 - [Linked Lists Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/linked-list-data-structure)
 - [Linked Lists for Technical Interviews](https://www.youtube.com/watch?v=Hj_rA0dhr2I&ab_channel=freeCodeCamp.org)
 - [Linked Lists Data Structure](https://www.scaler.com/topics/linked-list/)
 
-### Trees
+## Trees
 
 - [Tree Data Structure](https://www.iamtk.co/series/data-structures/tree-data-structure)
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI&ab_channel=freeCodeCamp.org)
 - [Tree Data Structure](https://www.scaler.com/topics/data-structures/tree-data-structure/)
 
-### Graphs
+## Graphs
 
 - [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU&ab_channel=freeCodeCamp.org)
 - [Graph Search Algorithms in 100 Seconds](https://www.youtube.com/watch?v=cWNEl4HE2OE&ab_channel=Fireship)
@@ -156,20 +148,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Meta's Career Page - Interview Prep](https://www.metacareers.com/profile/trial/?redirect=job_details&chooseView=Hello%20World)
 - [Deliberate practice coding interviews](https://www.linkedin.com/feed/update/urn:li:activity:7102397119537303554)
 - [Algorithm Problem Solving](./problem-solving.md)
-
-### Big O Notation
-
-- [Big O Notation w/ Gayle](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
-- [Big O](computer_science/big_o)
-
-### System Design
-
-- [Preparing to System Design](https://qr.ae/TSJEwu)
-- [InterviewBit System Design course](https://www.interviewbit.com/courses/system-design/)
-- [System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [The System Design Process](https://www.hiredintech.com/classrooms/system-design/lesson/55)
-- [High Scalability](http://highscalability.com/)
-- [System Design Template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+- [System Design](./system-design.md)
 
 ### Interview
 
