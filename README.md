@@ -18,6 +18,7 @@
 - [🎥 Design and Analysis of Algorithms — MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 - [💻 Big O](computer_science/big_o)
 - [📝 Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com)
+- [📝 Big O in DS](./big-o.md)
 
 ## Data Structures
 
