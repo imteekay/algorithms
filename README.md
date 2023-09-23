@@ -19,6 +19,8 @@
 - [💻 Big O](computer_science/big_o)
 - [📝 Know your complexities: Big-O cheat sheet](https://www.bigocheatsheet.com)
 - [📝 Big O in DS](./big-o.md)
+- [📝 Computational complexity part one](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+- [📝 Computational complexity part two](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 
 ## Data Structures
 
