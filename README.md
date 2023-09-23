@@ -95,8 +95,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
     - [ ] Counting Sort
   - [x] Searching
     - [x] [Binary Search](computer_science/algorithms/binary-search/binary-search.js)
-    - [x] [Depth First Search](computer_science/data_structures/binary_search_tree)
-    - [x] [Breadth First Search](computer_science/data_structures/binary_search_tree)
+    - [x] [Tree Depth First Search](computer_science/data_structures/binary_search_tree)
+    - [x] [Tree Breadth First Search](computer_science/data_structures/binary_search_tree)
+    - [ ] Graph Depth First Search
+    - [ ] Graph Breadth First Search
   - [ ] Dynamic Programming
   - [x] [String / Array: reverse](computer_science/algorithms/reverse-string/reverse-string.js)
   - [x] [Linked list: insertion, deletion](computer_science/data_structures/linked_list)
@@ -105,9 +107,16 @@ Build the the foundation by learning the fundamental algorithms and data structu
   - [x] [Queue](computer_science/data_structures/queue)
   - [x] [Linked List](computer_science/data_structures/linked_list)
   - [x] [Hash Map](computer_science/data_structures/hash_table)
+  - [ ] Heap
+  - [ ] Priority Queue
+  - [ ] Tree
+    - [x] [Binary Search Tree](computer_science/data_structures/binary_search_tree)
+    - [ ] AVL Tree
+    - [ ] Red-Black Tree
+    - [ ] Segment Tree
+    - [ ] Fenwick Tree (Binary Indexed Tree)
   - [x] [Graph](computer_science/data_structures/graph)
-  - [x] [Tree](computer_science/data_structures/binary_search_tree)
-- Complexity
+- Time & Space Complexity
   - [ ] Space complexity for all algorithms / data structures
   - [ ] Runtime complexity for all algorithms / data structures
   - [ ] Make comparisons between algorithms and data structures
