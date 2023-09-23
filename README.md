@@ -173,7 +173,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Structy](https://structy.net)
 - [Leetcode](coding_interviews/leetcode)
 
-## Competitive Programming
+### Competitive Programming
 
 - [Codeforces](competitive-programming/codeforces)
 - [Hacker Rank](competitive-programming/hacker-rank)
