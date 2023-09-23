@@ -25,32 +25,32 @@
 - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM)
 - [What is Data Structure?](https://www.scaler.com/topics/data-structures/what-is-data-structure/)
 
-## Stack
+### Stack
 
 - [Stack Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/stack-data-structure)
 - [Stack Data Structure](https://www.iamtk.co/series/data-structures/stack-data-structure)
 - [Stack Data Structure Practice Problems](https://medium.com/techie-delight/stack-data-structure-practice-problems-and-interview-questions-9f08a35a7f19)
 
-## Queues
+### Queues
 
 - [Queue Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/queue-data-structure)
 - [Queue Data Structure](https://www.iamtk.co/series/data-structures/queue-data-structure)
 - [Queue Data Structure](https://www.scaler.com/topics/data-structures/queue-in-data-structure/)
 
-## Linked Lists
+### Linked Lists
 
 - [Linked Lists Data Structure](https://www.iamtk.co/series/data-structures/linked-list-data-structure)
 - [Linked Lists Data Structure in JavaScript](https://www.iamtk.co/series/data-structures-in-javascript/linked-list-data-structure)
 - [Linked Lists for Technical Interviews](https://www.youtube.com/watch?v=Hj_rA0dhr2I&ab_channel=freeCodeCamp.org)
 - [Linked Lists Data Structure](https://www.scaler.com/topics/linked-list/)
 
-## Trees
+### Trees
 
 - [Tree Data Structure](https://www.iamtk.co/series/data-structures/tree-data-structure)
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI&ab_channel=freeCodeCamp.org)
 - [Tree Data Structure](https://www.scaler.com/topics/data-structures/tree-data-structure/)
 
-## Graphs
+### Graphs
 
 - [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU&ab_channel=freeCodeCamp.org)
 - [Graph Search Algorithms in 100 Seconds](https://www.youtube.com/watch?v=cWNEl4HE2OE&ab_channel=Fireship)
