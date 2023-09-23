@@ -91,7 +91,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
   - [x] Searching: [Binary Search](computer_science/algorithms/binary-search/binary-search.js), Depth First Search, Breadth First Search
   - [ ] Dynamic Programming
   - [x] [String / Array: reverse](computer_science/algorithms/reverse-string/reverse-string.js)
-  - [x] Linked list: insertion, deletion
+  - [x] [Linked list: insertion, deletion](computer_science/data_structures/linked_list)
 - Fundamental Data Structures
   - [x] [Stack](computer_science/data_structures/stack)
   - [x] [Queue](computer_science/data_structures/queue)
