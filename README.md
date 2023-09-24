@@ -184,6 +184,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Scaler Topics](https://www.scaler.com/topics)
 - [Structy](https://structy.net)
 - [Leetcode](coding_interviews/leetcode)
+- [BFE.dev](coding_interviews/bigfrontend)
 
 ### Competitive Programming
 
