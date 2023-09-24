@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   isUnique,
+  isUniqueNQuare,
   isUniqueWithSet,
   isUniqueWithSetSimplified,
   isUniqueWithoutDS,
@@ -36,6 +37,16 @@ describe('isUniqueWithSetSimplified', () => {
 
   it('returns false for non-unique characters', () => {
     expect(isUniqueWithSetSimplified(nonUnique)).toBeFalsy();
+  });
+});
+
+describe('isUniqueNQuare', () => {
+  it('returns true for unique characters', () => {
+    expect(isUniqueNQuare(unique)).toBeTruthy();
+  });
+
+  it('returns false for non-unique characters', () => {
+    expect(isUniqueNQuare(nonUnique)).toBeFalsy();
   });
 });
 

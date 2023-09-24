@@ -40,6 +40,19 @@ export function isUniqueWithSetSimplified(string) {
 
 // --- What if you cannot use additional data structures? ---
 
+// Comparing each character with all the other characters
+// Runtime Complexity: O(N^2)
+// Space Complexity: O(1)
+export function isUniqueNQuare(string) {
+  for (let i = 0; i < string.length; i++) {
+    for (let j = i + 1; j < string.length; j++) {
+      if (string[i] === string[j]) return false;
+    }
+  }
+
+  return true;
+}
+
 // Sorting and comparing adjacent characters
 // Runtime Complexity: O(NlogN) because of the sorting runtime complexity
 // Space Complexity: O(N) because of the newly created array
