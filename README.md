@@ -178,6 +178,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 ### Platforms to learn
 
+- [Cracking the Coding Interview](coding_interviews/cracking-the-coding-interview)
 - [Binary Search](https://binarysearch.com)
 - [InterviewBit algorithms course](https://www.interviewbit.com/courses/programming)
 - [Leetcode Patterns](https://seanprashad.com/leetcode-patterns)
