@@ -37,3 +37,20 @@ export function isUniqueWithSet(string) {
 export function isUniqueWithSetSimplified(string) {
   return string.length === new Set(string).size;
 }
+
+// --- What if you cannot use additional data structures? ---
+
+// Sorting and comparing adjacent characters
+// Runtime Complexity: O(NlogN) because of the sorting runtime complexity
+// Space Complexity: O(N) because of the newly created array
+export function isUniqueWithoutDS(string) {
+  let sortedString = [...string].sort(
+    (a, b) => a.charCodeAt() - b.charCodeAt()
+  );
+
+  for (let index = 0; index < sortedString.length - 1; index++) {
+    if (sortedString[index] === sortedString[index + 1]) return false;
+  }
+
+  return true;
+}

@@ -3,34 +3,48 @@ import {
   isUnique,
   isUniqueWithSet,
   isUniqueWithSetSimplified,
+  isUniqueWithoutDS,
 } from './is-unique';
 
+const unique = 'asdfghjkl';
+const nonUnique = 'asdfghjkla';
+
 describe('isUnique', () => {
-  it('returns true for unique characters', () => {
-    expect(isUnique('asdfghjkl')).toBeTruthy();
+  it('returns correct result', () => {
+    expect(isUnique(unique)).toBeTruthy();
   });
 
   it('returns false for non-unique characters', () => {
-    expect(isUnique('asdfghjkla')).toBeFalsy();
+    expect(isUnique(nonUnique)).toBeFalsy();
   });
 });
 
 describe('isUniqueWithSet', () => {
   it('returns true for unique characters', () => {
-    expect(isUniqueWithSet('asdfghjkl')).toBeTruthy();
+    expect(isUniqueWithSet(unique)).toBeTruthy();
   });
 
   it('returns false for non-unique characters', () => {
-    expect(isUniqueWithSet('asdfghjkla')).toBeFalsy();
+    expect(isUniqueWithSet(nonUnique)).toBeFalsy();
   });
 });
 
 describe('isUniqueWithSetSimplified', () => {
   it('returns true for unique characters', () => {
-    expect(isUniqueWithSetSimplified('asdfghjkl')).toBeTruthy();
+    expect(isUniqueWithSetSimplified(unique)).toBeTruthy();
   });
 
   it('returns false for non-unique characters', () => {
-    expect(isUniqueWithSetSimplified('asdfghjkla')).toBeFalsy();
+    expect(isUniqueWithSetSimplified(nonUnique)).toBeFalsy();
+  });
+});
+
+describe('isUniqueWithoutDS', () => {
+  it('returns true for unique characters', () => {
+    expect(isUniqueWithoutDS(unique)).toBeTruthy();
+  });
+
+  it('returns false for non-unique characters', () => {
+    expect(isUniqueWithoutDS(nonUnique)).toBeFalsy();
   });
 });
