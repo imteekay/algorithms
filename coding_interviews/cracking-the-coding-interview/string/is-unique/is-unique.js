@@ -43,7 +43,7 @@ export function isUniqueWithSetSimplified(string) {
 // Comparing each character with all the other characters
 // Runtime Complexity: O(N^2)
 // Space Complexity: O(1)
-export function isUniqueNQuare(string) {
+export function isUniqueNSquare(string) {
   for (let i = 0; i < string.length; i++) {
     for (let j = i + 1; j < string.length; j++) {
       if (string[i] === string[j]) return false;

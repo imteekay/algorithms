@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   isUnique,
-  isUniqueNQuare,
+  isUniqueNSquare,
   isUniqueWithSet,
   isUniqueWithSetSimplified,
   isUniqueWithoutDS,
@@ -40,13 +40,13 @@ describe('isUniqueWithSetSimplified', () => {
   });
 });
 
-describe('isUniqueNQuare', () => {
+describe('isUniqueNSquare', () => {
   it('returns true for unique characters', () => {
-    expect(isUniqueNQuare(unique)).toBeTruthy();
+    expect(isUniqueNSquare(unique)).toBeTruthy();
   });
 
   it('returns false for non-unique characters', () => {
-    expect(isUniqueNQuare(nonUnique)).toBeFalsy();
+    expect(isUniqueNSquare(nonUnique)).toBeFalsy();
   });
 });
 
