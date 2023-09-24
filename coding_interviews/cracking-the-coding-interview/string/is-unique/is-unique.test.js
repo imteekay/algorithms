@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { isUnique, isUniqueWithSet, isUniqueWithSetSimplified } from '../index';
+import {
+  isUnique,
+  isUniqueWithSet,
+  isUniqueWithSetSimplified,
+} from './is-unique';
 
 describe('isUnique', () => {
   it('returns true for unique characters', () => {
