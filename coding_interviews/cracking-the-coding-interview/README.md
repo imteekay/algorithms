@@ -1,5 +1,5 @@
 # Cracking the Coding Interview
 
-## Chapter 001
+## Chapter 001: Arrays and Strings
 
-- [Is Unique](./string/is-unique)
+- [Is Unique](./chapter-001/is-unique)
