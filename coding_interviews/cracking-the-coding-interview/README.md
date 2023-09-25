@@ -2,4 +2,4 @@
 
 ## Chapter 001: Arrays and Strings
 
-- [Is Unique](./chapter-001/is-unique)
+- [1.1 Is Unique](./chapter-001/is-unique)
