@@ -2,6 +2,9 @@
 // You may assume that the string has sufficient space at the end to hold the additional characters,
 // and that you are given the "true" length of the string
 
+// Runtime Complexity: O(N), where N = the true length of the string
+// Space Complexity: O(N), where N = the true length of the string in the new array
+
 export function urlify(string, length, placeholder = '%20') {
   let output = [];
   let lastChar = '';
@@ -23,6 +26,9 @@ export function urlify(string, length, placeholder = '%20') {
 
   return output.join('');
 }
+
+// Runtime Complexity: O(N), where N = the true length of the string
+// Space Complexity: O(N), where N = the true length of the string in the new array
 
 export function urlifyForward(string, length, placeholder = '%20') {
   let output = [];
