@@ -23,3 +23,27 @@ export function urlify(string, length, placeholder = '%20') {
 
   return output.join('');
 }
+
+export function urlifyForward(string, length, placeholder = '%20') {
+  let output = [];
+  let index = 0;
+  let space = ' ';
+
+  const moveForward = () => {
+    while (string[index] === space) {
+      index++;
+    }
+  };
+
+  while (index < length) {
+    if (string[index] === space) {
+      output.push(placeholder);
+      moveForward();
+    } else {
+      output.push(string[index]);
+      index++;
+    }
+  }
+
+  return output.join('');
+}
