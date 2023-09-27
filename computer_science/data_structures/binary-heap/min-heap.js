@@ -43,7 +43,7 @@ class MinHeap {
     let parentIndex = this.getParentIndex(index);
     while (
       index > 0 &&
-      this.compareFn(this.heap[parentIndex], this.heap[index]) >
+      this.compareFn(this.heap[parentIndex], this.heap[index]) ===
         Compare.BIGGER_THAN
     ) {
       this.swap(this.heap, parentIndex, index);
@@ -60,7 +60,7 @@ class MinHeap {
 
     if (
       leftIndex < size &&
-      this.compareFn(this.heap[element], this.heap[leftIndex]) >
+      this.compareFn(this.heap[element], this.heap[leftIndex]) ===
         Compare.BIGGER_THAN
     ) {
       element = leftIndex;
@@ -68,14 +68,14 @@ class MinHeap {
 
     if (
       rightIndex < size &&
-      this.compareFn(this.heap[element], this.heap[rightIndex]) >
+      this.compareFn(this.heap[element], this.heap[rightIndex]) ===
         Compare.BIGGER_THAN
     ) {
       element = rightIndex;
     }
 
     if (index !== element) {
-      swap(this.heap, index, element);
+      this.swap(this.heap, index, element);
       this.siftDown(element);
     }
   }
@@ -126,7 +126,18 @@ const heap2 = new MinHeap();
 for (let i = 1; i < 10; i++) {
   heap2.insert(i);
 }
+
 console.log('Extract minimum: ', heap2.extract()); // 1
 console.log('Extract minimum: ', heap2.extract()); // 2
 console.log('Extract minimum: ', heap2.extract()); // 3
-console.log('Extract minimum: ', heap2.heap); // 3
+console.log('Extract minimum: ', heap2.heap);
+
+const heap3 = new MinHeap();
+heap3.insert(1);
+for (let i = 10; i > 1; i--) {
+  heap3.insert(i);
+}
+console.log('Extract minimum: ', heap3.extract()); // 1
+console.log('Extract minimum: ', heap3.extract()); // 2
+console.log('Extract minimum: ', heap3.extract()); // 3
+console.log('Extract minimum: ', heap3.heap);
