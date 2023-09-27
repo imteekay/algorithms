@@ -8,7 +8,7 @@
 //  - atco cta
 
 // Runtime Complexity: O(N), where N = the true length of the string
-// Space Complexity: O(N), where N = the true length of the string in the new array
+// Space Complexity: O(N), where N = the true length of the string in the hashmap
 
 function isAlpha(char) {
   return /[_a-zA-Z]/.test(char);
