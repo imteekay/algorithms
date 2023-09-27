@@ -4,7 +4,7 @@
  * type IsBad = (version: number) => boolean
  * @param {IsBad} isBad
  */
-function firstBadVersion(isBad) {
+export function firstBadVersion(isBad) {
   return (version) => {
     let first = -1;
     let start = 0;
