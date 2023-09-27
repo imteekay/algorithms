@@ -1,6 +1,5 @@
 class MinHeap {
-  constructor(compareFn = defaultCompare) {
-    this.compareFn = compareFn;
+  constructor() {
     this.heap = [];
   }
 
@@ -43,7 +42,7 @@ class MinHeap {
     let parentIndex = this.getParentIndex(index);
     while (
       index > 0 &&
-      this.compareFn(this.heap[parentIndex], this.heap[index]) ===
+      this.compare(this.heap[parentIndex], this.heap[index]) ===
         Compare.BIGGER_THAN
     ) {
       this.swap(this.heap, parentIndex, index);
@@ -57,10 +56,15 @@ class MinHeap {
     const leftIndex = this.getLeftIndex(index);
     const rightIndex = this.getRightIndex(index);
     const size = this.size();
+    console.log(
+      this.heap[element],
+      leftIndex < size && this.heap[leftIndex],
+      rightIndex < size && this.heap[rightIndex]
+    );
 
     if (
       leftIndex < size &&
-      this.compareFn(this.heap[element], this.heap[leftIndex]) ===
+      this.compare(this.heap[element], this.heap[leftIndex]) ===
         Compare.BIGGER_THAN
     ) {
       element = leftIndex;
@@ -68,7 +72,7 @@ class MinHeap {
 
     if (
       rightIndex < size &&
-      this.compareFn(this.heap[element], this.heap[rightIndex]) ===
+      this.compare(this.heap[element], this.heap[rightIndex]) ===
         Compare.BIGGER_THAN
     ) {
       element = rightIndex;
@@ -97,6 +101,13 @@ class MinHeap {
   getParentIndex(index) {
     return index === 0 ? undefined : Math.floor((index - 1) / 2);
   }
+
+  compare(a, b) {
+    if (a === b) {
+      return Compare.EQUALS;
+    }
+    return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
+  }
 }
 
 const Compare = {
@@ -104,13 +115,6 @@ const Compare = {
   BIGGER_THAN: 1,
   EQUALS: 0,
 };
-
-function defaultCompare(a, b) {
-  if (a === b) {
-    return Compare.EQUALS;
-  }
-  return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
-}
 
 const heap = new MinHeap();
 heap.insert(2);
