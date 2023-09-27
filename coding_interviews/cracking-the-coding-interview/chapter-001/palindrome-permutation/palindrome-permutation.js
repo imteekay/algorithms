@@ -14,17 +14,21 @@ function isAlpha(char) {
   return /[_a-zA-Z]/.test(char);
 }
 
-export function palindromePermutation(string) {
+function buildMapOsChars(string) {
   const charsMap = new Map();
+  const downcasedString = string.toLowerCase();
 
-  for (let char of string) {
+  for (let char of downcasedString) {
     if (!isAlpha(char)) continue;
-    let downcasedChar = char.toLowerCase();
-    if (charsMap.has(downcasedChar))
-      charsMap.set(downcasedChar, charsMap.get(downcasedChar) + 1);
-    else charsMap.set(downcasedChar, 1);
+    if (charsMap.has(char)) charsMap.set(char, charsMap.get(char) + 1);
+    else charsMap.set(char, 1);
   }
 
+  return charsMap;
+}
+
+export function palindromePermutation(string) {
+  let charsMap = buildMapOsChars(string);
   let numberOfCharsWithOneCount = 0;
 
   for (let [_, count] of charsMap.entries()) {
