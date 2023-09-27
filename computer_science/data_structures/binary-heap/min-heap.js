@@ -56,11 +56,6 @@ class MinHeap {
     const leftIndex = this.getLeftIndex(index);
     const rightIndex = this.getRightIndex(index);
     const size = this.size();
-    console.log(
-      this.heap[element],
-      leftIndex < size && this.heap[leftIndex],
-      rightIndex < size && this.heap[rightIndex]
-    );
 
     if (
       leftIndex < size &&
