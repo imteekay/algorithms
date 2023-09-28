@@ -2,7 +2,8 @@
 
 ## JavaScript Coding Questions
 
-- [Array flat](./js-coding-questions/array-flat.js)
-- [Curry](./js-coding-questions/curry.js)
-- [Decode Message](./js-coding-questions/decode-message.js)
-- [First Bad Version](./js-coding-questions/first-bad-version.js)
+- [Array flat](./js-coding-questions/array-flat)
+- [Curry](./js-coding-questions/curry)
+- [Decode Message](./js-coding-questions/decode-message)
+- [First Bad Version](./js-coding-questions/first-bad-version)
+- [Implement a Queue by using Stack](./js-coding-questions/implement-a-queue-by-using-stack)
