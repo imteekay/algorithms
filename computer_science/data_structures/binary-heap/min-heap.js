@@ -1,4 +1,4 @@
-class MinHeap {
+export class MinHeap {
   constructor() {
     this.heap = [];
   }
@@ -43,9 +43,9 @@ class MinHeap {
     while (
       index > 0 &&
       this.compare(this.heap[parentIndex], this.heap[index]) ===
-        Compare.BIGGER_THAN
+        this.Compare.BIGGER_THAN
     ) {
-      this.swap(this.heap, parentIndex, index);
+      this.swap(parentIndex, index);
       index = parentIndex;
       parentIndex = this.getParentIndex(index);
     }
@@ -60,7 +60,7 @@ class MinHeap {
     if (
       leftIndex < size &&
       this.compare(this.heap[element], this.heap[leftIndex]) ===
-        Compare.BIGGER_THAN
+        this.Compare.BIGGER_THAN
     ) {
       element = leftIndex;
     }
@@ -68,21 +68,21 @@ class MinHeap {
     if (
       rightIndex < size &&
       this.compare(this.heap[element], this.heap[rightIndex]) ===
-        Compare.BIGGER_THAN
+        this.Compare.BIGGER_THAN
     ) {
       element = rightIndex;
     }
 
     if (index !== element) {
-      this.swap(this.heap, index, element);
+      this.swap(index, element);
       this.siftDown(element);
     }
   }
 
-  swap(array, a, b) {
-    const temp = array[a];
-    array[a] = array[b];
-    array[b] = temp;
+  swap(a, b) {
+    const temp = this.heap[a];
+    this.heap[a] = this.heap[b];
+    this.heap[b] = temp;
   }
 
   getLeftIndex(index) {
@@ -99,44 +99,14 @@ class MinHeap {
 
   compare(a, b) {
     if (a === b) {
-      return Compare.EQUALS;
+      return this.Compare.EQUALS;
     }
-    return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
+    return a < b ? this.Compare.LESS_THAN : this.Compare.BIGGER_THAN;
   }
+
+  Compare = {
+    LESS_THAN: -1,
+    BIGGER_THAN: 1,
+    EQUALS: 0,
+  };
 }
-
-const Compare = {
-  LESS_THAN: -1,
-  BIGGER_THAN: 1,
-  EQUALS: 0,
-};
-
-const heap = new MinHeap();
-heap.insert(2);
-heap.insert(3);
-heap.insert(4);
-heap.insert(5);
-heap.insert(1);
-console.log('Heap size: ', heap.size());
-console.log('Heap is empty: ', heap.isEmpty());
-console.log('Heap min value: ', heap.findMinimum());
-
-const heap2 = new MinHeap();
-for (let i = 1; i < 10; i++) {
-  heap2.insert(i);
-}
-
-console.log('Extract minimum: ', heap2.extract()); // 1
-console.log('Extract minimum: ', heap2.extract()); // 2
-console.log('Extract minimum: ', heap2.extract()); // 3
-console.log('Extract minimum: ', heap2.heap);
-
-const heap3 = new MinHeap();
-heap3.insert(1);
-for (let i = 10; i > 1; i--) {
-  heap3.insert(i);
-}
-console.log('Extract minimum: ', heap3.extract()); // 1
-console.log('Extract minimum: ', heap3.extract()); // 2
-console.log('Extract minimum: ', heap3.extract()); // 3
-console.log('Extract minimum: ', heap3.heap);
