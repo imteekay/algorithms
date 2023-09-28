@@ -40,11 +40,7 @@ export class MinHeap {
 
   siftUp(index) {
     let parentIndex = this.getParentIndex(index);
-    while (
-      index > 0 &&
-      this.compare(this.heap[parentIndex], this.heap[index]) ===
-        this.Compare.BIGGER_THAN
-    ) {
+    while (index > 0 && this.heap[index] < this.heap[parentIndex]) {
       this.swap(parentIndex, index);
       index = parentIndex;
       parentIndex = this.getParentIndex(index);
@@ -52,30 +48,22 @@ export class MinHeap {
   }
 
   siftDown(index) {
-    let element = index;
-    const leftIndex = this.getLeftIndex(index);
-    const rightIndex = this.getRightIndex(index);
-    const size = this.size();
+    let elementIndex = index;
+    let leftIndex = this.getLeftIndex(index);
+    let rightIndex = this.getRightIndex(index);
+    let size = this.size();
 
-    if (
-      leftIndex < size &&
-      this.compare(this.heap[element], this.heap[leftIndex]) ===
-        this.Compare.BIGGER_THAN
-    ) {
-      element = leftIndex;
+    if (leftIndex < size && this.heap[leftIndex] < this.heap[elementIndex]) {
+      elementIndex = leftIndex;
     }
 
-    if (
-      rightIndex < size &&
-      this.compare(this.heap[element], this.heap[rightIndex]) ===
-        this.Compare.BIGGER_THAN
-    ) {
-      element = rightIndex;
+    if (rightIndex < size && this.heap[rightIndex] < this.heap[elementIndex]) {
+      elementIndex = rightIndex;
     }
 
-    if (index !== element) {
-      this.swap(index, element);
-      this.siftDown(element);
+    if (index !== elementIndex) {
+      this.swap(index, elementIndex);
+      this.siftDown(elementIndex);
     }
   }
 
@@ -96,17 +84,4 @@ export class MinHeap {
   getParentIndex(index) {
     return index === 0 ? undefined : Math.floor((index - 1) / 2);
   }
-
-  compare(a, b) {
-    if (a === b) {
-      return this.Compare.EQUALS;
-    }
-    return a < b ? this.Compare.LESS_THAN : this.Compare.BIGGER_THAN;
-  }
-
-  Compare = {
-    LESS_THAN: -1,
-    BIGGER_THAN: 1,
-    EQUALS: 0,
-  };
 }
