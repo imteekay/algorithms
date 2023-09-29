@@ -1,22 +1,33 @@
 // https://leetcode.com/problems/string-compression
 
 function compress(chars) {
-  let counter = 1;
-  let result = [];
+  let index = 0,
+    p1 = 0;
 
-  for (let index = 0; index < chars.length - 1; index++) {
-    if (chars[index] === chars[index + 1]) counter++;
-    else {
-      result.push(chars[index]);
-      if (counter > 1) result.push(...counter.toString());
-      counter = 1;
+  while (p1 < chars.length) {
+    let p2 = p1;
+
+    while (p2 < chars.length && chars[p1] === chars[p2]) {
+      p2++;
     }
 
-    if (index + 1 === chars.length - 1) {
-      result.push(chars[index + 1]);
-      if (counter > 1) result.push(...counter.toString());
+    let count = p2 - p1;
+    chars[index++] = chars[p1];
+
+    if (count > 1) {
+      let countString = count.toString();
+
+      for (let char of countString) {
+        chars[index++] = char;
+      }
     }
+
+    p1 = p2;
   }
 
-  return result.length;
+  while (chars.length > index) {
+    chars.pop();
+  }
+
+  return chars.length;
 }
