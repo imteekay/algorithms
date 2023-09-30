@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/min-cost-climbing-stairs
+// https://leetcode.com/problems/min-cost-climbing-stairs/solutions/476388/4-ways-step-by-step-from-recursion-top-down-dp-bottom-up-dp-fine-tuning
 
 function getMinCost(stairs, index, dp) {
   if (index < 0) return 0;
