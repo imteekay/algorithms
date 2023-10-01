@@ -1,4 +1,6 @@
 // https://bigfrontend.dev/problem/array-intersect
+// Runtime: O(N), N = size of arr1 and arr2
+// Space: O(N), N = size of arr1 and arr2 (for the new array and the hashmap)
 
 export function getIntersection(arr1, arr2) {
   let map = new Map();
