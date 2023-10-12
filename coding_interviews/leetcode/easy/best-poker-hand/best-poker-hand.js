@@ -14,14 +14,14 @@ function buildMap(list) {
 function bestHand(ranks, suits) {
   let suitsMap = buildMap(suits);
 
-  for (let [card, count] of suitsMap.entries()) {
+  for (let [_, count] of suitsMap.entries()) {
     if (count >= 5) return 'Flush';
   }
 
   let ranksMap = buildMap(ranks);
   let hasPair = false;
 
-  for (let [card, count] of ranksMap.entries()) {
+  for (let [_, count] of ranksMap.entries()) {
     if (count >= 3) return 'Three of a Kind';
     if (count >= 2) hasPair = true;
   }
