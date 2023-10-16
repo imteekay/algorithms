@@ -213,6 +213,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 ### Courses
 
 - [🎥 Intro to Theoretical Computer Science](https://classroom.udacity.com/courses/cs313)
+- [🎥 MIT 6.042J Mathematics for Computer Science](https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ)
 
 ## License
 
