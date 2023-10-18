@@ -30,7 +30,6 @@ function lastVisitedIntegers(words) {
   for (let index = 0; index < words.length; index++) {
     if (words[index] === 'prev') {
       result.push(getLastInteger(words, lastNumberIndex, consecutivePrevs));
-      console.log('------');
       consecutivePrevs++;
     } else {
       lastNumberIndex = index;
