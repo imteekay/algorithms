@@ -1,3 +1,6 @@
+// Runtime: O(n^2)
+// Space: O(1)
+
 function twoNumberSum(array, targetSum) {
   let hashmap = new Map();
 
