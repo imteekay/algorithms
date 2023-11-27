@@ -1,3 +1,6 @@
+// Runtime: O(nlogn)
+// Space: O(1)
+
 function twoNumberSum(array, targetSum) {
   array.sort((a, b) => a - b);
 
