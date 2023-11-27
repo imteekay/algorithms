@@ -1,3 +1,6 @@
+// Runtime: O(n)
+// Space: O(1)
+
 function isValidSubsequence(array, sequence) {
   let p1 = 0;
   let p2 = 0;
