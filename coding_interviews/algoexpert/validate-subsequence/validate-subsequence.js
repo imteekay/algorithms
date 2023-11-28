@@ -2,17 +2,17 @@
 // Space: O(1)
 
 function isValidSubsequence(array, sequence) {
-  let p1 = 0;
-  let p2 = 0;
+  let p = 0;
 
-  while (p1 < array.length && p2 < sequence.length) {
-    if (array[p1] === sequence[p2]) {
-      p1++;
-      p2++;
-    } else {
-      p1++;
+  for (let index = 0; index < array.length; index++) {
+    if (array[index] === sequence[p]) {
+      p++;
+    }
+
+    if (p === sequence.length) {
+      return true;
     }
   }
 
-  return p2 === sequence.length;
+  return false;
 }
