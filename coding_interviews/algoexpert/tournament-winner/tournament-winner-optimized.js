@@ -1,3 +1,6 @@
+// Runtime: O(n), n being the number of competition
+// Space: O(k), k being the number of teams
+
 function tournamentWinner(competitions, results) {
   let teams = new Map();
   let maxPoints = 0;
