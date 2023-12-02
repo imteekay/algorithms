@@ -186,6 +186,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Structy](https://structy.net)
 - [Leetcode](coding_interviews/leetcode)
 - [BFE.dev](coding_interviews/bigfrontend)
+- [algoexpert](coding_interviews/algoexpert)
 
 ### Competitive Programming
 
