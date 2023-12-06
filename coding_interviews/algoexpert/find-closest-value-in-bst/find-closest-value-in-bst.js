@@ -1,13 +1,13 @@
 // Runtime: O(N), where N = number of nodes in the tree
 // Space: O(1)
 
-function findClosestValueInBst(tree, target, closestValue = null) {
+function findClosestValueInBst(tree, target, closestValue = Infinity) {
   if (!tree) {
     return closestValue;
   }
 
   let currentDiff = Math.abs(tree.value - target);
-  let diff = closestValue ? Math.abs(closestValue - target) : currentDiff;
+  let diff = Math.abs(closestValue - target);
   let leftValue = findClosestValueInBst(
     tree.left,
     target,
