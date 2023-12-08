@@ -1,3 +1,6 @@
+// Runtime: O(N), N = number of nodes
+// Space: list of branch sums (number of leaf nodes) is O(N) and recursive algorithm (call stack) is log(N)
+
 class BinaryTree {
   constructor(value) {
     this.value = value;
