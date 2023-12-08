@@ -1,5 +1,5 @@
 // Runtime: O(N), N = number of nodes
-// Space: O(logN), N = number of nodes (recursive calls — call stack)
+// Space: O(H), H = height of the tree
 
 function nodeDepths(root, sum = 0) {
   if (!root) return 0;
