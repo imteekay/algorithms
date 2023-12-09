@@ -1,3 +1,6 @@
+// Runtime: O(V + E), V = vertices, E = edges
+// Space: O(V), V = vertices
+
 class Node {
   constructor(name) {
     this.name = name;
