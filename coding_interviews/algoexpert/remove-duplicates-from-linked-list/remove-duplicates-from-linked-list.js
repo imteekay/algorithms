@@ -1,3 +1,6 @@
+// Runtime: O(N), N = number of nodes in the linked list
+// Space: O(1)
+
 function removeDuplicatesFromLinkedList(linkedList) {
   let head = linkedList;
   while (linkedList) {
