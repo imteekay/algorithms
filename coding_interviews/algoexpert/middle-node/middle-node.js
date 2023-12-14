@@ -1,3 +1,6 @@
+// Runtime: O(N), N = number of nodes in the linked list
+// Space: O(1)
+
 function middleNode(linkedList) {
   let length = 0;
   let node = linkedList;
