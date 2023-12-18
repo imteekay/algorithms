@@ -1,5 +1,5 @@
 // Runtime: O(N), N = all numbers including the numbers inside nested arrays
-// Space: O(N)
+// Space: O(D), D = the depth of the nested arrays
 
 function productSum(array, depth = 1) {
   let sum = 0;
