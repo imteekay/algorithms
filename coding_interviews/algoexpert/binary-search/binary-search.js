@@ -1,3 +1,6 @@
+// Runtime: O(logN)
+// Space: O(1)
+
 function binarySearch(array, target) {
   let start = 0;
   let end = array.length - 1;
