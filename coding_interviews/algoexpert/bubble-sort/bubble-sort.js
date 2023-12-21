@@ -1,3 +1,6 @@
+// Runtime: O(N^2)
+// Space: O(1)
+
 function bubbleSort(array) {
   let sorted = false;
 
