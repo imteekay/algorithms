@@ -16,6 +16,7 @@
 
 function commonCharacters(strings) {
   let map = new Map();
+  let result = [];
 
   for (let string of strings) {
     let set = new Set(string);
@@ -24,8 +25,6 @@ function commonCharacters(strings) {
       map.set(char, map.get(char) + 1 || 1);
     }
   }
-
-  let result = [];
 
   for (let [char, count] of map) {
     if (count === strings.length) {
