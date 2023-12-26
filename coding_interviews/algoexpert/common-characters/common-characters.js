@@ -1,3 +1,6 @@
+// Runtime: (N * M), N = number of strings and M = length of biggest string
+// Space: (M)
+
 function commonCharacters(strings) {
   let map = new Map();
 
