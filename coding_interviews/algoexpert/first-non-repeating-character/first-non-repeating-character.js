@@ -1,3 +1,6 @@
+// Runtime: O(N), N = string length
+// Space: O(N)
+
 function firstNonRepeatingCharacter(string) {
   let map = new Map();
 
