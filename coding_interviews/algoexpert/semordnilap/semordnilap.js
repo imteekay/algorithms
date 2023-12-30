@@ -1,3 +1,6 @@
+// Runtime: O(N * M), N = number of words, M = length o largest word
+// Space: O(N)
+
 function reverse(word) {
   let reversedWord = [];
 
