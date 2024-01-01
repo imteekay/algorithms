@@ -1,3 +1,6 @@
+// Runtime: O(NlogN + MlogM), where N = length of arrayOne and M = length of arrayTwo
+// Space: O(1)
+
 function smallestDifference(arrayOne, arrayTwo) {
   let output = [];
   let indexOne = 0;
