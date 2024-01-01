@@ -13,6 +13,9 @@
  * [1, 3, 4, 2, 2, 2, 2, 2]
  */
 
+// Runtime: O(2N) = O(N), where N = array length
+// Space: O(1)
+
 function moveElementToEnd(array, toMove) {
   let count = 0;
   let pointer = 0;
