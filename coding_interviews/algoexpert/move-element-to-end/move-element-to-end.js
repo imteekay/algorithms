@@ -17,12 +17,10 @@
 // Space: O(1)
 
 function moveElementToEnd(array, toMove) {
-  let count = 0;
   let pointer = 0;
 
   for (let index = 0; index < array.length; index++) {
-    if (array[index] === toMove) count++;
-    else {
+    if (array[index] !== toMove) {
       array[pointer] = array[index];
       pointer++;
     }
