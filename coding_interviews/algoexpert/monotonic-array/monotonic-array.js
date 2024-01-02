@@ -15,6 +15,9 @@
  * true
  */
 
+// Runtime: O(N), N = array length
+// Space: O(1)
+
 function isNonIncreasing(array) {
   let num = array[0];
 
