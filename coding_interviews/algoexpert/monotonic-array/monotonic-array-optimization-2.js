@@ -19,24 +19,13 @@
 // Space: O(1)
 
 function isMonotonic(array) {
-  let num = array[0];
-  let upward;
+  let isNonDecreasing = true;
+  let isNonIncreasing = true;
 
-  for (let index = 1; index < array.length; index++) {
-    if (upward === undefined) {
-      upward = array[index] !== num ? array[index] > num : undefined;
-    }
-
-    if (upward !== undefined && upward && array[index] < num) {
-      return false;
-    }
-
-    if (upward !== undefined && !upward && array[index] > num) {
-      return false;
-    }
-
-    num = array[index];
+  for (let index = 0; index < array.length - 1; index++) {
+    if (array[index] > array[index + 1]) isNonDecreasing = false;
+    if (array[index] < array[index + 1]) isNonIncreasing = false;
   }
 
-  return true;
+  return isNonDecreasing || isNonIncreasing;
 }
