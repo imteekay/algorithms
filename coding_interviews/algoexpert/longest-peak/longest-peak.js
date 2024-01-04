@@ -1,4 +1,4 @@
-// Runtime: O(N)
+// Runtime: O(N), N = array length
 // Space: O(1)
 
 function longestPeak(array) {
