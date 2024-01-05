@@ -1,3 +1,6 @@
+// Runtime: O(N^2), N = length of array
+// Space: O(N)
+
 function initOutput(length) {
   let output = [];
 
