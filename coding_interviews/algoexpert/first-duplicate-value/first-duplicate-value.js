@@ -1,3 +1,6 @@
+// Runtime: O(N), N = array length
+// Space: O(N)
+
 function firstDuplicateValue(array) {
   let map = new Map();
 
