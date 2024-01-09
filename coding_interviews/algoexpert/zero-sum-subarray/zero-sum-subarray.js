@@ -1,4 +1,4 @@
-// Runtime: O(N^2)
+// Runtime: O(N^2), N = nums length
 // Space: O(1)
 
 function zeroSumSubarray(nums) {
