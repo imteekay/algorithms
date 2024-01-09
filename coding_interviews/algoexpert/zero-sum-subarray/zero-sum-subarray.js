@@ -1,3 +1,6 @@
+// Runtime: O(N^2)
+// Space: O(1)
+
 function zeroSumSubarray(nums) {
   for (let i = 0; i < nums.length; i++) {
     let sum = nums[i];
