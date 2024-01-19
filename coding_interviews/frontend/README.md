@@ -1,4 +1,4 @@
-# BigFrontend.dev
+# Frontend Interview Prep
 
 ## JavaScript Coding Questions
 
