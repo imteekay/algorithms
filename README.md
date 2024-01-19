@@ -128,6 +128,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 - [🎥 10 Common Coding Interview Problems](https://www.youtube.com/watch?v=Peq4GCPNC5c&ab_channel=freeCodeCamp.org)
 - [🎥 8 Most Popular Microsoft Coding Interview Questions Solved Step by Step](https://www.youtube.com/watch?v=1P3xh7CGSU8&ab_channel=SCALER)
+- [🎥 Crack Your Dream Tech Interviews](https://www.youtube.com/watch?v=hm53n8tqbTo&ab_channel=Exaltitude)
 - [🎥 Data Structures and Algorithms in Java | Free course | Animations and Implementations](https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&ab_channel=DineshVaryani)
 - [🎥 Google's Career Page - Interview Tips](https://www.youtube.com/watch?v=VXE1eBIulKg&ab_channel=JeffHSipe-PracticeInterviews)
 - [🎥 How to Crack The Coding Interview? | Important LeetCode Questions | Preparation Tips](https://www.youtube.com/watch?v=cM4o7_UY9vM&ab_channel=DineshVaryani)
