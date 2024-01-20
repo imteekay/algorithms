@@ -221,6 +221,6 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 ## License
 
-[MIT](/license) © [TK](https://iamtk.co)
+[MIT](/LICENSE) © [TK](https://iamtk.co)
 
 </samp>
