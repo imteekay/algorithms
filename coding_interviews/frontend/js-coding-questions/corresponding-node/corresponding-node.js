@@ -1,25 +1,20 @@
-const dom1 = document.createElement('div');
-dom1.innerHTML = `
-  <main>
-    <h1>Heading</h1>
-    <div>
-      <h2>test1</h2>
-      <p>test2 <em>emphasis</em></p>
-    </div>
-  </main>
-`;
+function correspondingNode(tree1, tree2, node1) {
+  if (tree1 === node1) {
+    return tree2;
+  }
 
-const dom2 = document.createElement('main');
-dom2.innerHTML = `
-  <article>
-    <h1>Heading2</h1>
-    <section>
-      <img src="img.png" alt="image" />
-      <h3>test5 <strong>strong</strong></h3>
-    </section>
-  </article>
-`;
+  let children1 = [...tree1.children];
+  let children2 = [...tree2.children];
 
-correspondingNode(dom1, dom2, dom1); // dom2
-correspondingNode(dom1, dom2, dom1.querySelector('h2')); // <img src="img.png" alt="image" />
-correspondingNode(dom1, dom2, dom1.querySelector('em')); // <strong>strong</strong>
+  for (let index = 0; index < children1.length; index++) {
+    let child1 = children1[index];
+    let child2 = children2[index];
+    let corresponding = correspondingNode(child1, child2, node1);
+
+    if (corresponding) {
+      return corresponding;
+    }
+  }
+
+  return null;
+}
