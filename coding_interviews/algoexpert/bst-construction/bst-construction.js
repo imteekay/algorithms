@@ -55,7 +55,8 @@ class BST {
     if (parent === null && this.left === null && this.right === null) return;
 
     if (value === this.value) {
-      // when the node has children: get the smallest node from the right subtree and replace the removed node with this one
+      // when the node has children:
+      // get the smallest node from the right subtree and replace the removed node with this one
       if (this.left && this.right) {
         let smallestNodeValue = this.right._findSmallestNodeValue();
         this.right.remove(smallestNodeValue, this);
