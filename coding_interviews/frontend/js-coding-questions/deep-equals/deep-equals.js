@@ -26,7 +26,7 @@ function isObject(value) {
   );
 }
 
-function deepEquals(valueOne, valueTwo) {
+export function deepEquals(valueOne, valueTwo) {
   const hasSameType =
     typeof valueOne === typeof valueTwo ||
     (Array.isArray(valueOne) && isObject(valueTwo)) ||
