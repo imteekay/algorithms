@@ -1,3 +1,5 @@
+// https://www.algoexpert.io/frontend/coding-questions/deep-equals
+
 function deepEquals(valueOne, valueTwo) {
   const hasSameType = typeof valueOne === typeof valueTwo;
   const areEqual = valueOne === valueTwo;
