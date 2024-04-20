@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import { useCallback } from 'react';
 
 function useMap(initialValue) {
   const [map, setMap] = useState(new Map(initialValue));
