@@ -11,6 +11,7 @@
 - [📝 Introduction of Data Structure and algorithm](https://www.scaler.com/topics/data-structures)
 - [📝 Top 10 algorithms in interview questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions)
 - [📝 Useful links about algorithms](https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-Leetcode)
+- [Leetcode lists](https://docs.google.com/document/d/1lHB0yI7UDcllyCQYqxCHLmFM1F4THDCfrj7_3zC6sDE/edit?tab=t.0)
 
 ## Big-O notation and design
 
