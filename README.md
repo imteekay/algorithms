@@ -188,6 +188,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [Structy](https://structy.net)
 - [Leetcode](coding_interviews/leetcode)
 - [algoexpert](coding_interviews/algoexpert)
+- [LabEx Interview Questions](https://labex.io/interview-questions)
 
 ### Competitive Programming
 
